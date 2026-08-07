@@ -1,0 +1,186 @@
+# Cluster c_31: mixture adjust mixture control
+
+Cluster ID: c_31
+Cluster name: mixture adjust mixture control
+Total records in this cluster: 1718
+
+## Purpose
+
+This cluster represents maintenance records labeled as `mixture adjust mixture control`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- cable: 1166
+- lubrication: 967
+- mixture: 897
+- throttle/mixture: 588
+- throttle: 440
+- fuel: 204
+- control: 154
+- l/h: 123
+- loose: 107
+- sheath: 96
+- servo: 87
+- r/h: 86
+- change: 76
+- due: 72
+- out: 69
+- rpm: 66
+- worn: 65
+- rise: 59
+- adjustment: 59
+- eng: 57
+
+## Common action terms
+
+- mixture: 857
+- throttle: 603
+- cables: 519
+- lubricated: 498
+- cable: 447
+- good: 281
+- fuel: 271
+- throttle/mixture: 227
+- ops: 182
+- control: 174
+- lubrication: 172
+- lubed: 138
+- travel: 128
+- servo: 124
+- new: 120
+- accepted: 113
+- approved: 113
+- adjusted: 105
+- noted: 79
+- cleaned: 78
+
+## Common ATA codes
+
+- 520.0: 983
+- 7610.0: 164
+- 7600.0: 160
+- 7320.0: 111
+- 7200.0: 62
+- 7100.0: 27
+- 7720.0: 26
+- 7310.0: 26
+- 561.0: 23
+- 7300.0: 19
+
+## Common registrations
+
+- N835ND: 44
+- N794ND: 26
+- N892ND: 23
+- N847ND: 21
+- N895ND: 21
+- N796ND: 20
+- N798ND: 20
+- N842ND: 19
+- N502ND: 17
+- N618ND: 17
+
+## Inclusion guidance
+
+A record belongs to cluster c_31 when the maintenance problem and corrective action are consistent with `mixture adjust mixture control`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113868
+Registration: N545ND
+ATA code: 7610.0
+Problem: ON RUN UP, A/C HAD OVER 100 RPM RISE.
+Action: READJUSTED MIXTURE SETTING IAW AD 2001-06-17 (EFF DATE 4/20/01), IMPROPER FUEL FLOW SETTING.
+
+### Example 2
+
+Work order: 1116514
+Registration: N548ND
+ATA code: 7610.0
+Problem: MIXTURE DOES NOT HIT FULL RICH ON TRAVEL.
+Action: ADJUSTED CONTROL ROD END, OPS CHECK GOOD. INSTALLED NEW COTTER PIN.
+
+### Example 3
+
+Work order: 1117657
+Registration: N564ND
+ATA code: 7600.0
+Problem: MIXTURE STICKY.
+Action: CLEANED LUBE MIXTURE CABLE.
+
+### Example 4
+
+Work order: 1117951
+Registration: N548ND
+ATA code: 7610.0
+Problem: MIXTURE CONTROL @ FUEL SERVO ON I/B SIDE OF ARM.
+Action: DISCONNECTED & REROUTED MIXTURE CONTROL CABLE TO O/B SIDE OF CONTROL ARM. OPS CHECK GOOD.
+
+### Example 5
+
+Work order: 1118946
+Registration: N521ND
+ATA code: 7610.0
+Problem: MIXTURE IS NOT HITTING CUT OFF STOP.
+Action: ADJUSTED MIXTURE RIGGING, OPS CHECKED GOOD.
+
+### Example 6
+
+Work order: 1119459
+Registration: N565ND
+ATA code: 7600.0
+Problem: MIXTURE CABLE BOOT IS TORN.
+Action: REPAIRED BOOT.
+
+### Example 7
+
+Work order: 1119670
+Registration: N512ND
+ATA code: 7610.0
+Problem: MIXTURE CABLE RUBBER BOOT CRACKED.
+Action: REPLACED RUBBER BOOT.
+
+### Example 8
+
+Work order: 1119673
+Registration: N559ND
+ATA code: 7600.0
+Problem: COTTER PIN MISSING ON MIXTURE CONTROL CABLE.
+Action: INSTALLED NEW COTTER PIN.
+
+### Example 9
+
+Work order: 1120316
+Registration: N513ND
+ATA code: 7320.0
+Problem: MIXTURE NEEDS TO BE ENRICHED.
+Action: ENRICHENED MIXTURE.
+
+### Example 10
+
+Work order: 1120316
+Registration: N513ND
+ATA code: 7320.0
+Problem: MIXTURE NEEDS TO BE ENRICHED.
+Action: OPERATIONAL CHECK GOOD.
+
+### Example 11
+
+Work order: 1120483
+Registration: N540ND
+ATA code: 7600.0
+Problem: MIXTURE CONTROL NUT IS LOOSE.
+Action: TIGHTENED MIXTURE CONTROL NUT & RESAFETIED.
+
+### Example 12
+
+Work order: 1120638
+Registration: N523ND
+ATA code: 7720.0
+Problem: #2 EGT READ HIGH 100 - 150 DEGREES ABOVE OTHER CYLS.
+Action: DURING ENG RUN WHEN MIXTURE IS LEANED, #2 CYL GOES COLD BEFORE 1, 3 & 4, INDICATING #2 FUEL RESTRICTION.INSTALLED FLOW DIVIDER & #2 FUEL LINE FROM CORE ENGINE. PROBLEM PERSISTS.
+

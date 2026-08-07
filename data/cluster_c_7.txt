@@ -1,0 +1,183 @@
+# Cluster c_7: baffle rivet
+
+Cluster ID: c_7
+Cluster name: baffle rivet
+Total records in this cluster: 99
+
+## Purpose
+
+This cluster represents maintenance records labeled as `baffle rivet`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- baffle: 102
+- rivet: 41
+- seal: 35
+- cyl: 32
+- r/h: 23
+- cracked: 23
+- aft: 21
+- loose: 20
+- fwd: 13
+- sheared: 12
+- side: 12
+- l/h: 11
+- cylinder: 11
+- pulled: 10
+- through: 8
+- missing: 7
+- has: 7
+- broken: 5
+- oil: 5
+- cooler: 5
+
+## Common action terms
+
+- baffle: 85
+- rivet: 53
+- new: 22
+- secured: 15
+- seal: 13
+- pop: 12
+- reinstalled: 11
+- rivets: 10
+- drilled: 8
+- iaw: 7
+- like: 6
+- r/h: 5
+- aft: 5
+- stop: 5
+- fabricated: 5
+- noted: 5
+- material: 4
+- back: 4
+- screw: 4
+- screws: 4
+
+## Common ATA codes
+
+- 7230.0: 88
+- 7110.0: 3
+- 561.0: 3
+- 7100.0: 2
+- 7820.0: 1
+- 7130.0: 1
+- 7170.0: 1
+
+## Common registrations
+
+- N549ND: 5
+- N538ND: 4
+- N695ND: 4
+- N537ND: 3
+- N579ND: 3
+- N564ND: 3
+- N559ND: 3
+- N567ND: 3
+- N543ND: 3
+- N509ND: 3
+
+## Inclusion guidance
+
+A record belongs to cluster c_7 when the maintenance problem and corrective action are consistent with `baffle rivet`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1119670
+Registration: N512ND
+ATA code: 7230.0
+Problem: R/H AFT ENGINE BAFFLE CRACKED.
+Action: REMOVED R/H AFT ENG BAFFLE, STOP DRILLED CRACK, FABRICATED PATCH W/ LIKE MATERIAL. RIVET IAW CESSNA SRM 51-40-00, INSTALLED BAFFLE BACK ON ENGINE.
+
+### Example 2
+
+Work order: 1120316
+Registration: N513ND
+ATA code: 7230.0
+Problem: R/H FRONT BAFFLE SEAL RIVET IS BROKEN.
+Action: REMOVED RIVET & REPLACED W/ A SCREW.
+
+### Example 3
+
+Work order: 1120745
+Registration: N567ND
+ATA code: 7110.0
+Problem: R/H AFT BAFFLE IS MISSING REAR MOUNTING SCREW & RIVET.
+Action: REMOVED & REPAIRED BAFFLE.
+
+### Example 4
+
+Work order: 1120745
+Registration: N567ND
+ATA code: 7110.0
+Problem: R/H AFT BAFFLE IS MISSING REAR MOUNTING SCREW & RIVET.
+Action: INSTALLED REPAIRED BAFFLE.
+
+### Example 5
+
+Work order: 1122259
+Registration: N579ND
+ATA code: 7230.0
+Problem: R/H REAR ENGINE BAFFLE RIVET BROKEN.
+Action: INSTALLED NEW RIVETS IAW AC 43.13-1B, 4-57.
+
+### Example 6
+
+Work order: 1122496
+Registration: N551ND
+ATA code: 7230.0
+Problem: #3 CYL AFT BAFFLE INNER MOST BAFFLE SEAL RIVET IS PULLED THROUGH.
+Action: REFASTENED BAFFLE.
+
+### Example 7
+
+Work order: 1123676
+Registration: N525ND
+ATA code: 7820.0
+Problem: BAFFLE SCREW CHAFED THROUGH MUFFLER SHROUD.
+Action: REPAIRED SHROUD BY INSTALLING MONEL RIVET IN CHAFED THROUGH HOLE. INSTALLED SHORTER SCREWS.
+
+### Example 8
+
+Work order: 1123776
+Registration: N517ND
+ATA code: 7230.0
+Problem: RIVET SHEARED @ R/H AFT BAFFLE.
+Action: REMOVED BAFFLE FROM A/C. REMOVED & REPLACED DAMAGED RIVETS. REINSTALLED BAFFLE.
+
+### Example 9
+
+Work order: 1124410
+Registration: N562ND
+ATA code: 7230.0
+Problem: SHEARED RIVET ON CYL #3 BAFFLE, AFT.
+Action: REPLACED RIVETS W/ SCREWS/WASHERS/NUTS.
+
+### Example 10
+
+Work order: 1124537
+Registration: N537ND
+ATA code: 7230.0
+Problem: R/H BACK BAFFLE RIVET HEAD IS SHEARED.
+Action: COMPLETED REASSEMBLY.
+
+### Example 11
+
+Work order: 1124537
+Registration: N537ND
+ATA code: 7230.0
+Problem: R/H BACK BAFFLE RIVET HEAD IS SHEARED.
+Action: REMOVED BACK BAFFLE, INSTALLED SCREWS WHERE RIVETS WHERE. STARTED REASSEMBLY OF BAFFLE BACK ON ENGINE.
+
+### Example 12
+
+Work order: 1125302
+Registration: N532ND
+ATA code: 7230.0
+Problem: FRONT RUBBER BAFFLE ON ENGINE, R/H SIDE, RIPPED FROM MOUNTING RIVET.
+Action: INSTALLED NEW RIVET ON BAFFLE.
+

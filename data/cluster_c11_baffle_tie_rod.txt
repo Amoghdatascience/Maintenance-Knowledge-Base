@@ -1,0 +1,46 @@
+# Cluster c_11: baffle tie rod issue
+
+Cluster c_11 is used for maintenance records related to baffle tie rod issue.
+The cluster should be assigned only when the problem description and corrective action provide enough evidence.
+
+## Inclusion Signals
+
+- baffle tie rod missing
+- baffle tie rod loose
+- tie rod disconnected from baffle
+- damaged baffle tie rod
+- baffle rod hardware
+- tie rod chafing baffle
+
+## Corrective Actions
+
+- replaced baffle tie rod
+- installed missing tie rod
+- secured tie rod
+- adjusted tie rod tension
+- replaced tie rod hardware
+
+## Exclusion Rules
+
+Exclude records that mention only a generic inspection with no corrective action.
+Exclude records where the key component token is missing.
+For baffle child clusters, both the parent token 'baffle' and the child token must appear in the problem/action text.
+Exclude unrelated records that contain a similar word but describe a different component.
+
+## Example Reasoning
+
+Example 1: If a record says 'baffle tie rod missing' and the action says 'replaced baffle tie rod', it is strong evidence for c_11.
+Example 2: If a record says 'damaged baffle tie rod' and the action says 'replaced tie rod hardware', it is strong evidence for c_11.
+Example 3: If a record says 'baffle tie rod missing' and the action says 'replaced baffle tie rod', it is strong evidence for c_11.
+Example 4: If a record says 'damaged baffle tie rod' and the action says 'adjusted tie rod tension', it is strong evidence for c_11.
+Example 5: If a record says 'baffle tie rod loose' and the action says 'secured tie rod', it is strong evidence for c_11.
+Example 6: If a record says 'baffle tie rod loose' and the action says 'secured tie rod', it is strong evidence for c_11.
+Example 7: If a record says 'baffle tie rod missing' and the action says 'adjusted tie rod tension', it is strong evidence for c_11.
+Example 8: If a record says 'tie rod chafing baffle' and the action says 'adjusted tie rod tension', it is strong evidence for c_11.
+Example 9: If a record says 'tie rod chafing baffle' and the action says 'adjusted tie rod tension', it is strong evidence for c_11.
+Example 10: If a record says 'baffle tie rod missing' and the action says 'replaced tie rod hardware', it is strong evidence for c_11.
+Example 11: If a record says 'damaged baffle tie rod' and the action says 'replaced tie rod hardware', it is strong evidence for c_11.
+Example 12: If a record says 'tie rod disconnected from baffle' and the action says 'secured tie rod', it is strong evidence for c_11.
+Example 13: If a record says 'tie rod chafing baffle' and the action says 'replaced tie rod hardware', it is strong evidence for c_11.
+Example 14: If a record says 'damaged baffle tie rod' and the action says 'replaced tie rod hardware', it is strong evidence for c_11.
+Example 15: If a record says 'tie rod disconnected from baffle' and the action says 'installed missing tie rod', it is strong evidence for c_11.

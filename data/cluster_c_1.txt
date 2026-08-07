@@ -1,0 +1,186 @@
+# Cluster c_1: aircraft start issue hard start no start starter no crank
+
+Cluster ID: c_1
+Cluster name: aircraft start issue hard start no start starter no crank
+Total records in this cluster: 1200
+
+## Purpose
+
+This cluster represents maintenance records labeled as `aircraft start issue hard start no start starter no crank`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- start: 793
+- assist: 364
+- a/c: 316
+- starter: 288
+- could: 260
+- started: 237
+- would: 231
+- get: 222
+- required: 118
+- due: 101
+- change: 95
+- time: 87
+- requested: 77
+- l/h: 76
+- requests: 62
+- r/h: 60
+- needs: 56
+- crew: 56
+- engage: 52
+- starting: 45
+
+## Common action terms
+
+- started: 661
+- a/c: 477
+- using: 383
+- procedures: 364
+- starter: 311
+- start: 297
+- starting: 275
+- good: 270
+- ops: 261
+- s/n: 182
+- assist: 140
+- new: 92
+- flooded: 62
+- mag: 62
+- assisted: 55
+- ran: 53
+- l/h: 51
+- procedure: 48
+- times: 46
+- leak: 40
+
+## Common ATA codes
+
+- 8010.0: 308
+- 8000.0: 294
+- 7100.0: 249
+- 590.0: 177
+- 7200.0: 47
+- 7410.0: 27
+- 520.0: 24
+- 550.0: 14
+- 2430.0: 10
+- 2400.0: 6
+
+## Common registrations
+
+- N509ND: 26
+- N783ND: 25
+- N687ND: 24
+- N561ND: 21
+- N794ND: 21
+- N550ND: 20
+- N523ND: 19
+- N558ND: 17
+- N688ND: 15
+- N697ND: 15
+
+## Inclusion guidance
+
+A record belongs to cluster c_1 when the maintenance problem and corrective action are consistent with `aircraft start issue hard start no start starter no crank`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113092
+Registration: N556ND
+ATA code: 8010.0
+Problem: REQUIRES ASSISTED START.
+Action: ASSISTED START OF ENGINE.
+
+### Example 2
+
+Work order: 1115989
+Registration: N520ND
+ATA code: 8010.0
+Problem: STARTER WON'T TURN.
+Action: REMOVED STARTER & INSTALLED STARTER S/N FNE-151276, OPS CK GOOD.
+
+### Example 3
+
+Work order: 1116017
+Registration: N557ND
+ATA code: 7100.0
+Problem: PILOT COULD NOT GET A/C STARTED.
+Action: STARTED A/C USING NORMAL STARTING PROCEDURES.
+
+### Example 4
+
+Work order: 1116168
+Registration: N576ND
+ATA code: 7100.0
+Problem: PILOT COULD NOT GET A/C STARTED.
+Action: STARTED A/C USING NORMAL STARTING PROCEDURES.
+
+### Example 5
+
+Work order: 1116232
+Registration: N576ND
+ATA code: 8000.0
+Problem: COULD NOT START A/C.
+Action: STARTED A/C W/ NO DISCREP.
+
+### Example 6
+
+Work order: 1116266
+Registration: N576ND
+ATA code: 7100.0
+Problem: A/C WOULD NOT START.
+Action: STARTED A/C.
+
+### Example 7
+
+Work order: 1116447
+Registration: N557ND
+ATA code: 8000.0
+Problem: A/C WILL NOT START.
+Action: STARTED REMOVAL OF FUEL SERVO.
+
+### Example 8
+
+Work order: 1116471
+Registration: N540ND
+ATA code: 2400.0
+Problem: A/C WOULD NOT START.
+Action: CHARGED BATTERY, STARTED A/C USING NORMAL PROCEDURES.
+
+### Example 9
+
+Work order: 1116569
+Registration: N540ND
+ATA code: 8010.0
+Problem: STARTER IS INOP.
+Action: REMOVED STARTER, INSTALLED NEW STARTER S/N FNE-371261. OPS CHECK GOOD.
+
+### Example 10
+
+Work order: 1116980
+Registration: N559ND
+ATA code: 8000.0
+Problem: STARTER MOTOR LOSOE FROM STARTER MOUNT.
+Action: INSTALLED REBUILT STARTER S/N FN-311126.
+
+### Example 11
+
+Work order: 1117260
+Registration: N574ND
+ATA code: 7100.0
+Problem: A/C WOULD NOT START.
+Action: STARTED A/C & RAN TO NORMAL OPERATING TEMPERATURE.
+
+### Example 12
+
+Work order: 1117276
+Registration: N509ND
+ATA code: 2430.0
+Problem: PILOT REPORTED HARD START, LOW BATTERY.
+Action: REPLACED BATTERY W/ S/N G02736392. RAN A/C, OPS CK OK.
+

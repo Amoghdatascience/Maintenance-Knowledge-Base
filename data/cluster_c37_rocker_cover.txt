@@ -1,0 +1,46 @@
+# Cluster c_37: rocker cover loose/leak/damage
+
+Cluster c_37 is used for maintenance records related to rocker cover loose/leak/damage.
+The cluster should be assigned only when the problem description and corrective action provide enough evidence.
+
+## Inclusion Signals
+
+- rocker cover leak
+- valve cover loose
+- oil seep near rocker cover
+- rocker gasket damaged
+- cover screw loose
+- cover cracked
+
+## Corrective Actions
+
+- tightened rocker cover
+- replaced rocker cover gasket
+- resealed valve cover
+- cleaned oil residue
+- performed leak check
+- replaced damaged cover
+
+## Exclusion Rules
+
+Exclude records that mention only a generic inspection with no corrective action.
+Exclude records where the key component token is missing.
+Exclude unrelated records that contain a similar word but describe a different component.
+
+## Example Reasoning
+
+Example 1: If a record says 'oil seep near rocker cover' and the action says 'replaced rocker cover gasket', it is strong evidence for c_37.
+Example 2: If a record says 'cover screw loose' and the action says 'replaced rocker cover gasket', it is strong evidence for c_37.
+Example 3: If a record says 'oil seep near rocker cover' and the action says 'replaced rocker cover gasket', it is strong evidence for c_37.
+Example 4: If a record says 'cover cracked' and the action says 'performed leak check', it is strong evidence for c_37.
+Example 5: If a record says 'cover cracked' and the action says 'replaced damaged cover', it is strong evidence for c_37.
+Example 6: If a record says 'rocker cover leak' and the action says 'performed leak check', it is strong evidence for c_37.
+Example 7: If a record says 'cover cracked' and the action says 'resealed valve cover', it is strong evidence for c_37.
+Example 8: If a record says 'oil seep near rocker cover' and the action says 'replaced damaged cover', it is strong evidence for c_37.
+Example 9: If a record says 'cover screw loose' and the action says 'replaced rocker cover gasket', it is strong evidence for c_37.
+Example 10: If a record says 'cover screw loose' and the action says 'replaced rocker cover gasket', it is strong evidence for c_37.
+Example 11: If a record says 'valve cover loose' and the action says 'performed leak check', it is strong evidence for c_37.
+Example 12: If a record says 'cover cracked' and the action says 'replaced rocker cover gasket', it is strong evidence for c_37.
+Example 13: If a record says 'rocker cover leak' and the action says 'performed leak check', it is strong evidence for c_37.
+Example 14: If a record says 'oil seep near rocker cover' and the action says 'performed leak check', it is strong evidence for c_37.
+Example 15: If a record says 'rocker gasket damaged' and the action says 'replaced rocker cover gasket', it is strong evidence for c_37.

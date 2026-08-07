@@ -1,0 +1,186 @@
+# Cluster c_35: oil return line
+
+Cluster ID: c_35
+Cluster name: oil return line
+Total records in this cluster: 606
+
+## Purpose
+
+This cluster represents maintenance records labeled as `oil return line`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- oil: 594
+- return: 594
+- line: 283
+- loose: 244
+- leaking: 219
+- clamps: 168
+- hose: 162
+- cyl: 138
+- lines: 110
+- hoses: 89
+- all: 80
+- clamp: 63
+- l/h: 46
+- r/h: 37
+- cylinder: 30
+- chafing: 27
+- eng: 26
+- tube: 20
+- worm: 20
+- cyls: 16
+
+## Common action terms
+
+- tightened: 423
+- clamps: 339
+- return: 250
+- oil: 237
+- line: 176
+- hose: 166
+- clamp: 74
+- lines: 73
+- good: 62
+- all: 62
+- leak: 56
+- new: 50
+- cyl: 42
+- defects: 23
+- noted: 22
+- further: 21
+- secured: 17
+- cylinder: 16
+- worm: 13
+- r/h: 13
+
+## Common ATA codes
+
+- 7920.0: 370
+- 7900.0: 153
+- 7230.0: 37
+- 7910.0: 12
+- 561.0: 7
+- 7200.0: 5
+- 7170.0: 3
+- 7250.0: 3
+- 7160.0: 3
+- 7220.0: 3
+
+## Common registrations
+
+- N568ND: 12
+- N550ND: 10
+- N526ND: 9
+- N521ND: 9
+- N562ND: 9
+- N344Y: 9
+- N642ND: 9
+- N877ND: 9
+- N546ND: 8
+- N549ND: 8
+
+## Inclusion guidance
+
+A record belongs to cluster c_35 when the maintenance problem and corrective action are consistent with `oil return line`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1114458
+Registration: N537ND
+ATA code: 7920.0
+Problem: CYL OIL RETURN TUBE HOSE CLAMPS LOOSE (ALL CYL).
+Action: TIGHTENED HOSE CLAMPS.
+
+### Example 2
+
+Work order: 1116083
+Registration: N515ND
+ATA code: 7920.0
+Problem: CYL OIL RETURN HOSE CLAMPS LOOSE.
+Action: TIGHTENED HOSE CLAMPS.
+
+### Example 3
+
+Work order: 1116192
+Registration: N561ND
+ATA code: 7910.0
+Problem: #1 & 4 OIL RETURN HOSES LEAKING.
+Action: TIGHTENED CLAMPS.
+
+### Example 4
+
+Work order: 1116203
+Registration: N520ND
+ATA code: 7920.0
+Problem: #1 CYL OIL RETURN LINE WORM CLAMPS ARE LOOSE.
+Action: TIGHTENED CLAMPS.
+
+### Example 5
+
+Work order: 1116212
+Registration: N570ND
+ATA code: 7920.0
+Problem: #2 CYL OIL RETURN LINE WORM CLAMPS ARE LOOSE.
+Action: TIGHTENED CLAMPS.
+
+### Example 6
+
+Work order: 1116453
+Registration: N552ND
+ATA code: 7920.0
+Problem: CYL OIL RETURN HOSE CLAMPS LOOSE (ALL CYLS).
+Action: TIGHTENED HOSE CLAMPS.
+
+### Example 7
+
+Work order: 1116504
+Registration: N571ND
+ATA code: 7920.0
+Problem: CYL OIL RETURN TUBE HOSE CLAMPS LOOSE (ALL CYLS).
+Action: TIGHTENED HOSE CLAMPS.
+
+### Example 8
+
+Work order: 1116514
+Registration: N548ND
+ATA code: 7920.0
+Problem: #3 OIL RETURN LINE WORM CLAMP LOOSE.
+Action: TIGHTENED OIL RETURN WORM CLAMPS.
+
+### Example 9
+
+Work order: 1116753
+Registration: N565ND
+ATA code: 7920.0
+Problem: CYL OIL RETURN HOSE CLAMPS LOOSE (ALL CYLS).
+Action: TIGHTENED HOSE CLAMPS.
+
+### Example 10
+
+Work order: 1116931
+Registration: N528ND
+ATA code: 7230.0
+Problem: #3 CYLINDER OIL RETURN LINE LEAKING ON RUBBER HOSE SECTION.
+Action: TIGHTENED CLAMPS ON RUBBER HOSE SECTION.
+
+### Example 11
+
+Work order: 1116980
+Registration: N559ND
+ATA code: 7920.0
+Problem: CYL OIL RETURN HOSE CLAMPS LOOSE (ALL CYL).
+Action: TIGHTENED HOSE CLAMPS.
+
+### Example 12
+
+Work order: 1117057
+Registration: N520ND
+ATA code: 7920.0
+Problem: CYL OIL RETURN HOSE CLAMPS LOOSE (ALL CYLS).
+Action: TIGHTENED HOSE CLAMPS.
+

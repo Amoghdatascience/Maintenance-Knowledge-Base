@@ -1,0 +1,186 @@
+# Cluster c_24: engine run rough rough running misfire
+
+Cluster ID: c_24
+Cluster name: engine run rough rough running misfire
+Total records in this cluster: 278
+
+## Purpose
+
+This cluster represents maintenance records labeled as `engine run rough rough running misfire`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- roughness: 173
+- rpm: 111
+- during: 101
+- rough: 99
+- mag: 85
+- flight: 76
+- run: 57
+- after: 56
+- running: 51
+- drop: 49
+- required: 37
+- off: 34
+- dropped: 34
+- right: 33
+- ran: 31
+- checklist: 31
+- left: 29
+- start: 28
+- when: 27
+- power: 25
+
+## Common action terms
+
+- good: 143
+- ran: 116
+- ops: 113
+- a/c: 86
+- run: 68
+- mag: 64
+- spark: 55
+- duplicate: 48
+- plug: 48
+- noted: 47
+- cyl: 47
+- roughness: 46
+- flight: 45
+- could: 44
+- ground: 44
+- defects: 37
+- plugs: 34
+- cleaned: 32
+- oil: 31
+- leak: 29
+
+## Common ATA codes
+
+- 7200.0: 81
+- 7100.0: 45
+- 580.0: 45
+- 7410.0: 35
+- 7400.0: 15
+- 550.0: 13
+- 7420.0: 8
+- 7720.0: 7
+- 7230.0: 6
+- 7710.0: 3
+
+## Common registrations
+
+- N633ND: 12
+- N641ND: 9
+- N689ND: 8
+- N604ND: 8
+- N812ND: 8
+- N797ND: 7
+- N642ND: 6
+- N558ND: 6
+- N618ND: 5
+- N573ND: 4
+
+## Inclusion guidance
+
+A record belongs to cluster c_24 when the maintenance problem and corrective action are consistent with `engine run rough rough running misfire`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1116274
+Registration: N512ND
+ATA code: 7100.0
+Problem: UPON LEVELING OFF AT 1600 FT, EXPERIENCED ENGINE ROUGHNESS. DURING DESCENT TO LANDING WHEN POWER WAS ADDED IT WAS DELAYED.
+Action: RAN A/C THROUGH VARIOUS POWER & MIXTURE SETTINGS, NO DEFECTS NOTED. COULD NOT DUPLICATE DISCREP.
+
+### Example 2
+
+Work order: 1116907
+Registration: N570ND
+ATA code: 7710.0
+Problem: DURING LAST PORTION OF FLIGHT, EXPERIENCED ENGINE ROUGHNESS W/ RPM LOSS OF 30 RPM. NOTICED AT POWER GREATER THAN 2200 RPM.
+Action: REPLACED TACH GENERATOR. COULD NOT DUPLICATE ENGINE ROUGHNESS. ENGINE RUN UP & INDICATION CHECK GOOD.
+
+### Example 3
+
+Work order: 1117561
+Registration: N566ND
+ATA code: 7420.0
+Problem: #2 LWR SPARK PLUG MISFIRE (FOULED) ON RUN UP.
+Action: OPS CK GOOD.
+
+### Example 4
+
+Work order: 1117561
+Registration: N566ND
+ATA code: 7420.0
+Problem: #2 LWR SPARK PLUG MISFIRE (FOULED) ON RUN UP.
+Action: CLEAN, GAPPED, TESTED & INSTALLED PLUG.
+
+### Example 5
+
+Work order: 1118535
+Registration: N531ND
+ATA code: 7100.0
+Problem: ROUGH RUNNING ENGINE.
+Action: RAN A/C, ENGINE RAN SMOOTH. COULD NOT DUPLICATE PROBLEM.
+
+### Example 6
+
+Work order: 1119942
+Registration: N531ND
+ATA code: 7100.0
+Problem: ROUGH RUNNING ENGINE DURING TAXI.
+Action: TAXIED A/C NOTING NO ENGINE ROUGHNESS.
+
+### Example 7
+
+Work order: 1124066
+Registration: N545ND
+ATA code: 7410.0
+Problem: DURING RUN UP, L/H MAG RAN ROUGH.
+Action: RAN A/C, CLEARED OFF SPARK PLUGS. OPS CHECK GOOD ON MAG DROPS & FOUND NO ENGINE ROUGHNESS.
+
+### Example 8
+
+Work order: 1125021
+Registration: N508ND
+ATA code: 580.0
+Problem: MAINTENANCE FLIGHT IS REQUIRED.
+Action: PERFORMED MX FLIGHT FOR ENGINE ROUGHNESS, OPS CHECK GOOD. COULD NOT DUPLICATE PROBLEM. ANDREW KUGLER 3469684 CFI 6/14.
+
+### Example 9
+
+Work order: 1125598
+Registration: N550ND
+ATA code: 7100.0
+Problem: ENGINE RAN ROUGH ON RUN UP.
+Action: RAN A/C, OPS CK OK.
+
+### Example 10
+
+Work order: 1125651
+Registration: N572ND
+ATA code: 7100.0
+Problem: AFTER TAKEOFF, EXPERIENCED ENG ROUGHNESS. RAN CKLIST, FOUND R/H MAG BAD, AFTER BURNED OFF MAG & GOT W/IN TOLERANCES.
+Action: RAN A/C NOTING NO ROUGHNESS. BOTH MAGS CK'ED W/IN LIIMITS. COULD NOT DUPLICATE DISCREP.
+
+### Example 11
+
+Work order: 1125929
+Registration: N523ND
+ATA code: 580.0
+Problem: MX FLIGHT REQUIRED TO CHECK FOR ENGINE ROUGHNESS & VIBRATION.
+Action: NO ABNORMALITIES, MANY CHANGES IN RPM THROUGH FLIGHT SHOWED NO INDICATIONS OF A ROUGH ENGINE. JOSEPH DONOVAN 3481043 CFI 5/15.
+
+### Example 12
+
+Work order: 1126377
+Registration: N563ND
+ATA code: 7100.0
+Problem: DURING FLIGHT AT HIGH POWER SETTINGS & LOW AIRSPEED, ENGINE BEGAN TO RUN ROUGH.
+Action: RAN A/C W/ VARYING POWER & MIXTURE SETTINGS. COULD NOT DUPLICATE DISCREP.
+

@@ -1,0 +1,46 @@
+# Cluster c_2: baffle bolt issue
+
+Cluster c_2 is used for maintenance records related to baffle bolt issue.
+The cluster should be assigned only when the problem description and corrective action provide enough evidence.
+
+## Inclusion Signals
+
+- baffle bolt missing
+- baffle bolt loose
+- damaged baffle bolt
+- bolt securing baffle
+- baffle attach bolt
+- baffle hardware bolt
+
+## Corrective Actions
+
+- installed new baffle bolt
+- tightened baffle bolt
+- replaced damaged bolt
+- secured baffle with correct bolt
+- torqued baffle hardware
+
+## Exclusion Rules
+
+Exclude records that mention only a generic inspection with no corrective action.
+Exclude records where the key component token is missing.
+For baffle child clusters, both the parent token 'baffle' and the child token must appear in the problem/action text.
+Exclude unrelated records that contain a similar word but describe a different component.
+
+## Example Reasoning
+
+Example 1: If a record says 'baffle bolt loose' and the action says 'torqued baffle hardware', it is strong evidence for c_2.
+Example 2: If a record says 'bolt securing baffle' and the action says 'installed new baffle bolt', it is strong evidence for c_2.
+Example 3: If a record says 'baffle attach bolt' and the action says 'secured baffle with correct bolt', it is strong evidence for c_2.
+Example 4: If a record says 'baffle hardware bolt' and the action says 'installed new baffle bolt', it is strong evidence for c_2.
+Example 5: If a record says 'baffle bolt loose' and the action says 'secured baffle with correct bolt', it is strong evidence for c_2.
+Example 6: If a record says 'baffle bolt missing' and the action says 'tightened baffle bolt', it is strong evidence for c_2.
+Example 7: If a record says 'damaged baffle bolt' and the action says 'secured baffle with correct bolt', it is strong evidence for c_2.
+Example 8: If a record says 'baffle attach bolt' and the action says 'secured baffle with correct bolt', it is strong evidence for c_2.
+Example 9: If a record says 'baffle attach bolt' and the action says 'replaced damaged bolt', it is strong evidence for c_2.
+Example 10: If a record says 'baffle attach bolt' and the action says 'installed new baffle bolt', it is strong evidence for c_2.
+Example 11: If a record says 'baffle hardware bolt' and the action says 'tightened baffle bolt', it is strong evidence for c_2.
+Example 12: If a record says 'baffle attach bolt' and the action says 'tightened baffle bolt', it is strong evidence for c_2.
+Example 13: If a record says 'baffle attach bolt' and the action says 'installed new baffle bolt', it is strong evidence for c_2.
+Example 14: If a record says 'bolt securing baffle' and the action says 'torqued baffle hardware', it is strong evidence for c_2.
+Example 15: If a record says 'bolt securing baffle' and the action says 'tightened baffle bolt', it is strong evidence for c_2.

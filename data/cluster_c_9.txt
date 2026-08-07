@@ -1,0 +1,186 @@
+# Cluster c_9: baffle seal
+
+Cluster ID: c_9
+Cluster name: baffle seal
+Total records in this cluster: 262
+
+## Purpose
+
+This cluster represents maintenance records labeled as `baffle seal`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- baffle: 262
+- seal: 245
+- loose: 98
+- fwd: 92
+- cyl: 62
+- r/h: 52
+- needs: 52
+- eng: 46
+- l/h: 43
+- worn: 40
+- side: 39
+- torn: 27
+- secured: 24
+- black: 21
+- front: 20
+- has: 16
+- lwr: 16
+- aft: 15
+- intake: 15
+- missing: 13
+
+## Common action terms
+
+- baffle: 207
+- seal: 201
+- resecured: 71
+- secured: 51
+- rtv: 34
+- new: 29
+- rivets: 26
+- applied: 22
+- worn: 18
+- areas: 18
+- reattached: 17
+- cyl: 17
+- silicone: 15
+- l/h: 14
+- pop: 13
+- side: 12
+- fwd: 11
+- r/h: 11
+- section: 10
+- eng: 8
+
+## Common ATA codes
+
+- 7230.0: 210
+- 7110.0: 16
+- 7100.0: 9
+- 561.0: 8
+- 7900.0: 5
+- 7130.0: 3
+- 7250.0: 2
+- 7210.0: 2
+- 7140.0: 1
+- 2450.0: 1
+
+## Common registrations
+
+- N509ND: 8
+- N549ND: 7
+- N529ND: 6
+- N508ND: 6
+- N564ND: 5
+- N571ND: 5
+- N522ND: 5
+- N798ND: 5
+- N794ND: 5
+- N893ND: 5
+
+## Inclusion guidance
+
+A record belongs to cluster c_9 when the maintenance problem and corrective action are consistent with `baffle seal`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1116042
+Registration: N538ND
+ATA code: 7230.0
+Problem: R/H FWD BAFFLE SEAL TORN.
+Action: REPAIRED HOLE IN BAFFLE SEAL.
+
+### Example 2
+
+Work order: 1118801
+Registration: N529ND
+ATA code: 7230.0
+Problem: BAFFLE SEAL LOOSE ON LEFT SIDE OF ENGINE.
+Action: SECURED BAFFLE SEAL.
+
+### Example 3
+
+Work order: 1120810
+Registration: N509ND
+ATA code: 7230.0
+Problem: R/H FWD BAFFLE SEAL NEEDS TO BE SECURED.
+Action: REPLACED BAFFLE SEAL, FOUND UNSERVICEABLE.
+
+### Example 4
+
+Work order: 1121045
+Registration: N562ND
+ATA code: 7110.0
+Problem: NEW TAPPING NOISE PRESENT, ORIGINAL NOISE PERSISTS.
+Action: REMOVED ALL CHAFE TAPE. ADJUSTED COWLING ALIGNMENT BY ADDING SHIMS TO COWL SHOCK MOUNTS 1, 10 & 11. SECURED ENG AIR BAFFLE SEALS ON FWD SIDE TO ENSURE PROPER PLACEMENT. APPLIED RTV TO LEFT NLG STEERING ROD BOOT SEAL PLATE & TO TOP OF WINDSHIELD.
+
+### Example 5
+
+Work order: 1121184
+Registration: N549ND
+ATA code: 7230.0
+Problem: FRONT R/H BAFFLE SEAL IS NOT ATTACHED.
+Action: FOUND SEAL TORN. REMOVED & REPLACED BAFFLE SEAL.
+
+### Example 6
+
+Work order: 1121218
+Registration: N529ND
+ATA code: 7230.0
+Problem: FWD R/H BAFFLE SEAL IS TORN.
+Action: REMOVED & REPLACED BAFFLE SEAL.
+
+### Example 7
+
+Work order: 1122024
+Registration: N517ND
+ATA code: 7230.0
+Problem: BAFFLE SEAL LOOSE OVER CYL #3.
+Action: RESECURED BAFFLE SEAL.
+
+### Example 8
+
+Work order: 1122592
+Registration: N525ND
+ATA code: 7230.0
+Problem: FWD R/H BAFFLE SEAL NEEDS TO BE REATTACHED.
+Action: REMOVED & REPLACED BAFFLE SEAL.
+
+### Example 9
+
+Work order: 1123464
+Registration: N545ND
+ATA code: 7230.0
+Problem: CYL #3 AFT UPPER BAFFLE SEAL IS LOOSE.
+Action: RESECURED BAFFLE SEAL.
+
+### Example 10
+
+Work order: 1124266
+Registration: N560ND
+ATA code: 7230.0
+Problem: UPPER R/H BAFFLE SEAL LOOSE.
+Action: RESECURED BAFFLE SEAL.
+
+### Example 11
+
+Work order: 1126035
+Registration: N532ND
+ATA code: 7230.0
+Problem: CYL #1 GOV BAFFLE SEAL IS COMING OFF.
+Action: REFASTENED BAFFLE SEAL.
+
+### Example 12
+
+Work order: 1126260
+Registration: N571ND
+ATA code: 7230.0
+Problem: FWD R/H ENGINE BAFFLE SEAL LOOSE.
+Action: RESECURED BAFFLE SEAL.
+

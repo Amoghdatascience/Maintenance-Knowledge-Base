@@ -1,0 +1,50 @@
+# Cluster c_22: engine idle/rpm issue
+
+Cluster c_22 is used for maintenance records related to engine idle/rpm issue.
+The cluster should be assigned only when the problem description and corrective action provide enough evidence.
+
+## Inclusion Signals
+
+- rough idle
+- low rpm
+- high rpm
+- idle override
+- engine dies at idle
+- idle adjustment
+- fuel servo adjustment
+- run-up normal
+- throttle idle stop
+- rpm instability
+
+## Corrective Actions
+
+- adjusted idle setting
+- removed and replaced fuel servo
+- performed engine run-up
+- verified rpm within limits
+- adjusted throttle linkage
+- cleaned idle circuit
+
+## Exclusion Rules
+
+Exclude records that mention only a generic inspection with no corrective action.
+Exclude records where the key component token is missing.
+Exclude unrelated records that contain a similar word but describe a different component.
+
+## Example Reasoning
+
+Example 1: If a record says 'run-up normal' and the action says 'adjusted throttle linkage', it is strong evidence for c_22.
+Example 2: If a record says 'idle override' and the action says 'cleaned idle circuit', it is strong evidence for c_22.
+Example 3: If a record says 'low rpm' and the action says 'cleaned idle circuit', it is strong evidence for c_22.
+Example 4: If a record says 'throttle idle stop' and the action says 'verified rpm within limits', it is strong evidence for c_22.
+Example 5: If a record says 'run-up normal' and the action says 'adjusted idle setting', it is strong evidence for c_22.
+Example 6: If a record says 'low rpm' and the action says 'verified rpm within limits', it is strong evidence for c_22.
+Example 7: If a record says 'rough idle' and the action says 'verified rpm within limits', it is strong evidence for c_22.
+Example 8: If a record says 'run-up normal' and the action says 'adjusted idle setting', it is strong evidence for c_22.
+Example 9: If a record says 'throttle idle stop' and the action says 'removed and replaced fuel servo', it is strong evidence for c_22.
+Example 10: If a record says 'low rpm' and the action says 'adjusted idle setting', it is strong evidence for c_22.
+Example 11: If a record says 'low rpm' and the action says 'removed and replaced fuel servo', it is strong evidence for c_22.
+Example 12: If a record says 'idle override' and the action says 'cleaned idle circuit', it is strong evidence for c_22.
+Example 13: If a record says 'high rpm' and the action says 'removed and replaced fuel servo', it is strong evidence for c_22.
+Example 14: If a record says 'throttle idle stop' and the action says 'adjusted idle setting', it is strong evidence for c_22.
+Example 15: If a record says 'run-up normal' and the action says 'adjusted idle setting', it is strong evidence for c_22.

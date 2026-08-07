@@ -1,0 +1,50 @@
+[
+  {
+    "question": "What is Agentic RAG?",
+    "expected_source": "agentic_rag_overview.txt"
+  },
+  {
+    "question": "How is Agentic RAG different from basic RAG?",
+    "expected_source": "agentic_rag_overview.txt"
+  },
+  {
+    "question": "What are the main nodes in a LangGraph Agentic RAG workflow?",
+    "expected_source": "langgraph_architecture.txt"
+  },
+  {
+    "question": "Why is evidence grading useful?",
+    "expected_source": "langgraph_architecture.txt"
+  },
+  {
+    "question": "What chunk size should I start with for technical documents?",
+    "expected_source": "chunking_and_embeddings.txt"
+  },
+  {
+    "question": "Why do I need overlap between chunks?",
+    "expected_source": "chunking_and_embeddings.txt"
+  },
+  {
+    "question": "What free local models can I use for RAG?",
+    "expected_source": "free_local_models.txt"
+  },
+  {
+    "question": "Why should I delete Chroma after changing embedding models?",
+    "expected_source": "free_local_models.txt"
+  },
+  {
+    "question": "What is cluster c_22?",
+    "expected_source": "cluster_c22_engine_idle_rpm.txt"
+  },
+  {
+    "question": "What evidence supports cluster c_28?",
+    "expected_source": "cluster_c28_intake_gasket.txt"
+  },
+  {
+    "question": "How do I distinguish c_2 and c_11?",
+    "expected_source": "maintenance_rag_domain_knowledge.txt"
+  },
+  {
+    "question": "What should I do if retrieval returns irrelevant chunks?",
+    "expected_source": "troubleshooting_rag_pipeline.txt"
+  }
+]

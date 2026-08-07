@@ -1,0 +1,186 @@
+# Cluster c_34: oil leak oil pressure oil temperature
+
+Cluster ID: c_34
+Cluster name: oil leak oil pressure oil temperature
+Total records in this cluster: 1085
+
+## Purpose
+
+This cluster represents maintenance records labeled as `oil leak oil pressure oil temperature`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- oil: 997
+- pressure: 568
+- low: 156
+- psi: 145
+- switch: 140
+- temp: 135
+- due: 127
+- during: 123
+- gauge: 118
+- leaking: 115
+- r/h: 103
+- flight: 103
+- replacement: 93
+- leak: 91
+- change: 88
+- press: 87
+- green: 84
+- l/h: 82
+- high: 78
+- red: 76
+
+## Common action terms
+
+- oil: 537
+- good: 509
+- leak: 401
+- pressure: 362
+- ops: 343
+- ran: 185
+- transducer: 172
+- a/c: 166
+- cleaned: 127
+- new: 120
+- temp: 119
+- switch: 81
+- noted: 78
+- psi: 70
+- run: 64
+- defects: 59
+- serviced: 51
+- ground: 51
+- probe: 47
+- sender: 45
+
+## Common ATA codes
+
+- 7930.0: 345
+- 7900.0: 112
+- 520.0: 94
+- 3240.0: 65
+- 7200.0: 54
+- 400.0: 49
+- 550.0: 46
+- 7100.0: 37
+- 7700.0: 26
+- 3700.0: 25
+
+## Common registrations
+
+- N250TH: 36
+- N344Y: 33
+- N528ND: 31
+- N586TS: 29
+- N785ND: 28
+- N689ND: 22
+- N688ND: 19
+- N781ND: 18
+- N641ND: 18
+- N842ND: 16
+
+## Inclusion guidance
+
+A record belongs to cluster c_34 when the maintenance problem and corrective action are consistent with `oil leak oil pressure oil temperature`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1115850
+Registration: N551ND
+ATA code: 7930.0
+Problem: OIL PSI TRANSDUCER IS INDICATING ERRATICALLY.
+Action: OPS & LEAK CK GOOD.
+
+### Example 2
+
+Work order: 1115850
+Registration: N551ND
+ATA code: 7930.0
+Problem: OIL PSI TRANSDUCER IS INDICATING ERRATICALLY.
+Action: REPLACED TRANSDUCER.
+
+### Example 3
+
+Work order: 1116342
+Registration: N547ND
+ATA code: 3240.0
+Problem: LOW TIRE PRESSURE ON NOSE WHEEL.
+Action: REPLENISHED TIRE W/ REQUIRED PRESSURE.
+
+### Example 4
+
+Work order: 1116365
+Registration: N524ND
+ATA code: 7900.0
+Problem: OIL LEAKING FROM ADJUSTMENT SHAFT ON OIL PSI RELIEF VALVE.
+Action: REMOVED SERVICEABLE VALVE FROM CORE ENGINE. INSTALLED ONTO ENGINE.
+
+### Example 5
+
+Work order: 1116365
+Registration: N524ND
+ATA code: 7900.0
+Problem: OIL LEAKING FROM ADJUSTMENT SHAFT ON OIL PSI RELIEF VALVE.
+Action: OPS & LEAK CHECKED NOTING NO DISCREPS.
+
+### Example 6
+
+Work order: 1117954
+Registration: N563ND
+ATA code: 7930.0
+Problem: OIL PRESSURE SWITCH DUE FOR REPLACEMENT.
+Action: LEAK & OPS CHECK GOOD.
+
+### Example 7
+
+Work order: 1117955
+Registration: N565ND
+ATA code: 7930.0
+Problem: OIL PRESS SWITCH REQS REPLACEMENT.
+Action: LEAK & OPS CHECK GOOD.
+
+### Example 8
+
+Work order: 1117982
+Registration: N528ND
+ATA code: 7930.0
+Problem: OIL PSI SWITCH NEEDS REPLACEMENT.
+Action: REPLACED OIL PRESSURE SWITCH, OPS & LEAK CHECK GOOD.
+
+### Example 9
+
+Work order: 1117992
+Registration: N519ND
+ATA code: 7930.0
+Problem: OIL PRESSURE SWITCH NEEDS REPLACEMENT.
+Action: REPLACED OIL PRESSURE SWITCH, OPS & LEAK CHECK GOOD.
+
+### Example 10
+
+Work order: 1118025
+Registration: N509ND
+ATA code: 520.0
+Problem: OIL PRESSURE SWITCH REPLACEMENT DUE.
+Action: INSTALLED NEW SWITCH.
+
+### Example 11
+
+Work order: 1118025
+Registration: N509ND
+ATA code: 520.0
+Problem: OIL PRESSURE SWITCH REPLACEMENT DUE.
+Action: LEAK CHECK GOOD.
+
+### Example 12
+
+Work order: 1118032
+Registration: N546ND
+ATA code: 520.0
+Problem: OIL PRESSURE SWITCH REPLACEMENT DUE.
+Action: REVIEWED MAINT HIST & FOUND SWITCH HASN'T BEEN REPLACED. SET TO 2945.0 TACH.
+

@@ -1,0 +1,186 @@
+# Cluster oil_system_unspecified: oil_system unspecified
+
+Cluster ID: oil_system_unspecified
+Cluster name: oil_system unspecified
+Total records in this cluster: 722
+
+## Purpose
+
+This cluster represents maintenance records labeled as `oil_system unspecified`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- oil: 634
+- change: 187
+- hour: 118
+- due: 106
+- sample: 81
+- required: 78
+- door: 76
+- temp: 63
+- screen: 51
+- loose: 50
+- line: 49
+- wire: 41
+- safety: 37
+- broken: 36
+- fuel: 34
+- eng: 33
+- l/h: 33
+- latch: 29
+- requires: 29
+- sump: 28
+
+## Common action terms
+
+- oil: 571
+- change: 145
+- good: 131
+- leak: 80
+- sample: 78
+- door: 75
+- ops: 70
+- new: 67
+- filter: 58
+- latch: 49
+- serviced: 48
+- parts: 44
+- c/w: 44
+- work: 43
+- order: 43
+- hour: 42
+- screen: 41
+- collected: 39
+- further: 34
+- sump: 33
+
+## Common ATA codes
+
+- 520.0: 259
+- 7900.0: 99
+- 7110.0: 48
+- 7930.0: 32
+- 7910.0: 27
+- 7170.0: 25
+- 1200.0: 23
+- 400.0: 22
+- 7100.0: 19
+- 7200.0: 15
+
+## Common registrations
+
+- N250TH: 65
+- N344Y: 55
+- N586TS: 54
+- N683R: 35
+- N896J: 15
+- N631ND: 14
+- N678ND: 10
+- N605ND: 10
+- N556ND: 7
+- N610ND: 7
+
+## Inclusion guidance
+
+A record belongs to cluster oil_system_unspecified when the maintenance problem and corrective action are consistent with `oil_system unspecified`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1114510
+Registration: N556ND
+ATA code: 7900.0
+Problem: OIL FILTER SAFTY WIRE CUT
+Action: RESAFTIED OIL FILTER
+
+### Example 2
+
+Work order: 1116175
+Registration: N517ND
+ATA code: 7120.0
+Problem: ENG MOUNT REQS MORE INVESTIGATION FOR WORN SPOT FORM BREATHER HOSE CLAMP.
+Action: FOUND LWR OIL STEEL FITTING CRACKED, REPLACED W/ BENCH STOCK HARDARE - INSP, FOUND TO BE SERVICEABLE. RUN UP & LEAK CK GOOD.
+
+### Example 3
+
+Work order: 1116811
+Registration: N528ND
+ATA code: 3240.0
+Problem: LEFT BRAKE PEDAL FELT MUSHY AT ONE POINT ON RETURN TAXI, APPLIED FULL PRESSURE W/ NO RESPONSE. IF BRAKES PUMPED, THEY WOULD FIRM UP BUT AFTER A MIN OR SO, WOULD RETURN TO FEELING MUSHY.
+Action: BLED L/H SIDE BRAKES, REQUIRES TAXI.
+
+### Example 4
+
+Work order: 1117229
+Registration: N558ND
+ATA code: 7920.0
+Problem: OIL SUCTION SCREEN BENT UP.
+Action: REPLACED W/ NEW.
+
+### Example 5
+
+Work order: 1119420
+Registration: N547ND
+ATA code: 7110.0
+Problem: OIL DOOR WILL NOT SHUT AFTER INSPECTING OIL DURING PREFLIGHT.
+Action: REMOVED & REPLACED OIL DOOR LATCH.
+
+### Example 6
+
+Work order: 1119673
+Registration: N559ND
+ATA code: 7170.0
+Problem: FOD IN OIL BREATHER TUBE.
+Action: REMOVED FOD.
+
+### Example 7
+
+Work order: 1119884
+Registration: N564ND
+ATA code: 400.0
+Problem: AD 2013-03-15, FUEL RETURN LINE CHAFING IS DUE. EFF DATE 3/19/13.
+Action: DOES NOT APPLY BY A/C S/N. NO FURTHER ACTION REQUIRED.
+
+### Example 8
+
+Work order: 1119936
+Registration: N550ND
+ATA code: 400.0
+Problem: AD 2013-03-15, FUEL RETURN LINE CHAFING. EFF DATE 3/19/13.
+Action: N/A BY AIRFRAME S/N.
+
+### Example 9
+
+Work order: 1119994
+Registration: N545ND
+ATA code: 7900.0
+Problem: OIL SCREEN DAMAGED.
+Action: REMOVED & REPLACED OIL SCREEN.
+
+### Example 10
+
+Work order: 1119995
+Registration: N520ND
+ATA code: 400.0
+Problem: AD 2013-03-15, RETURN LINE CHAFING DUE. EFF DATE 3/19/13.
+Action: N/A BY S/N. NO FURTHER ACTION REQUIRED.
+
+### Example 11
+
+Work order: 1119996
+Registration: N569ND
+ATA code: 400.0
+Problem: AD 2013-03-15, FUEL RETURN LINE CHAFING DUE. EFF DATE 3/19/13.
+Action: N/A BY A/C S/N. NO FURTHER ACTION REQUIRED.
+
+### Example 12
+
+Work order: 1119996
+Registration: N569ND
+ATA code: 7100.0
+Problem: ENG CHANGE DUE.
+Action: COMPLETED WIRING INSTALL, COMPLETED HOSE INSTALL. FINISHED SECURING HOSES, WIRING & CONTROLS. PRE-OILED ENG. LEAK CK GOOD ON FUEL & OIL. SEE W/O #1120099 FOR ENG BREAK-IN MX FLIGHT.
+

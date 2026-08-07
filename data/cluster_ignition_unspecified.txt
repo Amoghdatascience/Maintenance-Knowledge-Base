@@ -1,0 +1,186 @@
+# Cluster ignition_unspecified: ignition unspecified
+
+Cluster ID: ignition_unspecified
+Cluster name: ignition unspecified
+Total records in this cluster: 185
+
+## Purpose
+
+This cluster represents maintenance records labeled as `ignition unspecified`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- hours: 90
+- tso: 49
+- has: 46
+- plug: 39
+- heater: 21
+- due: 18
+- r/h: 18
+- out: 18
+- change: 17
+- time: 16
+- lead: 16
+- l/h: 16
+- top: 14
+- inop: 12
+- needs: 11
+- switch: 10
+- bulb: 10
+- eis: 10
+- off: 7
+- left: 7
+
+## Common action terms
+
+- good: 42
+- ops: 37
+- assisted: 37
+- heater: 31
+- plug: 20
+- approved: 20
+- accepted: 18
+- ignitor: 16
+- new: 14
+- lead: 13
+- ran: 12
+- cleaned: 10
+- installation: 10
+- a/c: 9
+- switch: 7
+- further: 7
+- reinstalled: 6
+- removal: 6
+- leak: 6
+- noted: 6
+
+## Common ATA codes
+
+- 510.0: 50
+- 2140.0: 18
+- 7420.0: 17
+- 7200.0: 14
+- 2510.0: 12
+- 520.0: 8
+- 7410.0: 8
+- 2310.0: 5
+- 3240.0: 4
+- 7710.0: 3
+
+## Common registrations
+
+- N791ND: 9
+- N797ND: 8
+- N679ND: 8
+- N684ND: 6
+- N750ND: 5
+- N780ND: 5
+- N607ND: 4
+- N659ND: 4
+- N793ND: 3
+- N728ND: 3
+
+## Inclusion guidance
+
+A record belongs to cluster ignition_unspecified when the maintenance problem and corrective action are consistent with `ignition unspecified`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113868
+Registration: N545ND
+ATA code: 2510.0
+Problem: HARDWARE MISSING ON AMSAFE TEST PLUG.
+Action: INSTALLED NEW HARDWARE @ AMSAFE TEST PLUG.
+
+### Example 2
+
+Work order: 1116018
+Registration: N558ND
+ATA code: 7100.0
+Problem: ENGINE DUE FOR TIME CHANGE.
+Action: INSTALLED ALTERNATOR, HOSES, ROUTED IGN LEADS & PRE-OILED ENGINE.
+
+### Example 3
+
+Work order: 1119070
+Registration: N540ND
+ATA code: 2400.0
+Problem: PB 018 CONNECTOR PLUG @ J BOX NEEDS TO BE REASSEMBLED.
+Action: REASSEMBLED CONNECTOR.
+
+### Example 4
+
+Work order: 1124591
+Registration: N536ND
+ATA code: 2510.0
+Problem: PILOT SEAT AMSAFE HARNESS NEEDS A TYRAP, NEAR PLUG.
+Action: SECURED W/ TYRAPS.
+
+### Example 5
+
+Work order: 1125404
+Registration: N565ND
+ATA code: 7420.0
+Problem: #4 BOTTOM PLUG LEAD IS CHAFING.
+Action: DETERMINED LEAD TO BE SERVICEABLE, REPOSITIONED LEAD.
+
+### Example 6
+
+Work order: 1127349
+Registration: N548ND
+ATA code: 3240.0
+Problem: PARKING BRAKE DISCONNECTED
+Action: RECONNECTED PARK BRAKE
+
+### Example 7
+
+Work order: 1128456
+Registration: N530ND
+ATA code: 3240.0
+Problem: PARKING BRAKE INOP.
+Action: PARKING BRAKE HELD A/C @ 1500 RPM, OPS CK GOOD.
+
+### Example 8
+
+Work order: 1130958
+Registration: N556ND
+ATA code: 2510.0
+Problem: R/H AMSAFE PLUG IN CABIN IS BROKEN.
+Action: RECONNECTED & RESECURED.
+
+### Example 9
+
+Work order: 1133154
+Registration: N516ND
+ATA code: 560.0
+Problem: #2 TOP PLUG LEAD DAMAGED.
+Action: TRIMMED LEAD & REINSTALLED TERMINAL.
+
+### Example 10
+
+Work order: 1135633
+Registration: N540ND
+ATA code: 7420.0
+Problem: CYL #4 LOWER PLUG LEAD REQUIRES REPAIR.
+Action: REPAIRED #4 LEAD, OPS CK GOOD.
+
+### Example 11
+
+Work order: 1136652
+Registration: N545ND
+ATA code: 7100.0
+Problem: PILOT RUN UP L/H ENG DROP.
+Action: CK'ED PLUGS - OK. SEE PD #15.
+
+### Example 12
+
+Work order: 1139211
+Registration: N689ND
+ATA code: 2510.0
+Problem: DOCUMENT BAG NEEDS INSTALLATION.
+Action: INSTALLED DOCUMENT BAG.
+

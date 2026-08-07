@@ -1,0 +1,186 @@
+# Cluster c_48: rudder
+
+Cluster ID: c_48
+Cluster name: rudder
+Total records in this cluster: 4384
+
+## Purpose
+
+This cluster represents maintenance records labeled as `rudder`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- rudder: 4141
+- pedal: 1571
+- insp: 964
+- bar: 963
+- assy: 919
+- due: 540
+- static: 529
+- cable: 508
+- wick: 487
+- cracked: 479
+- broken: 462
+- lower: 435
+- cap: 333
+- low: 329
+- loose: 321
+- r/h: 307
+- assembly: 302
+- l/h: 301
+- side: 262
+- left: 260
+
+## Common action terms
+
+- rudder: 2050
+- defects: 1088
+- noted: 945
+- good: 682
+- pedal: 679
+- part: 557
+- epoxy: 552
+- drilled: 546
+- stop: 492
+- static: 432
+- cable: 409
+- new: 403
+- wick: 402
+- c/w: 391
+- crack: 386
+- bar: 352
+- ops: 333
+- travel: 332
+- iaw: 302
+- adjusted: 281
+
+## Common ATA codes
+
+- 2720.0: 1026
+- 400.0: 811
+- 5540.0: 623
+- 2360.0: 493
+- 520.0: 490
+- 5500.0: 150
+- 2700.0: 92
+- 3240.0: 82
+- 5300.0: 66
+- 550.0: 63
+
+## Common registrations
+
+- N548ND: 65
+- N573ND: 64
+- N524ND: 53
+- N641ND: 51
+- N529ND: 50
+- N785ND: 46
+- N551ND: 46
+- N550ND: 44
+- N549ND: 44
+- N842ND: 44
+
+## Inclusion guidance
+
+A record belongs to cluster c_48 when the maintenance problem and corrective action are consistent with `rudder`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113978
+Registration: N537ND
+ATA code: 5540.0
+Problem: TOP RUDDER COVER IS CRACKED.
+Action: STOP DRILLED & FILLED W/ 2 PART EPOXY.
+
+### Example 2
+
+Work order: 1114510
+Registration: N556ND
+ATA code: 2720.0
+Problem: CENTER RUDDER HINGE NUT BACKED OFF
+Action: TIGHTEN NUT
+
+### Example 3
+
+Work order: 1114510
+Registration: N556ND
+ATA code: 2720.0
+Problem: R/H RUDDER CABLE COTTER PIN MISSING
+Action: INSTALLED NEW COTTER PIN
+
+### Example 4
+
+Work order: 1114510
+Registration: N556ND
+ATA code: 2720.0
+Problem: L/H RUDDER CABLE COTTER PIN "NOT BENT"
+Action: INSTALLED NEW COTTER PIN
+
+### Example 5
+
+Work order: 1114775
+Registration: N556ND
+ATA code: 2720.0
+Problem: R/H RUDDER CABLE COTTER PIN MISSING
+Action: INSTALLED NEW COTTER PIN
+
+### Example 6
+
+Work order: 1115337
+Registration: N529ND
+ATA code: 5540.0
+Problem: TOP RUDDER COVER HAS 2 CRACKS.
+Action: EPOXIED CRACKS.
+
+### Example 7
+
+Work order: 1115988
+Registration: N517ND
+ATA code: 5540.0
+Problem: 2 PART EPOXY IS MISSING ON RUDDED END CAP CRACK, L/H SIDE.
+Action: CLEANED CRACKED AREA. REINSTALLED 2 PART EPOXY.
+
+### Example 8
+
+Work order: 1116092
+Registration: N557ND
+ATA code: 2520.0
+Problem: PILOT R/H RUDDER PEDAL BRAKE LINK IS PARTIALLY DISCONNECTED.
+Action: RECONNECTED BRAKE LINK.
+
+### Example 9
+
+Work order: 1116328
+Registration: N559ND
+ATA code: 5540.0
+Problem: RUDDER RIGGING WAS OFF.
+Action: RERIGGED RUDDER, OPS CHECK GOOD.
+
+### Example 10
+
+Work order: 1116414
+Registration: N560ND
+ATA code: 550.0
+Problem: TAIL STRIKE.
+Action: INSPECTED A/C TAIL, FOUND TAIL SKID TO NEED TO BE RECONTOURED, A NEW RUBBER CUSHION, TIE DOWN EYEBOLT BENT, RUDDER BOTTOM CAP CRACKED. FITTED & INSTALLED NEW RUBBER BOTTOM CAP, RECONTOURED TAIL SKID & INSTALLED W/ NEW EYEBOLT & RUBBER CUSHION.
+
+### Example 11
+
+Work order: 1116444
+Registration: N529ND
+ATA code: 2720.0
+Problem: FOUND RUDDER TO HAVE TOO MUCH TRAVEL.
+Action: ADJUSTED L/H & R/H RUDDER STOPS. CHECKS GOOD.
+
+### Example 12
+
+Work order: 1116685
+Registration: N517ND
+ATA code: 3240.0
+Problem: PARKING BRAKE CABLE BROKEN.
+Action: REMOVED PILOT SEAT KICK PANEL & R/H PILOT RUDDER PEDAL TO FACILITATE MAINT. REMOVED & REPLACED CABLE. REINSTALLED RUDDER PEDAL, KICK PANEL & SEAT. PERFORMED AMSAFE SEAT CK, CHECKS GOOD. PARKING BRAKE CHECKS GOOD.
+

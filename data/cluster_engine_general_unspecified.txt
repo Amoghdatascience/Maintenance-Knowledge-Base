@@ -1,0 +1,186 @@
+# Cluster engine_general_unspecified: engine_general unspecified
+
+Cluster ID: engine_general_unspecified
+Cluster name: engine_general unspecified
+Total records in this cluster: 884
+
+## Purpose
+
+This cluster represents maintenance records labeled as `engine_general unspecified`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- drain: 121
+- eng: 118
+- l/h: 108
+- fuel: 95
+- r/h: 91
+- due: 74
+- change: 69
+- throttle: 68
+- rpm: 63
+- cable: 55
+- heat: 54
+- worn: 49
+- airbox: 49
+- needs: 48
+- during: 46
+- air: 45
+- flush: 45
+- rough: 44
+- loose: 44
+- gear: 43
+
+## Common action terms
+
+- good: 203
+- new: 164
+- ops: 122
+- ran: 84
+- leak: 73
+- a/c: 73
+- fuel: 69
+- drain: 67
+- s/n: 64
+- cleaned: 64
+- oil: 61
+- eng: 60
+- cable: 58
+- mount: 55
+- serviced: 55
+- torqued: 54
+- heat: 48
+- overhauled: 48
+- airbox: 48
+- throttle: 45
+
+## Common ATA codes
+
+- 7200.0: 81
+- 7100.0: 71
+- 7160.0: 71
+- 520.0: 61
+- 7610.0: 42
+- 3400.0: 39
+- 400.0: 28
+- 2800.0: 25
+- 7310.0: 24
+- 7900.0: 22
+
+## Common registrations
+
+- N250TH: 24
+- N798ND: 23
+- N344Y: 22
+- N586TS: 20
+- N780ND: 17
+- N895ND: 17
+- N797ND: 15
+- N796ND: 14
+- N531ND: 14
+- N893ND: 14
+
+## Inclusion guidance
+
+A record belongs to cluster engine_general_unspecified when the maintenance problem and corrective action are consistent with `engine_general unspecified`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1114877
+Registration: N556ND
+ATA code: 7100.0
+Problem: ENG CHANGE DUE.
+Action: REMOVED OLD ENGINE & BEGAN INSTALLATION OF O/H'D ENGINE S/N L-34807-51E. TORQUED ENGINE TO MOUNT.
+
+### Example 2
+
+Work order: 1114877
+Registration: N556ND
+ATA code: 400.0
+Problem: AD RESEARCH DUE FOR ENGINE CHANGE.
+Action: RESEARCHED ENGINE AD'S & UPDATED AIMS.
+
+### Example 3
+
+Work order: 1115993
+Registration: N567ND
+ATA code: 7200.0
+Problem: ENGINE IS TIMED OUT.
+Action: ENGINE RUN UP, LEAK CHECK GOOD. SEE W/O #1116129 FOR MAINTENANCE FLIGHT.
+
+### Example 4
+
+Work order: 1116033
+Registration: N539ND
+ATA code: 7710.0
+Problem: TACH FAILURE (A/C IN BAUDETTE, MN).
+Action: FOR BILLING PURPOSES ONLY, WORK PERFORMED BY: BEAR AVIATION. SEE DISCREPANCY PAGE DATED 10/3/12 FOR SIGN OFF.
+
+### Example 5
+
+Work order: 1116082
+Registration: N563ND
+ATA code: 2500.0
+Problem: CABIN CARPET NEEDS TO BE RESECURED.
+Action: RESCURED CARPET.
+
+### Example 6
+
+Work order: 1116175
+Registration: N517ND
+ATA code: 7120.0
+Problem: ENG MOUNT REQS MORE INVESTIGATION FOR WORN SPOT FORM BREATHER HOSE CLAMP.
+Action: REPLACED ENG MT W/ SERVICEABLE. TORQUED ON A/C, STARTED ENG INSTALL.
+
+### Example 7
+
+Work order: 1116293
+Registration: N551ND
+ATA code: 580.0
+Problem: MAINTENANCE FLIGHT REQUIRED AFTER ROUGH ENGINE NOTED DURING CLIMB, AFTER STOP & GO (REF W/O #1116282).
+Action: PERFORMED MAINTENANCE FLIGHT NOTING NO DISCREPS. COULD NOT DUPLICATE. WADE PETERSEN 3117284 CFI 7/13.
+
+### Example 8
+
+Work order: 1116623
+Registration: N556ND
+ATA code: 550.0
+Problem: A/C WENT OFF RUNWAY.
+Action: (FUEL LINE AT GASCOLATOR LOOSENED FOR FUEL DRAINING). TRANSPORTED LEFT WING HOME TO GRAND FORKS.
+
+### Example 9
+
+Work order: 1116987
+Registration: N510ND
+ATA code: 7310.0
+Problem: ENGINE DIED DURING PRACTICE POWER OFF STALL.
+Action: FOUND FUEL SERVO TO BE LEAKING. REMVOED & REPLACED FUEL SERVO W/ S/N 70AG5802. OPS & LEAK CK GOOD.
+
+### Example 10
+
+Work order: 1117362
+Registration: N567ND
+ATA code: 3460.0
+Problem: TRAFFIC FAIL - ADSB FAILURE.
+Action: RAN AVIONICES FOR 2 HOURS, SHOOK A/C & CYCLED TRANSPONDER. NO FAILURES DETECTED. COULD NOT DUPLICATE DISCREPANCY.
+
+### Example 11
+
+Work order: 1117477
+Registration: N549ND
+ATA code: 7100.0
+Problem: LOUD KNOCKING COMING FROM ENG AT 750 RPM.
+Action: OPERATED ENG NOTING NO DISCREPS. INSPECTED ENG NOTING NO DISCREPS.
+
+### Example 12
+
+Work order: 1117772
+Registration: N525ND
+ATA code: 400.0
+Problem: AD RESEARCH FOR ENGINE CHANGE DUE.
+Action: RESEARCHED AD'S & DETERMINED ENGINE IS IN COMPLIANCE AT THIS TIME.
+

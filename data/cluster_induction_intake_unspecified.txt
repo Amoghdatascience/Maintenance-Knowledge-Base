@@ -1,0 +1,186 @@
+# Cluster induction_intake_unspecified: induction_intake unspecified
+
+Cluster ID: induction_intake_unspecified
+Cluster name: induction_intake unspecified
+Total records in this cluster: 433
+
+## Purpose
+
+This cluster represents maintenance records labeled as `induction_intake unspecified`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- air: 150
+- leaking: 134
+- cap: 104
+- filter: 102
+- fuel: 95
+- intake: 93
+- intakes: 85
+- l/h: 85
+- gasket: 81
+- dirty: 66
+- r/h: 60
+- gaskets: 59
+- worn: 57
+- eng: 32
+- cracked: 27
+- induction: 26
+- torn: 23
+- replacement: 22
+- date: 22
+- gas: 22
+
+## Common action terms
+
+- new: 144
+- gaskets: 139
+- cap: 89
+- gasket: 86
+- air: 85
+- filter: 82
+- fuel: 75
+- intake: 43
+- due: 39
+- next: 38
+- tach: 32
+- l/h: 26
+- r/h: 26
+- accepted: 24
+- duct: 22
+- good: 21
+- gas: 19
+- leak: 18
+- both: 17
+- induction: 15
+
+## Common ATA codes
+
+- 7230.0: 115
+- 2810.0: 97
+- 7160.0: 69
+- 7100.0: 34
+- 400.0: 19
+- 520.0: 19
+- 2140.0: 13
+- 2820.0: 6
+- 561.0: 5
+- 7900.0: 5
+
+## Common registrations
+
+- N688ND: 16
+- N697ND: 16
+- N680ND: 13
+- N695ND: 11
+- N689ND: 10
+- N687ND: 10
+- N250TH: 8
+- N502ND: 8
+- N847ND: 7
+- N683R: 6
+
+## Inclusion guidance
+
+A record belongs to cluster induction_intake_unspecified when the maintenance problem and corrective action are consistent with `induction_intake unspecified`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1119647
+Registration: N568ND
+ATA code: 7910.0
+Problem: OIL FILTER TUBE GASKET REQUIRES REPLACEMENT.
+Action: REMOVED & REPLACED GASKET.
+
+### Example 2
+
+Work order: 1119883
+Registration: N508ND
+ATA code: 7100.0
+Problem: CLEAR TAPE OVER AIR INTAKE
+Action: REMOVED TAPE
+
+### Example 3
+
+Work order: 1122597
+Registration: N543ND
+ATA code: 7160.0
+Problem: AIR INTAKE FIBERGLASS ELBOW CRACKED.
+Action: PATCHED AIR INTAKE ELBOW.
+
+### Example 4
+
+Work order: 1124535
+Registration: N573ND
+ATA code: 7110.0
+Problem: DAMAGED CAM LOC ON INTAKE.
+Action: REMOVED & REPLACED CAM LOC.
+
+### Example 5
+
+Work order: 1125201
+Registration: N538ND
+ATA code: 7230.0
+Problem: #1 CYL LWR INTAKE CLAMPS ARE LOOSE.
+Action: ADJUSTED BOTH CLAMPS TO ACCESS BETTER & TIGHTENED.
+
+### Example 6
+
+Work order: 1126514
+Registration: N513ND
+ATA code: 400.0
+Problem: AIR FILTER IS DIRTY. AD 84-26-02 APPLIES. DATED 1/29/85.
+Action: C/W AD, INSTALLED NEW FILTER. NEXT DUE @ 5327.3 TACH.
+
+### Example 7
+
+Work order: 1126961
+Registration: N572ND
+ATA code: 400.0
+Problem: AIR FILTER IS DIRTY, AD 84-26-02 APPLIES. EFF DATE 1/29/85.
+Action: C/W AD, INSTALLED NEW FILTER. NEXT DUE @ 4225.1 TACH.
+
+### Example 8
+
+Work order: 1127483
+Registration: N547ND
+ATA code: 400.0
+Problem: AIR FILTER IS DIRTY. AD 84-26-02, PAPER AIR FILTER DUE. EFF DATE 1/29/85.
+Action: INSTALLED NEW FILTER, C/W AD. NEXT DUE @ 3390.4 TACH.
+
+### Example 9
+
+Work order: 1127536
+Registration: N512ND
+ATA code: 400.0
+Problem: AIR FILTER DIRTY, AD 84-26-02 EFF DATE 1/29/85 DUE.
+Action: REPLACED W/ NEW FILTER IAW AD. NEXT DUE @ 5120.4 TACH.
+
+### Example 10
+
+Work order: 1127731
+Registration: N572ND
+ATA code: 7230.0
+Problem: #2 & 4 INTAKES LEAKING.
+Action: REPLACED GASKETS ON #2 & 4 INTAKES.
+
+### Example 11
+
+Work order: 1127824
+Registration: N550ND
+ATA code: 7230.0
+Problem: #2 INTAKE LEAKING.
+Action: LEAK CK GOOD.
+
+### Example 12
+
+Work order: 1128002
+Registration: N571ND
+ATA code: 400.0
+Problem: AIR FILTER DIRTY. AD 84-26-02 DUE. EFF DATE 1/29/85.
+Action: INSTALLED NEW AIR FILTER, C/W AD. NEXT DUE @ 4468.0 TACH.
+

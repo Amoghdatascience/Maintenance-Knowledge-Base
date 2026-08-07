@@ -1,0 +1,186 @@
+# Cluster c_20: crankcase crankshaft firewall
+
+Cluster ID: c_20
+Cluster name: crankcase crankshaft firewall
+Total records in this cluster: 607
+
+## Purpose
+
+This cluster represents maintenance records labeled as `crankcase crankshaft firewall`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- firewall: 234
+- crankshaft: 153
+- seal: 151
+- leaking: 129
+- oil: 96
+- crankcase: 68
+- loose: 59
+- r/h: 57
+- eng: 51
+- front: 51
+- l/h: 45
+- cracked: 41
+- needs: 37
+- due: 37
+- lwr: 35
+- battery: 34
+- mount: 33
+- leak: 32
+- bolts: 31
+- bolt: 28
+
+## Common action terms
+
+- firewall: 224
+- good: 115
+- new: 109
+- prop: 99
+- seal: 95
+- cleaned: 91
+- leak: 90
+- bolts: 82
+- crankshaft: 79
+- torqued: 76
+- reinstalled: 53
+- oil: 52
+- noted: 51
+- iaw: 50
+- mount: 48
+- bolt: 44
+- patch: 43
+- ops: 42
+- a/c: 40
+- defects: 40
+
+## Common ATA codes
+
+- 7210.0: 86
+- 7200.0: 63
+- 5300.0: 37
+- 7100.0: 35
+- 7120.0: 30
+- 550.0: 27
+- 5100.0: 21
+- 2140.0: 19
+- 7130.0: 19
+- 6100.0: 19
+
+## Common registrations
+
+- N557ND: 22
+- N524ND: 17
+- N550ND: 14
+- N522ND: 13
+- N796ND: 13
+- N556ND: 13
+- N344Y: 11
+- N548ND: 10
+- N895ND: 10
+- N586TS: 10
+
+## Inclusion guidance
+
+A record belongs to cluster c_20 when the maintenance problem and corrective action are consistent with `crankcase crankshaft firewall`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1114299
+Registration: N545ND
+ATA code: 7120.0
+Problem: FOUND FIREWALL TO BE BENT.
+Action: FOUND FIREWALL TO BE PREVIOUSLY INSPECTED - SEE W/O #1112490. DAMAGE HAS NOT WORSENED.
+
+### Example 2
+
+Work order: 1114362
+Registration: N548ND
+ATA code: 7200.0
+Problem: REMOVE ENGINE TO FACILITATE FIREWALL REPAIR.
+Action: REMOVED ENGINE TO FACILITATE REPAIR BY ODEGAARD WINGS.
+
+### Example 3
+
+Work order: 1114362
+Registration: N548ND
+ATA code: 7200.0
+Problem: REMOVE ENGINE TO FACILITATE FIREWALL REPAIR.
+Action: REINSTALLED ENGINE IAW CESSNA MODEL 172 MAINTENANCE MANUAL 71-20-00. RUN UP & CHECK FOR LEAKS, NONE NOTED. FIREWALL REPAIRED BY ODEGAARD WINGS - SEE W/O #1114636.
+
+### Example 4
+
+Work order: 1114636
+Registration: N548ND
+ATA code: 5100.0
+Problem: FIREWALL NEEDS TO BE REPAIRED.
+Action: REPAIRED FUSELAGE, SEE 337 FORM DATED 10/11/12 FOR DETAILS. BRENT MEESTER A&P 2806269.
+
+### Example 5
+
+Work order: 1114636
+Registration: N548ND
+ATA code: 5100.0
+Problem: FIREWALL NEEDS TO BE REPAIRED.
+Action: FOR BILLING PURPOSES ONLY, WORK PERFORMED BY: ODEGAARD WINGS. SEE ATTACHED FAA FORM 337 FOR DETAILS OF REPAIR AND LOGBOOK ENTRY ATTACHED.
+
+### Example 6
+
+Work order: 1114682
+Registration: N551ND
+ATA code: 5100.0
+Problem: POSSIBLE FIREWALL DAMAGE FOUND ON PREFLIGHT.
+Action: INSPECTED FIREWALL NOTING NO HARD LANDING DAMAGE. 1 SMALL AREA OF DEFORMATION NOTED AT CENTER OF FIREWALL SHELF, DETERMINED TO BE NEGLIGIBLE. NO DAMAGE NOTED TO FIREWALL STRUCTURE. PHOTOGRAPHED & OUTLINED DAMAGE TO FIREWALL SHELF.
+
+### Example 7
+
+Work order: 1115337
+Registration: N529ND
+ATA code: 5300.0
+Problem: UPPER BATTERY TRAY RIVET HEAD MISSING FROM FIREWALL.
+Action: REMOVED & REPLACED RIVET. RIVETING DONE IAW SRM 51-40-00.
+
+### Example 8
+
+Work order: 1116105
+Registration: N562ND
+ATA code: 2140.0
+Problem: HEATER INOP.
+Action: REMOVED CABIN HEAT VALVE ASSY. FABRICATED NEW HINGE FROM P/N MS20257-C5, WELDED HINGE PIN IN SAME LOCATION AS ORIGINAL IAW AC 43.13-1B, CH4 PAR 86D. REINSTALLED CABIN HEAT VALVE & SEALED TO FIREWALL. CABIN HEAT VALVE OPS CHECK GOOD.
+
+### Example 9
+
+Work order: 1116514
+Registration: N548ND
+ATA code: 7100.0
+Problem: LOWER GANG DRAINS ADEL LOOSE FROM FIREWALL.
+Action: RESECURED ADELS ON GANG DRAIN.
+
+### Example 10
+
+Work order: 1116623
+Registration: N556ND
+ATA code: 7200.0
+Problem: CRANKSHAFT NEEDS TO BE REMOVED DUE TO PROP STRIKE.
+Action: REMOVED ENGINE, DISASSEMBLED, PRESERVED CYLINDERS, CAMSHAFT & CONNECTING RODS. SENT CRANKSHAFT TO AEA FOR INSPECTION.
+
+### Example 11
+
+Work order: 1116623
+Registration: N556ND
+ATA code: 7200.0
+Problem: CRANKSHAFT NEEDS TO BE REMOVED DUE TO PROP STRIKE.
+Action: MEASURED SERVICEABLE CRANKSHAFT. ORDERED BEARINGS. CLEANED CASE HALVES.
+
+### Example 12
+
+Work order: 1116623
+Registration: N556ND
+ATA code: 7200.0
+Problem: CRANKSHAFT NEEDS TO BE REMOVED DUE TO PROP STRIKE.
+Action: ASSEMBLED CRANK, CASES & INSTALLED CYLINDERS ON CASE & TORQUED CASES. VALVE TRAIN NEEDS TO BE INSTALLED.
+

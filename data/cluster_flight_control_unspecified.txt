@@ -1,0 +1,186 @@
+# Cluster flight_control_unspecified: flight_control unspecified
+
+Cluster ID: flight_control_unspecified
+Cluster name: flight_control unspecified
+Total records in this cluster: 1514
+
+## Purpose
+
+This cluster represents maintenance records labeled as `flight_control unspecified`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- control: 677
+- sticky: 523
+- yokes: 491
+- static: 366
+- wick: 351
+- broken: 343
+- stabilator: 323
+- cable: 248
+- low: 228
+- tension: 197
+- stab: 181
+- r/h: 157
+- trim: 141
+- l/h: 128
+- flight: 86
+- yoke: 70
+- wing: 49
+- left: 46
+- right: 46
+- tip: 44
+
+## Common action terms
+
+- control: 600
+- cleaned: 495
+- yokes: 455
+- static: 334
+- wick: 333
+- good: 313
+- cable: 221
+- travel: 208
+- new: 199
+- tension: 187
+- adjusted: 171
+- stabilator: 166
+- stab: 95
+- ops: 93
+- trim: 80
+- specs: 80
+- safetied: 65
+- yoke: 59
+- spec: 54
+- stop: 50
+
+## Common ATA codes
+
+- 2730.0: 540
+- 2360.0: 372
+- 2700.0: 241
+- 2510.0: 54
+- 580.0: 40
+- 5520.0: 24
+- 2710.0: 23
+- 5510.0: 22
+- 5720.0: 22
+- 2740.0: 16
+
+## Common registrations
+
+- N610ND: 22
+- N711ND: 18
+- N688ND: 18
+- N689ND: 17
+- N713ND: 17
+- N619ND: 17
+- N796ND: 16
+- N687ND: 16
+- N716ND: 16
+- N847ND: 15
+
+## Inclusion guidance
+
+A record belongs to cluster flight_control_unspecified when the maintenance problem and corrective action are consistent with `flight_control unspecified`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1114775
+Registration: N556ND
+ATA code: 2510.0
+Problem: CONTROL LOCK MISSING
+Action: REINSTALLED CONTROL LOCK IN AIRCRAFT
+
+### Example 2
+
+Work order: 1116042
+Registration: N538ND
+ATA code: 2700.0
+Problem: CONTROL YOKES STICKY.
+Action: CLEANED CONTROL YOKE SHAFTS.
+
+### Example 3
+
+Work order: 1116082
+Registration: N563ND
+ATA code: 2700.0
+Problem: CONTROL YOKES STICKY.
+Action: CLEANED CONTROL YOKES.
+
+### Example 4
+
+Work order: 1116336
+Registration: N527ND
+ATA code: 2510.0
+Problem: MAP HOLDER ON PILOTS CONTROL WHEEL IS BROKEN.
+Action: REPLACED MAP HOLDER.
+
+### Example 5
+
+Work order: 1116787
+Registration: N550ND
+ATA code: 2700.0
+Problem: CONTROL YOKES STICKY.
+Action: CLEANED CONTROL YOKES.
+
+### Example 6
+
+Work order: 1117543
+Registration: N576ND
+ATA code: 2360.0
+Problem: STATIC WICK BROKEN.
+Action: REPLACED W/ NEW WICK.
+
+### Example 7
+
+Work order: 1117657
+Registration: N564ND
+ATA code: 2140.0
+Problem: HEATER CONTROL STICKY.
+Action: CLEANED & LUBED CABLE.
+
+### Example 8
+
+Work order: 1117817
+Registration: N538ND
+ATA code: 2360.0
+Problem: BROKEN STATIC WICK.
+Action: REPLACED STATIC WICK.
+
+### Example 9
+
+Work order: 1117840
+Registration: N546ND
+ATA code: 2360.0
+Problem: STATIC WICK BROKEN.
+Action: REMOVED & REPLACED STATIC WICK.
+
+### Example 10
+
+Work order: 1118069
+Registration: N567ND
+ATA code: 2360.0
+Problem: STATIC WICK ON R/H SIDE OF EVEVATOR IS BROKEN.
+Action: REMOVED & REPLACED STATIC WICK.
+
+### Example 11
+
+Work order: 1118117
+Registration: N566ND
+ATA code: 2360.0
+Problem: OUTER LEFT WING STATIC WICK BROKEN, O/B AILEORN.
+Action: REMOVED & REPLACED STATIC WICK.
+
+### Example 12
+
+Work order: 1118157
+Registration: N576ND
+ATA code: 2360.0
+Problem: STATIC WICK BROKEN.
+Action: REPLACED STATIC WICK.
+

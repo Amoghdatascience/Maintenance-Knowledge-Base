@@ -1,0 +1,186 @@
+# Cluster c_33: oil dipstick tube filler tube
+
+Cluster ID: c_33
+Cluster name: oil dipstick tube filler tube
+Total records in this cluster: 1186
+
+## Purpose
+
+This cluster represents maintenance records labeled as `oil dipstick tube filler tube`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- oil: 1060
+- loose: 985
+- tube: 953
+- filler: 844
+- dipstick: 263
+- r/h: 88
+- l/h: 87
+- safety: 58
+- eng: 50
+- wire: 40
+- neck: 37
+- leaking: 30
+- housing: 28
+- cap: 27
+- fill: 26
+- fuel: 25
+- could: 22
+- needs: 22
+- base: 18
+- dip: 17
+
+## Common action terms
+
+- tube: 886
+- oil: 802
+- tightened: 798
+- filler: 747
+- resafetied: 595
+- safetied: 205
+- dipstick: 190
+- safety: 78
+- secured: 54
+- gasket: 53
+- wire: 48
+- new: 42
+- neck: 40
+- loosened: 39
+- resecured: 39
+- tighten: 39
+- wired: 31
+- noted: 30
+- fuel: 29
+- defects: 27
+
+## Common ATA codes
+
+- 7910.0: 1000
+- 7900.0: 69
+- 7100.0: 18
+- 2810.0: 12
+- 7250.0: 11
+- 561.0: 10
+- 2800.0: 9
+- 7200.0: 9
+- 7230.0: 8
+- 550.0: 6
+
+## Common registrations
+
+- N556ND: 21
+- N559ND: 21
+- N550ND: 17
+- N531ND: 16
+- N558ND: 15
+- N548ND: 15
+- N536ND: 15
+- N509ND: 15
+- N579ND: 15
+- N780ND: 15
+
+## Inclusion guidance
+
+A record belongs to cluster c_33 when the maintenance problem and corrective action are consistent with `oil dipstick tube filler tube`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113868
+Registration: N545ND
+ATA code: 7910.0
+Problem: OIL FILLER TUBE LOOSE.
+Action: TIGHTENED & RESAFETIED OIL FILLER TUBE.
+
+### Example 2
+
+Work order: 1114775
+Registration: N556ND
+ATA code: 7930.0
+Problem: TAPE COVERING OIL DIPSTICK "8 QUARTS" PLACARD
+Action: REMOVED TAPE
+
+### Example 3
+
+Work order: 1115090
+Registration: N513ND
+ATA code: 7910.0
+Problem: OIL FILLER TUBE LOOSE.
+Action: TIGHTENED & RESAFETIED OIL FILLER TUBE.
+
+### Example 4
+
+Work order: 1115337
+Registration: N529ND
+ATA code: 7900.0
+Problem: OIL FILTER TUBE LOOSE.
+Action: TIGHTENED & RESAFETIED OIL FILLER TUBE.
+
+### Example 5
+
+Work order: 1116083
+Registration: N515ND
+ATA code: 7910.0
+Problem: OIL FILLER TUBE LOOSE.
+Action: TIGHTENED & RESAFETIED OIL FILLER TUBE.
+
+### Example 6
+
+Work order: 1116161
+Registration: N549ND
+ATA code: 7910.0
+Problem: OIL FILLER TUBE LOOSE.
+Action: TIGHTENED & RESAFETIED OIL FILLER TUBE.
+
+### Example 7
+
+Work order: 1116453
+Registration: N552ND
+ATA code: 7910.0
+Problem: OIL FILLER TUBE LOOSE.
+Action: TIGHTENED & RESAFETIED OIL FILLER TUBE.
+
+### Example 8
+
+Work order: 1116504
+Registration: N571ND
+ATA code: 7910.0
+Problem: OIL FILLER TUBE LOOSE.
+Action: TIGHTENED & RESAFETIED OIL FILLER TUBE.
+
+### Example 9
+
+Work order: 1116513
+Registration: N568ND
+ATA code: 7230.0
+Problem: #3 AFT BAFFLE TAB HAS BROKEN RIVETS, NEAR OIL FILLER TUBE.
+Action: REMOVED BAFFLE, REPLACED RIVETS & REINSTALLED BAFFLE. LEAK CHECK REQUIRED ON OIL PRESSURE SENDER LINE.
+
+### Example 10
+
+Work order: 1116513
+Registration: N568ND
+ATA code: 7230.0
+Problem: #3 AFT BAFFLE TAB HAS BROKEN RIVETS, NEAR OIL FILLER TUBE.
+Action: LEAK CHECK GOOD.
+
+### Example 11
+
+Work order: 1116561
+Registration: N525ND
+ATA code: 7910.0
+Problem: OIL FILLER TUBE LOOSE.
+Action: TIGHTENED & RESAFETIED OIL FILLER TUBE.
+
+### Example 12
+
+Work order: 1116628
+Registration: N522ND
+ATA code: 7910.0
+Problem: OIL FILLER TUBE LOOSE.
+Action: TIGHTENED & RESAFETIED OIL FILLER TUBE.
+

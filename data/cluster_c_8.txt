@@ -1,0 +1,185 @@
+# Cluster c_8: baffle screw
+
+Cluster ID: c_8
+Cluster name: baffle screw
+Total records in this cluster: 189
+
+## Purpose
+
+This cluster represents maintenance records labeled as `baffle screw`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- baffle: 193
+- screw: 185
+- missing: 113
+- loose: 62
+- r/h: 62
+- oil: 43
+- behind: 42
+- tube: 41
+- cyl: 40
+- aft: 34
+- rear: 25
+- dipstick: 25
+- fwd: 17
+- side: 15
+- mounting: 14
+- filler: 13
+- l/h: 8
+- cylinder: 5
+- next: 5
+- eng: 5
+
+## Common action terms
+
+- screw: 178
+- new: 65
+- baffle: 52
+- tightened: 50
+- tube: 22
+- reinstalled: 19
+- oil: 19
+- dipstick: 14
+- missing: 12
+- safetied: 10
+- filler: 9
+- washer: 8
+- cyl: 8
+- further: 6
+- cooler: 6
+- fwd: 6
+- resecured: 5
+- loose: 5
+- hardware: 5
+- noted: 5
+
+## Common ATA codes
+
+- 7230.0: 164
+- 561.0: 7
+- 7100.0: 6
+- 7110.0: 6
+- 7200.0: 2
+- 7320.0: 1
+- 7910.0: 1
+- 7330.0: 1
+- 7820.0: 1
+
+## Common registrations
+
+- N575ND: 7
+- N529ND: 6
+- N525ND: 6
+- N569ND: 5
+- N513ND: 5
+- N510ND: 5
+- N514ND: 5
+- N556ND: 4
+- N570ND: 4
+- N511ND: 4
+
+## Inclusion guidance
+
+A record belongs to cluster c_8 when the maintenance problem and corrective action are consistent with `baffle screw`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113852
+Registration: N556ND
+ATA code: 7230.0
+Problem: AFT BAFFLE SCREW LOOSE.
+Action: TIGHTENED BAFFLE SCREW.
+
+### Example 2
+
+Work order: 1116018
+Registration: N558ND
+ATA code: 7230.0
+Problem: FWD LOWER BAFFLE, R/H SIDE, IS CRACKED.
+Action: STOP DRILLED CRACK & INSTALLED WIDE AREA WASHER TO DISTRIBUTE PRESSURE UNDER SCREW HEAD.
+
+### Example 3
+
+Work order: 1118344
+Registration: N562ND
+ATA code: 7230.0
+Problem: R/H BACK BAFFLE SCREW IS MISSING.
+Action: INSTALLED NEW SCREW.
+
+### Example 4
+
+Work order: 1118557
+Registration: N576ND
+ATA code: 7100.0
+Problem: CABIN HEAT BAFFLE SEAL MISSING SCREW.
+Action: REPLACED SCREW.
+
+### Example 5
+
+Work order: 1119030
+Registration: N509ND
+ATA code: 7230.0
+Problem: SCREW MISSING ON BAFFLE ABOVE #3 CYL.
+Action: INSTALLED SCREW.
+
+### Example 6
+
+Work order: 1120120
+Registration: N537ND
+ATA code: 7230.0
+Problem: R/H BAFFLE #3 CYLINDER NEEDS BAFFLE SCREW.
+Action: INSTALLED NEW FASTENER ON BAFFLE.
+
+### Example 7
+
+Work order: 1120316
+Registration: N513ND
+ATA code: 7230.0
+Problem: R/H BACK BAFFLE IS MISSING A SCREW.
+Action: INSTALLED NEW BAFFLE SCREW.
+
+### Example 8
+
+Work order: 1121206
+Registration: N525ND
+ATA code: 7230.0
+Problem: SCREW MISSING BEHIND #3 BAFFLE.
+Action: REPLACED SCREW.
+
+### Example 9
+
+Work order: 1121315
+Registration: N510ND
+ATA code: 7230.0
+Problem: AFT R/H BAFFLE SCREW LOOSE.
+Action: RESECURED LOOSE BAFFLE SCREW. REMOVED & REPLACED SCREW.
+
+### Example 10
+
+Work order: 1121384
+Registration: N514ND
+ATA code: 7230.0
+Problem: R/H REAR BAFFLE MOUNTING SCREW LOOSE.
+Action: REMOVED & REPLACED SCREW.
+
+### Example 11
+
+Work order: 1122112
+Registration: N510ND
+ATA code: 7230.0
+Problem: R/H REAR ENGINE BAFFLE SCREW MISSING.
+Action: INSTALLED NEW BAFFLE SCREW.
+
+### Example 12
+
+Work order: 1122969
+Registration: N550ND
+ATA code: 7230.0
+Problem: R/H SIDE BAFFLE IS MISSING A SCREW.
+Action: INSTALLED NEW SCREW ON BAFFLE.
+

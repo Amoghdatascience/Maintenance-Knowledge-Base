@@ -1,0 +1,186 @@
+# Cluster c_42: aileron
+
+Cluster ID: c_42
+Cluster name: aileron
+Total records in this cluster: 3545
+
+## Purpose
+
+This cluster represents maintenance records labeled as `aileron`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- aileron: 3368
+- cable: 1202
+- block: 857
+- rub: 854
+- static: 828
+- r/h: 816
+- insp: 787
+- l/h: 769
+- due: 758
+- broken: 713
+- wick: 687
+- und19: 648
+- rod: 374
+- worn: 343
+- und: 342
+- o/b: 262
+- i/b: 234
+- low: 206
+- end: 197
+- aft: 167
+
+## Common action terms
+
+- aileron: 1467
+- defects: 919
+- noted: 876
+- static: 716
+- good: 707
+- new: 637
+- wick: 619
+- cable: 530
+- travel: 505
+- c/w: 459
+- iaw: 374
+- rod: 350
+- r/h: 325
+- l/h: 306
+- tension: 267
+- und: 258
+- adjusted: 251
+- control: 214
+- cables: 207
+- ops: 196
+
+## Common ATA codes
+
+- 2710.0: 1001
+- 2360.0: 808
+- 400.0: 656
+- 520.0: 368
+- 5510.0: 287
+- 580.0: 97
+- 2700.0: 81
+- 561.0: 47
+- 550.0: 37
+- 5700.0: 26
+
+## Common registrations
+
+- N653ND: 48
+- N687ND: 48
+- N556ND: 44
+- N796ND: 44
+- N678ND: 43
+- N689ND: 42
+- N531ND: 42
+- N847ND: 40
+- N799ND: 38
+- N558ND: 37
+
+## Inclusion guidance
+
+A record belongs to cluster c_42 when the maintenance problem and corrective action are consistent with `aileron`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113868
+Registration: N545ND
+ATA code: 2710.0
+Problem: L/H AILERON O/B ROD END WORN.
+Action: REMOVED & REPLACED ROD END.
+
+### Example 2
+
+Work order: 1113868
+Registration: N545ND
+ATA code: 400.0
+Problem: SB 11-27-05, AILERON CABLE FAIRLEADS DUE.
+Action: C/W SB, INSTALLED FAIRLEAD KIT IAW MK172-27-02. CABLE TENSION GOOD.
+
+### Example 3
+
+Work order: 1114775
+Registration: N556ND
+ATA code: 2710.0
+Problem: R/H AILERON HINGE NUT LOOSE (INBOARD)
+Action: TIGHTEN NUT
+
+### Example 4
+
+Work order: 1114775
+Registration: N556ND
+ATA code: 2360.0
+Problem: L/H AILERON BONDING STRAP NUT BACKED OFF
+Action: TIGHTEN NUT
+
+### Example 5
+
+Work order: 1115184
+Registration: N538ND
+ATA code: 400.0
+Problem: SB 11-27-05, AILERON CABLE FAIRLEADS DUE.
+Action: C/W SB BY MODIFICATION OF CONTROL CABLE FAIRLEADS KIT #MK172-27-02-01 & MK172-27-02-03. AILERON RIGGING CK GOOD.
+
+### Example 6
+
+Work order: 1116040
+Registration: N550ND
+ATA code: 400.0
+Problem: SB 11-27-05, AILERON CABLE FAIRLEADS DUE.
+Action: INSTALLED KIT IAW SB, INSTALLED KIT MK172-27-02-1 & MK172-27-02-3. ALL WORK PERFORMED IAW KIT INSTRUCTIONS. AILERON CABLE TENSIONS & TRAVELS CK GOOD.
+
+### Example 7
+
+Work order: 1116092
+Registration: N557ND
+ATA code: 400.0
+Problem: SB 11-27-05, AILERON CABLE FAIRLEADS DUE.
+Action: C/W SB BY INSTALLING CESSNA KIT #MK172-72-02-03 & MK172-27-02-01 IAW MOD KIT. AILERON RIGGING CK GOOD.
+
+### Example 8
+
+Work order: 1116205
+Registration: N532ND
+ATA code: 2360.0
+Problem: R/H AILERON O/B STATIC WICK BROKEN.
+Action: REMOVED & REPLACED STATIC WICK.
+
+### Example 9
+
+Work order: 1116327
+Registration: N546ND
+ATA code: 2360.0
+Problem: R/H AILERON I/B STATIC WICK BROKEN.
+Action: INSTALLED NEW STATIC WICK.
+
+### Example 10
+
+Work order: 1116336
+Registration: N527ND
+ATA code: 400.0
+Problem: SB 11-27-05, AILERON CABLE FAIRLEADS DUE.
+Action: INSTALLED FAIRLEAD KIT IAW SB 11-27-05. CABLES & TENSION CK GOOD.
+
+### Example 11
+
+Work order: 1116365
+Registration: N524ND
+ATA code: 2710.0
+Problem: L/H AILERON AFT ROD END IS WORN.
+Action: REMOVED & REPLACED L/H AILERON ROD END, AILERON TRAVELS CHECK GOOD.
+
+### Example 12
+
+Work order: 1116365
+Registration: N524ND
+ATA code: 2710.0
+Problem: L/H AILERON CARRY THROUGH CABLE IS WORN.
+Action: REMOVED & REPLACED L/H CARRY THROUGH CABLE, SET TENSION, AILERON TRAVELS CHECK GOOD.
+

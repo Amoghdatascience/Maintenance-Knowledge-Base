@@ -1,0 +1,186 @@
+# Cluster c_28: intake gasket
+
+Cluster ID: c_28
+Cluster name: intake gasket
+Total records in this cluster: 2144
+
+## Purpose
+
+This cluster represents maintenance records labeled as `intake gasket`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- leaking: 2028
+- intake: 2016
+- gasket: 944
+- cyl: 524
+- gaskets: 419
+- eng: 250
+- r/h: 223
+- l/h: 215
+- intakes: 134
+- cylinder: 103
+- leaks: 62
+- tube: 52
+- all: 22
+- leak: 17
+- flange: 14
+- sump: 10
+- has: 7
+- cylinders: 6
+- stained: 6
+- four: 6
+
+## Common action terms
+
+- gasket: 1514
+- intake: 1178
+- new: 609
+- gaskets: 568
+- cyl: 236
+- eng: 63
+- accepted: 52
+- cylinder: 51
+- l/h: 46
+- defects: 37
+- further: 36
+- r/h: 35
+- noted: 34
+- leak: 30
+- good: 30
+- tube: 29
+- cleaned: 27
+- both: 16
+- all: 15
+- leaking: 11
+
+## Common ATA codes
+
+- 7230.0: 1940
+- 7160.0: 81
+- 7220.0: 40
+- 561.0: 20
+- 7200.0: 19
+- 7330.0: 10
+- 7100.0: 6
+- 520.0: 5
+- 7310.0: 4
+- 7130.0: 4
+
+## Common registrations
+
+- N687ND: 42
+- N798ND: 42
+- N529ND: 38
+- N782ND: 38
+- N796ND: 36
+- N688ND: 34
+- N557ND: 34
+- N570ND: 31
+- N536ND: 30
+- N524ND: 30
+
+## Inclusion guidance
+
+A record belongs to cluster c_28 when the maintenance problem and corrective action are consistent with `intake gasket`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113978
+Registration: N537ND
+ATA code: 7230.0
+Problem: #2 INTAKE IS LEAKING.
+Action: REMOVED & REPLACED INTAKE GASKETS.
+
+### Example 2
+
+Work order: 1114988
+Registration: N551ND
+ATA code: 7230.0
+Problem: #1 & 4 INTAKES LEAKING.
+Action: REMOVED & REPLACED INTAKE GASKETS 1 & 4.
+
+### Example 3
+
+Work order: 1115108
+Registration: N537ND
+ATA code: 7230.0
+Problem: #2 & 4 INTAKE GASKETS LEAKING.
+Action: REMOVED & REPLACED #2 & 4 INTAKE GASKETS W/ NEW.
+
+### Example 4
+
+Work order: 1115184
+Registration: N538ND
+ATA code: 7230.0
+Problem: #4 INTAKE LEAKING.
+Action: REPLACED GASKET.
+
+### Example 5
+
+Work order: 1115337
+Registration: N529ND
+ATA code: 7230.0
+Problem: #3 INTAKE IS LEAKING.
+Action: REMOVED & REPLACED #3 INTAKE GASKET.
+
+### Example 6
+
+Work order: 1115850
+Registration: N551ND
+ATA code: 7230.0
+Problem: CYL #2 & 4 INTAKES ARE LEAKING.
+Action: REPLACED INTAKE GASKETS.
+
+### Example 7
+
+Work order: 1115866
+Registration: N529ND
+ATA code: 7230.0
+Problem: #4 INTAKE LEAKING.
+Action: REMOVED & REPLACED GASKET.
+
+### Example 8
+
+Work order: 1115993
+Registration: N567ND
+ATA code: 7230.0
+Problem: #3 INTAKE LEAKING.
+Action: REPLACED GASKET.
+
+### Example 9
+
+Work order: 1116041
+Registration: N513ND
+ATA code: 7230.0
+Problem: #3 INTAKE GASKET LEAKING.
+Action: REMOVED & REPLACED #3 INTAKE GASKET.
+
+### Example 10
+
+Work order: 1116042
+Registration: N538ND
+ATA code: 7230.0
+Problem: CYL #2 & 4 INTAKES ARE LEAKING.
+Action: REPLACED CYL #2 & 4 INTAKE PIPE GASKETS.
+
+### Example 11
+
+Work order: 1116092
+Registration: N557ND
+ATA code: 7230.0
+Problem: #2 & 4 INTAKE GASKETS LEAKING.
+Action: REPLACED GASKETS.
+
+### Example 12
+
+Work order: 1116209
+Registration: N574ND
+ATA code: 7230.0
+Problem: #2 CYLINDER INTAKE GASKET LEAKING.
+Action: REPLACED INTAKE GASKET.
+

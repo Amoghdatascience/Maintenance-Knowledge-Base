@@ -1,0 +1,186 @@
+# Cluster c_0: inspection routine scheduled inspection
+
+Cluster ID: c_0
+Cluster name: inspection routine scheduled inspection
+Total records in this cluster: 93239
+
+## Purpose
+
+This cluster represents maintenance records labeled as `inspection routine scheduled inspection`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- due: 43657
+- insp: 35126
+- time: 21271
+- phase: 19169
+- ica: 13819
+- date: 12730
+- fuel: 12444
+- eff: 9183
+- line: 7107
+- failure: 6844
+- inj: 6558
+- stc: 5551
+- tail: 4631
+- cessna: 4552
+- inspector: 4412
+- skid: 4391
+- wing: 4360
+- effective: 3858
+- injection: 3476
+- light: 3254
+
+## Common action terms
+
+- defects: 27879
+- c/w: 27566
+- noted: 24335
+- due: 16911
+- next: 15816
+- insp: 12536
+- iaw: 12008
+- ica: 11327
+- tach: 8765
+- fuel: 8002
+- line: 5678
+- meter: 5001
+- good: 4999
+- phase: 4377
+- complied: 4222
+- und: 4168
+- ops: 3747
+- msb: 3738
+- checklist: 3696
+- installation: 3648
+
+## Common ATA codes
+
+- 520.0: 43991
+- 400.0: 21712
+- 560.0: 21605
+- 550.0: 988
+- 3400.0: 573
+- 590.0: 302
+- 2510.0: 248
+- 3240.0: 215
+- 2560.0: 186
+- 3410.0: 141
+
+## Common registrations
+
+- N550ND: 946
+- N573ND: 904
+- N557ND: 898
+- N559ND: 896
+- N529ND: 876
+- N794ND: 876
+- N796ND: 856
+- N575ND: 845
+- N572ND: 840
+- N689ND: 834
+
+## Inclusion guidance
+
+A record belongs to cluster c_0 when the maintenance problem and corrective action are consistent with `inspection routine scheduled inspection`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1112782
+Registration: N556ND
+ATA code: 560.0
+Problem: INSP TIME.
+Action: INSPECTED.
+
+### Example 2
+
+Work order: 1112943
+Registration: N556ND
+ATA code: 560.0
+Problem: INSP TIME.
+Action: INSPECTED.
+
+### Example 3
+
+Work order: 1113239
+Registration: N556ND
+ATA code: 560.0
+Problem: INSP TIME.
+Action: INSPECTED.
+
+### Example 4
+
+Work order: 1113239
+Registration: N556ND
+ATA code: 520.0
+Problem: PHASE 2 INSP DUE.
+Action: C/W INSP.
+
+### Example 5
+
+Work order: 1113239
+Registration: N556ND
+ATA code: 400.0
+Problem: AD 2011-26-04, FUEL INJ LINES INSP DUE. EFF DATE 1/25/12.
+Action: INSP FUEL INJ LINES, NO DEFECTS FOUND AT THIS TIME. NEXT DUE @ 2200.2 TACH.
+
+### Example 6
+
+Work order: 1113517
+Registration: N537ND
+ATA code: 560.0
+Problem: INSP TIME.
+Action: INSPECTED.
+
+### Example 7
+
+Work order: 1113581
+Registration: N556ND
+ATA code: 560.0
+Problem: INSP TIME.
+Action: INSPECTED.
+
+### Example 8
+
+Work order: 1113633
+Registration: N545ND
+ATA code: 3400.0
+Problem: G1000 SOFTWARE NEEDS TO BE UPDATED TO VERSION 563.26.
+Action: TESTED. INSPECTED.
+
+### Example 9
+
+Work order: 1113750
+Registration: N556ND
+ATA code: 560.0
+Problem: INSP TIME.
+Action: INSPECTED.
+
+### Example 10
+
+Work order: 1113784
+Registration: N537ND
+ATA code: 560.0
+Problem: INSP TIME.
+Action: INSPECTED.
+
+### Example 11
+
+Work order: 1113798
+Registration: N545ND
+ATA code: 560.0
+Problem: INSP TIME.
+Action: INSPECTED.
+
+### Example 12
+
+Work order: 1113852
+Registration: N556ND
+ATA code: 560.0
+Problem: INSP TIME.
+Action: INSPECTED.
+

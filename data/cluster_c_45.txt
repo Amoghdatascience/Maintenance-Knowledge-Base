@@ -1,0 +1,186 @@
+# Cluster c_45: exhaust gas temperature
+
+Cluster ID: c_45
+Cluster name: exhaust gas temperature
+Total records in this cluster: 847
+
+## Purpose
+
+This cluster represents maintenance records labeled as `exhaust gas temperature`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- egt: 817
+- cyl: 269
+- probe: 222
+- cylinder: 135
+- inop: 128
+- reading: 90
+- clamp: 71
+- during: 67
+- broken: 65
+- low: 65
+- erratic: 60
+- r/h: 60
+- loose: 51
+- run: 48
+- indication: 48
+- eng: 48
+- l/h: 47
+- yellow: 47
+- other: 40
+- degrees: 38
+
+## Common action terms
+
+- egt: 600
+- probe: 538
+- ops: 442
+- good: 439
+- new: 198
+- cyl: 173
+- ran: 110
+- a/c: 86
+- cylinder: 58
+- further: 43
+- noted: 42
+- tightened: 40
+- defects: 38
+- clamp: 32
+- cleaned: 32
+- stack: 32
+- wire: 30
+- r/h: 30
+- secured: 29
+- probes: 27
+
+## Common ATA codes
+
+- 7720.0: 667
+- 550.0: 41
+- 7800.0: 33
+- 7810.0: 18
+- 7700.0: 11
+- 7710.0: 11
+- 7200.0: 9
+- 7100.0: 8
+- 7820.0: 7
+- 561.0: 6
+
+## Common registrations
+
+- N791ND: 16
+- N842ND: 16
+- N689ND: 15
+- N785ND: 14
+- N523ND: 14
+- N835ND: 14
+- N797ND: 13
+- N780ND: 13
+- N559ND: 11
+- N557ND: 11
+
+## Inclusion guidance
+
+A record belongs to cluster c_45 when the maintenance problem and corrective action are consistent with `exhaust gas temperature`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1114877
+Registration: N556ND
+ATA code: 7720.0
+Problem: #1 EGT RED "X"ED ON RUN UP.
+Action: TROUBLESHOT & REPLACED #1 PROBE. OPS CK GOOD.
+
+### Example 2
+
+Work order: 1115550
+Registration: N545ND
+ATA code: 7700.0
+Problem: EGT SYSTEM INOP.
+Action: REMOVED & REPLACED CYL #1 EGT PROBE, OPS CHECKED GOOD.
+
+### Example 3
+
+Work order: 1115667
+Registration: N545ND
+ATA code: 7720.0
+Problem: EGT SYSTEM INOP (A/C IN ST. PAUL, MN).
+Action: MEL'ED EGT INOPERATIVE PER MEL 77-22-01.
+
+### Example 4
+
+Work order: 1115667
+Registration: N545ND
+ATA code: 7720.0
+Problem: EGT SYSTEM INOP (A/C IN ST. PAUL, MN).
+Action: FOR BILLING PURPOSES ONLY, WORK PERFORMED BY: SIGNATURE TECHNIC AIR ON SHOP ORDER #21992. SEE DISCREPANCY PAGE DATED 9/15/12 FOR MEL SIGN OFF.
+
+### Example 5
+
+Work order: 1115962
+Registration: N557ND
+ATA code: 7720.0
+Problem: #3 EGT IS INOP.
+Action: REMOVED & REPLACED #3 EGT PROBE. OPS CHECK GOOD.
+
+### Example 6
+
+Work order: 1116018
+Registration: N558ND
+ATA code: 7720.0
+Problem: #2 EGT PROBE FAILED.
+Action: REMOVED & REPLACED #2 EGT PROBE. OPS CHECK GOOD.
+
+### Example 7
+
+Work order: 1116082
+Registration: N563ND
+ATA code: 7720.0
+Problem: CYLINDER #1 EGT PROBE CLAMP LOOSE.
+Action: TIGHTENED & SAFETIED EGT PROBE CLAMP.
+
+### Example 8
+
+Work order: 1116345
+Registration: N528ND
+ATA code: 7720.0
+Problem: LEAN ASSIST "X-ING" OUT THE ENGINE INSTRUMENTS. LEAN ASSIST MALFUNCTION.
+Action: REPLACED #2 EGT PROBE, OPS CHECK GOOD. LEAN ASSIST OPS CHECK GOOD.
+
+### Example 9
+
+Work order: 1116345
+Registration: N528ND
+ATA code: 7720.0
+Problem: LEAN ASSIST "X-ING" OUT THE ENGINE INSTRUMENTS. LEAN ASSIST MALFUNCTION.
+Action: LEAN ASSIST SYSTEM CHECKS GOOD DURING GROUND RUN. OBSERVED CYLINDER #2 EGT INOP.
+
+### Example 10
+
+Work order: 1116450
+Registration: N523ND
+ATA code: 7720.0
+Problem: DURING POST INSPECTION RUN UP, #1 EGT FAILED.
+Action: REMOVED & REPLACED #1 EGT PROBE, OPS CHECK GOOD.
+
+### Example 11
+
+Work order: 1117366
+Registration: N543ND
+ATA code: 7720.0
+Problem: DURING CRUISE, EGT #1 SHOWED RED X THROUGH IT. AS RETURNED, RED X WENT AWAY W/ NO INDICATION ON GROUND. EGT #1 WORKED BUT INDICATED TEMP OF APPROX 600 DEGREES F HIGHER.
+Action: REMOVED & REPLACED #1 CYL EGT PROBE. RAN A/C, OPS CHECK GOOD.
+
+### Example 12
+
+Work order: 1118117
+Registration: N566ND
+ATA code: 7800.0
+Problem: CYL #2 EGT PROBE LOOSE.
+Action: TIGHTENED & RESAFETIED PROBE.
+

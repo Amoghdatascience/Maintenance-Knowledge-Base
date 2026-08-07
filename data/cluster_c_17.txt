@@ -1,0 +1,186 @@
+# Cluster c_17: pushrod tube
+
+Cluster ID: c_17
+Cluster name: pushrod tube
+Total records in this cluster: 451
+
+## Purpose
+
+This cluster represents maintenance records labeled as `pushrod tube`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- push: 171
+- ptt: 161
+- inop: 105
+- rod: 102
+- exhaust: 86
+- cyl: 84
+- rocker: 76
+- side: 74
+- switch: 72
+- right: 59
+- pushrod: 58
+- tube: 54
+- talk: 42
+- intermittent: 42
+- copilots: 31
+- due: 29
+- r/h: 27
+- needs: 26
+- scored: 26
+- eng: 25
+
+## Common action terms
+
+- good: 233
+- push: 164
+- switch: 163
+- ptt: 156
+- ops: 115
+- new: 110
+- rocker: 106
+- rod: 95
+- clearance: 86
+- exhaust: 72
+- pushrod: 66
+- dry: 59
+- tappet: 54
+- cylinder: 54
+- cyl: 51
+- checks: 49
+- tube: 42
+- arm: 33
+- intake: 32
+- copilots: 29
+
+## Common ATA codes
+
+- 7230.0: 120
+- 2310.0: 104
+- 2300.0: 87
+- 7200.0: 39
+- 5230.0: 9
+- 5210.0: 7
+- 520.0: 7
+- 2350.0: 6
+- 2730.0: 6
+- 6530.0: 6
+
+## Common registrations
+
+- N891ND: 17
+- N557ND: 12
+- N523ND: 11
+- N570ND: 11
+- N573ND: 9
+- N531ND: 8
+- N689ND: 8
+- N547ND: 7
+- N359ND: 7
+- N344Y: 7
+
+## Inclusion guidance
+
+A record belongs to cluster c_17 when the maintenance problem and corrective action are consistent with `pushrod tube`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1114775
+Registration: N556ND
+ATA code: 2720.0
+Problem: L/H STEERING PUSH-PULL ROD JAM NUT BACKED OFF
+Action: TIGHTEN NUT
+
+### Example 2
+
+Work order: 1116238
+Registration: N566ND
+ATA code: 7230.0
+Problem: CYL #3 EXT PUSH ROD TUBE SEAL LEAKING AT CASE.
+Action: REPOSITIONED SEAL, LEAK PERSISTS. DISASSEMBLED & REPLACED SEAL. REASSEMBLED, LEAK CK GOOD.
+
+### Example 3
+
+Work order: 1116406
+Registration: N520ND
+ATA code: 2310.0
+Problem: PILOT PTT SWITCH INOP.
+Action: REPLACED PTT SWITCH, FUNCTION CHECK OK.
+
+### Example 4
+
+Work order: 1116449
+Registration: N531ND
+ATA code: 7230.0
+Problem: #2 CYL EXHAUST PUSH ROD TUBE HAS SMALL DENT.
+Action: INSTALLED PUSH ROD SHROUD USING NEW SEALS.
+
+### Example 5
+
+Work order: 1116449
+Registration: N531ND
+ATA code: 7230.0
+Problem: #2 CYL EXHAUST PUSH ROD TUBE HAS SMALL DENT.
+Action: CANNED & INSPECTED SERVICEABLE PUSH RODD SHROUD TUBE FROM CORE ENGINE.
+
+### Example 6
+
+Work order: 1116977
+Registration: N575ND
+ATA code: 2310.0
+Problem: R/H PTT SWITCH INOPERATIVE.
+Action: REPLACED R/H PTT SWITCH, FUNCTION CHECK OK.
+
+### Example 7
+
+Work order: 1118110
+Registration: N515ND
+ATA code: 5210.0
+Problem: PILOT COULD NOT GET DOOR TO CLOSE ON PASSENGER SIDE.
+Action: PERFORMED DETAILED VISUAL OF DOOR LATCH ASSY. FOUND PUSH ROD ASSY BENT. REMOVED & REPLACED DOOR LATCH PUSH ROD ASSY W/ ROD ASSY REMOVED, INSPECTED & DETERMINED TO BE SERVICEABLE FROM SURPLUS DOOR (CAN TAG #1567). OPS CHECK GOOD.
+
+### Example 8
+
+Work order: 1118209
+Registration: N570ND
+ATA code: 7230.0
+Problem: #3 EXHAUST I/B PUSH ROD SEAL IS LEAKING.
+Action: REPLACED INNER & OUTER PUSH ROD SEALS ON #3 CYL AS WELL AS ROCKER GASKET.
+
+### Example 9
+
+Work order: 1118743
+Registration: N549ND
+ATA code: 7230.0
+Problem: #2 EXHAUST DRY LIFTER CLEARANCE IS TOO TIGHT.
+Action: REMOVED, INSPECTED & DETERMINED TO BE SERVICEABLE PUSH ROD & INSTALLED. CLEARANCE CHECKS GOOD.
+
+### Example 10
+
+Work order: 1119028
+Registration: N522ND
+ATA code: 2310.0
+Problem: PASSENGER SIDE PTT SWITCH INOP.
+Action: REMOVED & REPLACED COPILOTS PTT SWITCH, OPERATIONAL CHECK GOOD.
+
+### Example 11
+
+Work order: 1119032
+Registration: N519ND
+ATA code: 7200.0
+Problem: STAND OFF NEEDED FOR FUEL LINE ON TOP OF ENG.
+Action: CLAMPED STAND OFF @ PUSH ROD TUBE.
+
+### Example 12
+
+Work order: 1119096
+Registration: N573ND
+ATA code: 5230.0
+Problem: BAGGAGE DOOR MISSING 2 PUSH PINS.
+Action: INSTALLED PUSH PINS.
+

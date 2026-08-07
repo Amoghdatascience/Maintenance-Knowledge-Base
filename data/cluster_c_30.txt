@@ -1,0 +1,186 @@
+# Cluster c_30: magneto ignition mag drop
+
+Cluster ID: c_30
+Cluster name: magneto ignition mag drop
+Total records in this cluster: 7884
+
+## Purpose
+
+This cluster represents maintenance records labeled as `magneto ignition mag drop`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- mag: 4775
+- l/h: 2687
+- r/h: 2531
+- magneto: 2065
+- due: 1982
+- timing: 1720
+- time: 1709
+- change: 1610
+- out: 1243
+- off: 1092
+- external: 1062
+- rpm: 882
+- eng: 866
+- drop: 723
+- switch: 559
+- mags: 546
+- both: 533
+- run: 489
+- during: 485
+- left: 460
+
+## Common action terms
+
+- mag: 3436
+- good: 3387
+- ops: 2503
+- leak: 2333
+- s/n: 1483
+- magneto: 1350
+- l/h: 1007
+- r/h: 931
+- timed: 915
+- ran: 819
+- new: 763
+- retimed: 694
+- a/c: 656
+- timing: 643
+- torqued: 610
+- specs: 494
+- p/n: 468
+- spark: 445
+- mags: 399
+- noted: 397
+
+## Common ATA codes
+
+- 7410.0: 4963
+- 520.0: 875
+- 7400.0: 313
+- 7420.0: 241
+- 510.0: 199
+- 2510.0: 179
+- 3310.0: 172
+- 550.0: 151
+- 7100.0: 107
+- 7200.0: 94
+
+## Common registrations
+
+- N689ND: 116
+- N796ND: 107
+- N798ND: 90
+- N688ND: 88
+- N842ND: 87
+- N794ND: 87
+- N572ND: 86
+- N687ND: 86
+- N799ND: 86
+- N508ND: 85
+
+## Inclusion guidance
+
+A record belongs to cluster c_30 when the maintenance problem and corrective action are consistent with `magneto ignition mag drop`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1112782
+Registration: N556ND
+ATA code: 7420.0
+Problem: DURING MAGNETO CHECK, RIGHT MAG DROPPED MORE THAN 250 RPM. LEANING PROCEDURE DID NOT WORK.
+Action: REMOVED SPARK PLUGS, CLEANED, REINSTALLED & TORQUED. POST RUN OPS CHECK GOOD.
+
+### Example 2
+
+Work order: 1113376
+Registration: N537ND
+ATA code: 7410.0
+Problem: ON RUN UP, DIFFERENCE BETWEEN 2 MAGNETOS WAS 80 RPM AT LOWEST, 100 RPM AT HIGHEST.
+Action: PERFORMED ENGINE RUN, LEANED MIXTURE TO CLEAN SPARK PLUGS. MAG DROP OPS CHECK GOOD.
+
+### Example 3
+
+Work order: 1113665
+Registration: N537ND
+ATA code: 7410.0
+Problem: EXCESSIVE MAG DROP ON L/H MAG.
+Action: RAN A/C & TESTED MAG DROP IAW LYCOMING IO-360 OPS MANUAL SEC 3 PAR D. NO DEFECTS NOTED.
+
+### Example 4
+
+Work order: 1113814
+Registration: N537ND
+ATA code: 7400.0
+Problem: BAD MAG CHECK.
+Action: PERFORMED MAG CHECK IAW LYCOMING OPS MAN, NOTING NO DISCREPS.
+
+### Example 5
+
+Work order: 1114776
+Registration: N529ND
+ATA code: 7410.0
+Problem: L/H & R/H MAGS OUT OF TIME EXT.
+Action: RETIMED MAGS TO ENG.
+
+### Example 6
+
+Work order: 1115675
+Registration: N537ND
+ATA code: 7410.0
+Problem: BOTH MAGS OUT OF TIME.
+Action: RETIMED BOTH MAGS TO ENGINE. LEAK CHECK GOOD.
+
+### Example 7
+
+Work order: 1115701
+Registration: N559ND
+ATA code: 7400.0
+Problem: A/C IN FARGO, ND W/ EXCESSIVE MAG DROP.
+Action: #2 CYLINDER SPARK PLUGS REMOVED, CLEANED, OPS CHECKED GOOD & INSTALLED. RUN UP & OPS CHECK GOOD.
+
+### Example 8
+
+Work order: 1115701
+Registration: N559ND
+ATA code: 7400.0
+Problem: A/C IN FARGO, ND W/ EXCESSIVE MAG DROP.
+Action: FOR BILLING PURPOSES ONLY, WORK PERFORMED BY: FARGO JET CENTER ON W/O #015608 & LOG ENTRY ATTACHED.
+
+### Example 9
+
+Work order: 1116041
+Registration: N513ND
+ATA code: 7410.0
+Problem: BOTH MAGS OUT OF TIME.
+Action: TIMED BOTH MAGS TO ENGINE - SEE PD #10.
+
+### Example 10
+
+Work order: 1116041
+Registration: N513ND
+ATA code: 7410.0
+Problem: LEFT MAG, INTERNAL TIMING HAS SHIFTED.
+Action: RAN A/C, OPS & LEAK CHECK GOOD.
+
+### Example 11
+
+Work order: 1116041
+Registration: N513ND
+ATA code: 7410.0
+Problem: LEFT MAG, INTERNAL TIMING HAS SHIFTED.
+Action: REMOVED & REPLACED L/H MAG W/ S/N 12080217.
+
+### Example 12
+
+Work order: 1116041
+Registration: N513ND
+ATA code: 7410.0
+Problem: DURING POST INSP RUN MAG DROP, NO DROP ON L/H MAG & R/H MAG CUT OUT.
+Action: OPS & LEAK CHECK GOOD.
+

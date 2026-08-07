@@ -1,0 +1,13 @@
+langgraph
+langchain
+langchain-community
+langchain-chroma
+langchain-ollama
+langchain-huggingface
+chromadb
+pypdf
+python-dotenv
+sentence-transformers
+pandas
+pydantic
+tavily-python

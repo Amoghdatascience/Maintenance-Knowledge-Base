@@ -1,0 +1,186 @@
+# Cluster propeller_unspecified: propeller unspecified
+
+Cluster ID: propeller_unspecified
+Cluster name: propeller unspecified
+Total records in this cluster: 867
+
+## Purpose
+
+This cluster represents maintenance records labeled as `propeller unspecified`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- prop: 642
+- propeller: 170
+- low: 164
+- due: 159
+- change: 157
+- l/h: 151
+- r/h: 150
+- time: 131
+- has: 125
+- dome: 105
+- nicks: 101
+- governor: 91
+- nicked: 82
+- pressure: 81
+- minor: 77
+- accumulator: 56
+- hours: 55
+- tso: 40
+- nick: 35
+- both: 31
+
+## Common action terms
+
+- prop: 565
+- serviced: 162
+- propeller: 115
+- s/n: 108
+- l/h: 92
+- dome: 83
+- nicks: 81
+- governor: 80
+- r/h: 79
+- safetied: 72
+- torqued: 67
+- accepted: 65
+- nitrogen: 58
+- accumulator: 52
+- assisted: 52
+- overhauled: 51
+- good: 51
+- p/n: 50
+- bolts: 46
+- new: 41
+
+## Common ATA codes
+
+- 6100.0: 482
+- 6120.0: 169
+- 6110.0: 50
+- 520.0: 48
+- 510.0: 44
+- 550.0: 15
+- 7600.0: 9
+- 580.0: 9
+- 8010.0: 7
+- 7100.0: 5
+
+## Common registrations
+
+- N895ND: 34
+- N799ND: 33
+- N796ND: 31
+- N847ND: 29
+- N842ND: 27
+- N689ND: 27
+- N835ND: 27
+- N893ND: 26
+- N797ND: 25
+- N780ND: 23
+
+## Inclusion guidance
+
+A record belongs to cluster propeller_unspecified when the maintenance problem and corrective action are consistent with `propeller unspecified`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1115993
+Registration: N567ND
+ATA code: 6100.0
+Problem: PROP REQ REMOVAL FOR ENG CHANGE.
+Action: REMOVED PROP.
+
+### Example 2
+
+Work order: 1115993
+Registration: N567ND
+ATA code: 6100.0
+Problem: PROP REQ REMOVAL FOR ENG CHANGE.
+Action: REINSTALLED SAME PROPELLER ON ENGINE.
+
+### Example 3
+
+Work order: 1116018
+Registration: N558ND
+ATA code: 6100.0
+Problem: PROP IS DUE FOR TIME CHANGE.
+Action: INSTALLED RECONDITIONED PROP S/N ADE23001.
+
+### Example 4
+
+Work order: 1116018
+Registration: N558ND
+ATA code: 400.0
+Problem: PERFORM AD RESEARCH FOR ENG & PROP CHANGE.
+Action: ENG & PROP ARE IN COMPLICANE AT THIS TIME.
+
+### Example 5
+
+Work order: 1116408
+Registration: N547ND
+ATA code: 6100.0
+Problem: PROP FWD BULKHEAD CRACKED.
+Action: REMOVED & REPLACED PROP FWD BULKHEAD & SAFETIED.
+
+### Example 6
+
+Work order: 1116623
+Registration: N556ND
+ATA code: 6100.0
+Problem: PROP BENT.
+Action: INSTALLED S/N ADF23524A. TORQUED & SAFETIED.
+
+### Example 7
+
+Work order: 1116752
+Registration: N521ND
+ATA code: 6100.0
+Problem: FWD PROP BULKHEAD CRACKED.
+Action: REMOVED & REPLACED FWD PROP BULKHEAD. TORQUED & SAFETIED PROP BOLTS.
+
+### Example 8
+
+Work order: 1117376
+Registration: N516ND
+ATA code: 6100.0
+Problem: POSSIBLE CRACK IN PROPELLER BULKHEAD.
+Action: REMOVED PROP BULKHEAD, INSPECTED & FOUND CRACKS. REPLACED BULKHEAD, TORQUED & SAFETIED PROP.
+
+### Example 9
+
+Work order: 1118171
+Registration: N550ND
+ATA code: 6100.0
+Problem: PROP DUE TIME CHANGE.
+Action: INSTALLED S/N SEC23508A.
+
+### Example 10
+
+Work order: 1118472
+Registration: N537ND
+ATA code: 6100.0
+Problem: PROPELLER DUE TIME CHANGE.
+Action: REMOVED AFT BULKHEAD. INSTALLED SPACER & BULKHEAD ON RECONDITIONED PROP S/N AFC23517A.
+
+### Example 11
+
+Work order: 1119011
+Registration: N559ND
+ATA code: 6100.0
+Problem: PROP CHANGE DUE.
+Action: INSTALLED PROP S/N ACL23006 & BACKPLATE. SAFETIED AS NEEDED.
+
+### Example 12
+
+Work order: 1119244
+Registration: N569ND
+ATA code: 6100.0
+Problem: MINOR NICKS ON PROP.
+Action: REMOVED NICKS FROM PROP.
+

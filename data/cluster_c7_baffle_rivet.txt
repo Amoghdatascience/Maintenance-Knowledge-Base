@@ -1,0 +1,46 @@
+# Cluster c_7: baffle rivet issue
+
+Cluster c_7 is used for maintenance records related to baffle rivet issue.
+The cluster should be assigned only when the problem description and corrective action provide enough evidence.
+
+## Inclusion Signals
+
+- baffle rivet missing
+- loose baffle rivet
+- damaged baffle rivet
+- rivet pulled from baffle
+- baffle panel rivets
+- baffle rivet holes worn
+
+## Corrective Actions
+
+- installed new rivets
+- replaced loose baffle rivets
+- repaired rivet holes
+- secured baffle panel
+- reattached baffle with rivets
+
+## Exclusion Rules
+
+Exclude records that mention only a generic inspection with no corrective action.
+Exclude records where the key component token is missing.
+For baffle child clusters, both the parent token 'baffle' and the child token must appear in the problem/action text.
+Exclude unrelated records that contain a similar word but describe a different component.
+
+## Example Reasoning
+
+Example 1: If a record says 'loose baffle rivet' and the action says 'installed new rivets', it is strong evidence for c_7.
+Example 2: If a record says 'baffle rivet holes worn' and the action says 'secured baffle panel', it is strong evidence for c_7.
+Example 3: If a record says 'baffle rivet holes worn' and the action says 'reattached baffle with rivets', it is strong evidence for c_7.
+Example 4: If a record says 'damaged baffle rivet' and the action says 'reattached baffle with rivets', it is strong evidence for c_7.
+Example 5: If a record says 'damaged baffle rivet' and the action says 'reattached baffle with rivets', it is strong evidence for c_7.
+Example 6: If a record says 'baffle panel rivets' and the action says 'repaired rivet holes', it is strong evidence for c_7.
+Example 7: If a record says 'rivet pulled from baffle' and the action says 'secured baffle panel', it is strong evidence for c_7.
+Example 8: If a record says 'baffle panel rivets' and the action says 'repaired rivet holes', it is strong evidence for c_7.
+Example 9: If a record says 'damaged baffle rivet' and the action says 'installed new rivets', it is strong evidence for c_7.
+Example 10: If a record says 'rivet pulled from baffle' and the action says 'reattached baffle with rivets', it is strong evidence for c_7.
+Example 11: If a record says 'baffle panel rivets' and the action says 'reattached baffle with rivets', it is strong evidence for c_7.
+Example 12: If a record says 'baffle rivet holes worn' and the action says 'installed new rivets', it is strong evidence for c_7.
+Example 13: If a record says 'baffle rivet missing' and the action says 'repaired rivet holes', it is strong evidence for c_7.
+Example 14: If a record says 'baffle panel rivets' and the action says 'reattached baffle with rivets', it is strong evidence for c_7.
+Example 15: If a record says 'baffle rivet missing' and the action says 'repaired rivet holes', it is strong evidence for c_7.

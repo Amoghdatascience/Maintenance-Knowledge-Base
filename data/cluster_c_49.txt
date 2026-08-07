@@ -1,0 +1,186 @@
+# Cluster c_49: flap
+
+Cluster ID: c_49
+Cluster name: flap
+Total records in this cluster: 4714
+
+## Purpose
+
+This cluster represents maintenance records labeled as `flap`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- flap: 3816
+- flaps: 1187
+- r/h: 1147
+- static: 912
+- l/h: 869
+- broken: 857
+- wick: 695
+- overspeed: 671
+- kts: 389
+- tape: 355
+- chafe: 351
+- cowl: 341
+- i/b: 246
+- flight: 245
+- missing: 239
+- aileron: 220
+- handle: 218
+- lever: 213
+- seconds: 212
+- wicks: 195
+
+## Common action terms
+
+- flap: 2853
+- defects: 1025
+- good: 933
+- noted: 910
+- new: 886
+- ops: 793
+- iaw: 772
+- static: 744
+- overspeed: 596
+- wick: 591
+- flaps: 533
+- r/h: 499
+- tape: 494
+- piper: 410
+- chafe: 365
+- insp: 358
+- l/h: 340
+- applied: 306
+- cowl: 286
+- lever: 269
+
+## Common ATA codes
+
+- 2750.0: 870
+- 2360.0: 820
+- 550.0: 749
+- 5510.0: 530
+- 5750.0: 353
+- 590.0: 264
+- 7110.0: 167
+- 5700.0: 97
+- 1130.0: 89
+- 5730.0: 68
+
+## Common registrations
+
+- N689ND: 80
+- N797ND: 70
+- N556ND: 63
+- N767ND: 61
+- N687ND: 59
+- N794ND: 56
+- N798ND: 55
+- N780ND: 55
+- N528ND: 54
+- N796ND: 54
+
+## Inclusion guidance
+
+A record belongs to cluster c_49 when the maintenance problem and corrective action are consistent with `flap`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113868
+Registration: N545ND
+ATA code: 2750.0
+Problem: R/H FLAP I/B INSPECTION PANEL TINNERMAN NUTS BAD.
+Action: INSTALLED NEW TINNERMAN NUTPLATES IAW CESSNA SE SRM 51-40-00(REV 4).
+
+### Example 2
+
+Work order: 1113868
+Registration: N545ND
+ATA code: 2750.0
+Problem: BOTH O/B L/H UPPER FLAP HINGE INSP PANELS HAVE BROKEN NUTPLATES.
+Action: INSTALLED NEW TINNERMAN NUTPLATE IAW CESSNA SE SRM 51-40-00(REV 4).
+
+### Example 3
+
+Work order: 1114510
+Registration: N556ND
+ATA code: 2750.0
+Problem: L/H OUTBOARD FLAP ROLLER NUT BACKED OFF
+Action: TIGHTEN NUT
+
+### Example 4
+
+Work order: 1114775
+Registration: N556ND
+ATA code: 5510.0
+Problem: R/H FLAP: FOD IN MISSING PANEL
+Action: REMOVED FOD
+
+### Example 5
+
+Work order: 1114775
+Registration: N556ND
+ATA code: 2750.0
+Problem: L/H FLAP ROLLER OUTBOARD NUT BACKED OFF
+Action: TIGHTEN NUT
+
+### Example 6
+
+Work order: 1114775
+Registration: N556ND
+ATA code: 5510.0
+Problem: R/H FLAP MISSING INSPECTION PANEL
+Action: REINSTALLED INSPECTION PANEL
+
+### Example 7
+
+Work order: 1114982
+Registration: N529ND
+ATA code: 550.0
+Problem: L/H FLAP ON TOP HAS MULTIPLE BENDS TOWARD OUTER SIDES & MULTIPLE DENTS ON L/H SIDE OF VERTICAL STAB.
+Action: INSPECTED FLAP & HORIZONTAL STAB, FOUND DAMAGE TO BE NEGLIGIBLE. A/C OK FOR RETURN TO FLIGHT.
+
+### Example 8
+
+Work order: 1115940
+Registration: N536ND
+ATA code: 5510.0
+Problem: RIVET ON TOP R/H FLAP IS CHAFING.
+Action: INSTALLED ANTI-CHAFE TAPE ON RIVET HEAD.
+
+### Example 9
+
+Work order: 1116018
+Registration: N558ND
+ATA code: 2750.0
+Problem: FLAP MOTOR IS LOOSE.
+Action: TIGHTENED FLAP MOTOR THRU BOLTS.
+
+### Example 10
+
+Work order: 1116203
+Registration: N520ND
+ATA code: 5510.0
+Problem: INSP PANEL ON R/H FLAP IS BEGINING TO CHAFE.
+Action: INSTALLED ANTI-CHAFE TAPE.
+
+### Example 11
+
+Work order: 1116227
+Registration: N571ND
+ATA code: 550.0
+Problem: FLAP OVERSPEED.
+Action: INSPECTED A/C IAW OVERSPEED CHECKLIST 172S MX MANUAL 5-50-00 NOTING NO DISCREPS.
+
+### Example 12
+
+Work order: 1116235
+Registration: N529ND
+ATA code: 2750.0
+Problem: FLAPS DON'T MOVE.
+Action: CONFIRMED DISCREP. RESEATED FLAP MOTOR CONNECTOR. FLAPS OPS CHECKED GOOD.
+

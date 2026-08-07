@@ -1,0 +1,186 @@
+# Cluster c_41: external start issue external power ground power unit start
+
+Cluster ID: c_41
+Cluster name: external start issue external power ground power unit start
+Total records in this cluster: 152
+
+## Purpose
+
+This cluster represents maintenance records labeled as `external start issue external power ground power unit start`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- power: 56
+- display: 21
+- inop: 19
+- needs: 19
+- preflight: 18
+- external: 16
+- ground: 15
+- a/c: 15
+- static: 15
+- start: 10
+- during: 10
+- battery: 10
+- after: 10
+- door: 9
+- red: 9
+- side: 9
+- inoperative: 9
+- ahrs: 8
+- light: 8
+- flight: 8
+
+## Common action terms
+
+- power: 125
+- good: 71
+- external: 61
+- a/c: 46
+- hours: 41
+- ran: 40
+- ops: 35
+- ground: 32
+- several: 23
+- duplicate: 17
+- checks: 17
+- tested: 17
+- could: 15
+- unit: 15
+- both: 14
+- battery: 14
+- checklist: 14
+- s/n: 13
+- display: 13
+- tests: 12
+
+## Common ATA codes
+
+- 2400.0: 26
+- 3400.0: 25
+- 550.0: 21
+- 2300.0: 9
+- 2440.0: 8
+- 2310.0: 6
+- 520.0: 6
+- 3340.0: 5
+- 1120.0: 4
+- 7110.0: 4
+
+## Common registrations
+
+- N678ND: 8
+- N711ND: 4
+- N524ND: 4
+- N559ND: 4
+- N514ND: 3
+- N575ND: 3
+- N697ND: 3
+- N546ND: 3
+- N688ND: 3
+- N608ND: 3
+
+## Inclusion guidance
+
+A record belongs to cluster c_41 when the maintenance problem and corrective action are consistent with `external start issue external power ground power unit start`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1120762
+Registration: N551ND
+ATA code: 3400.0
+Problem: TRAFFIC INFO & BOTH GPS LOST ON FINAL. SIGNAL RETURNED 3 MINUTES LATER.
+Action: PLACED A/C ON GROUND POWER FOR MOST OF DAY. COULD NOT DUPLICATE FAULT.
+
+### Example 2
+
+Work order: 1123086
+Registration: N509ND
+ATA code: 3400.0
+Problem: AHRS NOT RECEIVING BACK UP GPS.
+Action: INSPECTED BOTH GPS 1 & 2, LEFT POWERED IN HANGAR FOR 3 HOURS W/ NO DEFECTS.
+
+### Example 3
+
+Work order: 1124512
+Registration: N525ND
+ATA code: 2400.0
+Problem: DID A GPU START DUE TO LOW BATT.
+Action: REMOVED & REPLACED BATT W/ S/N G02788213. CAP CK DUE 3814/3 OR 6/30/14. STARTED A/C, OPS CK GOOD. W&B NEGLIGIBLE.
+
+### Example 4
+
+Work order: 1126916
+Registration: N526ND
+ATA code: 7110.0
+Problem: UPPER COWL GPU DOOR CAM LOC BROKEN.
+Action: REMOVED & REPLACED DAMAGED CAM LOC. OPS CK GOOD.
+
+### Example 5
+
+Work order: 1128383
+Registration: N521ND
+ATA code: 3340.0
+Problem: R/H STROBE LIGHT INOP.
+Action: REMOVED R/H WINGTIP, TROUBLESHOT SYSTEM. FOUND R/H POWER SUPPLY NOT PRODUCING ENOUGH POWER. REMOVED POWER SUPPLY S/N 12157, INSTALLED S/N 12134. OPS CK GOOD. REINSTALLED WINGTIP. LIGHTS OPS CK GOOD.
+
+### Example 6
+
+Work order: 1128741
+Registration: N545ND
+ATA code: 3100.0
+Problem: MFD TINTED RED, AFT AVIONICS FAN LOUD, FEEDBACK THROUGH OVERHEAD SPEAKER.
+Action: CONNECTED A/C TO GROUND POWER & RAN AVIONICS FOR 2 HOURS, NO SCREEN DISCOLORATION NOTED. AFT COOLING FAN SOUNDS ARE NORMAL & ALL TRANSMISSIONS THROUGH SPEAKER ARE LOUD & CLEAR. COULD NOT DUPLICATE.
+
+### Example 7
+
+Work order: 1129343
+Registration: N572ND
+ATA code: 3110.0
+Problem: RED X'S ON PFD, DURING PREFLIGHT.
+Action: CK'ED CONNECTIONS ON BACK OF PFD. RAN A/C ON GROUND POWER, COULD NOT DUPLICATE FAULT.
+
+### Example 8
+
+Work order: 1129908
+Registration: N512ND
+ATA code: 3340.0
+Problem: R/H STROBE LIGHT INOP.
+Action: REPLACED POWER SUPPLY W/ S/N 12121, OPS CK OK.
+
+### Example 9
+
+Work order: 1129982
+Registration: N511ND
+ATA code: 3340.0
+Problem: R/H STROBE INOP.
+Action: TROUBLESHOT SYSTEM, FOUND POWER SUPPLY BAD. ORDERED PART.
+
+### Example 10
+
+Work order: 1130012
+Registration: N606ND
+ATA code: 7110.0
+Problem: EPU DOOR OPENED IN FLIGHT.
+Action: REPLACED GPU DOOR STRIKER PLATE.
+
+### Example 11
+
+Work order: 1131141
+Registration: N536ND
+ATA code: 3300.0
+Problem: WHILE DESCENDING, OVERHEAD LIGHT BLINKED W/ PULSE LIGHTS.
+Action: INSPECTED WIRING, POWER, GROUND & COMPONENTS. PLACED PULSE LIGHTS ON SEPERATE BUSS THAN OVERHEAD LIGHTS. CHECKS GOOD.
+
+### Example 12
+
+Work order: 1133494
+Registration: N605ND
+ATA code: 2400.0
+Problem: BATTERY DEAD.
+Action: PERFORMED GROUND START GPU.
+

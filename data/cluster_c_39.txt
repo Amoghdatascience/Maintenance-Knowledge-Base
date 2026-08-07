@@ -1,0 +1,186 @@
+# Cluster c_39: spark plug plug fouled
+
+Cluster ID: c_39
+Cluster name: spark plug plug fouled
+Total records in this cluster: 1070
+
+## Purpose
+
+This cluster represents maintenance records labeled as `spark plug plug fouled`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- spark: 891
+- plug: 491
+- plugs: 485
+- worn: 288
+- bottom: 192
+- top: 154
+- cyl: 144
+- all: 120
+- l/h: 101
+- require: 92
+- r/h: 91
+- lower: 88
+- test: 79
+- due: 68
+- bad: 67
+- cylinder: 67
+- limits: 66
+- cleaning: 66
+- massive: 62
+- damaged: 60
+
+## Common action terms
+
+- spark: 810
+- plugs: 609
+- plug: 476
+- new: 386
+- all: 136
+- cleaned: 133
+- torqued: 122
+- noted: 105
+- defects: 99
+- bottom: 97
+- lower: 90
+- good: 80
+- reinstalled: 80
+- cyl: 76
+- top: 68
+- ops: 68
+- tested: 65
+- further: 62
+- leads: 51
+- cylinder: 48
+
+## Common ATA codes
+
+- 7420.0: 720
+- 520.0: 109
+- 7410.0: 45
+- 7400.0: 41
+- 2140.0: 32
+- 7100.0: 30
+- 7200.0: 24
+- 7230.0: 17
+- 510.0: 6
+- 550.0: 5
+
+## Common registrations
+
+- N785ND: 29
+- N689ND: 24
+- N794ND: 22
+- N793ND: 20
+- N687ND: 16
+- N782ND: 16
+- N502ND: 16
+- N791ND: 15
+- N688ND: 14
+- N847ND: 14
+
+## Inclusion guidance
+
+A record belongs to cluster c_39 when the maintenance problem and corrective action are consistent with `spark plug plug fouled`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1115675
+Registration: N537ND
+ATA code: 7420.0
+Problem: TOP #4 SPARK PLUG IS BAD.
+Action: REMOVED & REPLACED TOP #4 SPARK PLUG.
+
+### Example 2
+
+Work order: 1115993
+Registration: N567ND
+ATA code: 7200.0
+Problem: ENGINE IS TIMED OUT.
+Action: INSTALLED ENGINE. PERFORMED PRE-OIL & INSTALLED SPARK PLUGS. TORQUED MOUNT BOLTS TO ENGINE. FINISHED ENGINE BUILD UP.
+
+### Example 3
+
+Work order: 1116010
+Registration: N575ND
+ATA code: 7420.0
+Problem: #1 SPARK PLUG IS WORN.
+Action: REMOVED & REPLACED PLUG.
+
+### Example 4
+
+Work order: 1116475
+Registration: N576ND
+ATA code: 7420.0
+Problem: 4 BOTTOM SPARK PLUGS ARE WORN BEYOND LIMITS.
+Action: REMOVED & REPLACED PLUGS.
+
+### Example 5
+
+Work order: 1116712
+Registration: N508ND
+ATA code: 7420.0
+Problem: #2 UPPER SPARK PLUG BAD.
+Action: REMOVED & REPLACED #2 UPPER SPARK PLUG.
+
+### Example 6
+
+Work order: 1116752
+Registration: N521ND
+ATA code: 7420.0
+Problem: #2 & 3 LOWER PLUGS BAD.
+Action: REPLACED #2 & 3 LOWER SPARK PLUGS.
+
+### Example 7
+
+Work order: 1117123
+Registration: N522ND
+ATA code: 7200.0
+Problem: #2 CYL "MISSING" ON RUN UP (RUNS ROUGH).
+Action: CLEANED, GAPPED & TESTED #2 CYL SPARK PLUGS - OPS CK GOOD.
+
+### Example 8
+
+Work order: 1117318
+Registration: N512ND
+ATA code: 7420.0
+Problem: #2 BOTTOM PLUG LEAD DAMAGED.
+Action: REPAIRED SPARK PLUG LEAD.
+
+### Example 9
+
+Work order: 1117496
+Registration: N550ND
+ATA code: 7420.0
+Problem: 2 BAD SPARK PLUGS.
+Action: INSTALLED 2 NEW SPARK PLUGS, TORQUED TO SPECS (#1 BOTTOM, #4 TOP).
+
+### Example 10
+
+Work order: 1117529
+Registration: N520ND
+ATA code: 7420.0
+Problem: 1 SPARK PLUG FAILED WHEN TESTED.
+Action: REMOVED & REPLACED SPARK PLUG.
+
+### Example 11
+
+Work order: 1117683
+Registration: N540ND
+ATA code: 7420.0
+Problem: 1 SPARK PLUG CERAMIC IS CRACKED.
+Action: REMOVED & REPLACED SPARK PLUG.
+
+### Example 12
+
+Work order: 1117865
+Registration: N572ND
+ATA code: 2820.0
+Problem: ALL 8 SPARK PLUGS OUTER ERROSION GAUGE.
+Action: INSTALLED 8 NEW SPARK PLUGS.
+

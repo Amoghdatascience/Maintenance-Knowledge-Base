@@ -1,0 +1,180 @@
+# Cluster c_5: baffle mount
+
+Cluster ID: c_5
+Cluster name: baffle mount
+Total records in this cluster: 25
+
+## Purpose
+
+This cluster represents maintenance records labeled as `baffle mount`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- baffle: 17
+- mount: 16
+- rear: 10
+- loose: 9
+- r/h: 8
+- due: 6
+- cyl: 5
+- aft: 5
+- change: 5
+- screw: 4
+- rivets: 4
+- time: 3
+- behind: 2
+- dipstick: 2
+- tube: 2
+- missing: 2
+- cracked: 2
+- i/b: 2
+- sheared: 2
+- broken: 2
+
+## Common action terms
+
+- baffle: 34
+- mount: 18
+- aft: 7
+- reinstalled: 7
+- oil: 7
+- new: 6
+- torqued: 4
+- screw: 4
+- cyl: 4
+- install: 3
+- tube: 3
+- rivets: 3
+- s/n: 3
+- bolts: 3
+- started: 3
+- all: 3
+- overhauled: 3
+- worn: 2
+- iaw: 2
+- cessna: 2
+
+## Common ATA codes
+
+- 7230.0: 17
+- 7200.0: 5
+- 7100.0: 2
+- 7220.0: 1
+
+## Common registrations
+
+- N556ND: 2
+- N540ND: 2
+- N507ND: 2
+- N565ND: 1
+- N552ND: 1
+- N551ND: 1
+- N514ND: 1
+- N525ND: 1
+- N558ND: 1
+- N516ND: 1
+
+## Inclusion guidance
+
+A record belongs to cluster c_5 when the maintenance problem and corrective action are consistent with `baffle mount`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1115850
+Registration: N551ND
+ATA code: 7230.0
+Problem: CYL #3 AFT BAFFLE MOUNT LOOSE.
+Action: REMOVED BAFFLE & FOUND BAFFLE ALMOST WORN THROUGH AT AFT MOUNT. FABRICATED PATCH OUT OF LIKE MATERIAL & INSTALLED. RIVETING IAW CESSNA SINGLE ENG SRM 51-40-00. REPLACED BAFFLE PLUG & REINSTALLED BAFFLE. REPLACED DAMAGED BAFFLE TIE ROD.
+
+### Example 2
+
+Work order: 1116623
+Registration: N556ND
+ATA code: 7200.0
+Problem: CRANKSHAFT NEEDS TO BE REMOVED DUE TO PROP STRIKE.
+Action: MOUNTED ENGINE ON MOUNT & TORQUED. CONTINUED BAFFLE & ACCESSORY INSTALL. INSTALLED CRANKSHAFT SEAL.
+
+### Example 3
+
+Work order: 1121147
+Registration: N552ND
+ATA code: 7230.0
+Problem: REAR BAFFLE MOUNT SCREW IS LOOSE, BEHIND DIPSTICK TUBE.
+Action: REMOVED DIPSTICK TUBE TO GAIN ACCESS. REMOVED SCREW, INSTALLED NEW, INSTALLED DIPSTICK TUBE W/ NEW GASKET. RESAFETY WIRED.
+
+### Example 4
+
+Work order: 1121725
+Registration: N565ND
+ATA code: 7230.0
+Problem: R/H REAR BAFFLE MOUNT SCREW IS MISSING.
+Action: INSTALLED NEW SCREW.
+
+### Example 5
+
+Work order: 1122199
+Registration: N525ND
+ATA code: 7230.0
+Problem: FWD BAFFLE, DIRECTLY BELOW ALTERNATOR MOUNT IS CRACKED.
+Action: STOP DRILLED CRACK.
+
+### Example 6
+
+Work order: 1125656
+Registration: N514ND
+ATA code: 7230.0
+Problem: CYL #3 AFT BAFFLE I/B MOUNT RIVETS ARE SHEARED.
+Action: REMOVED BAFFLE, REPLACED 2 MOUNT RIVETS. REINSTALLED BAFFLE.
+
+### Example 7
+
+Work order: 1126289
+Registration: N540ND
+ATA code: 7230.0
+Problem: CYL #3 AFT BAFFLE I/B MOUNT RIVETS SHEARED.
+Action: REMOVED BAFFLE, REPLACED RIVETS & REINSTALLED BAFFLE.
+
+### Example 8
+
+Work order: 1128555
+Registration: N516ND
+ATA code: 7230.0
+Problem: R/H REAR ENGINE BAFFLE MOUNT SCREW LOOSE.
+Action: RETIGHTENED SCREW.
+
+### Example 9
+
+Work order: 1136433
+Registration: N558ND
+ATA code: 7230.0
+Problem: #3 AFT CYL BAFFLE CRACKED BY OIL COOLER MOUNT.
+Action: STOP DRILLED CRACK ON AFT CYL #3 BAFFLE, NEAR OIL COOLER.
+
+### Example 10
+
+Work order: 1140547
+Registration: N568ND
+ATA code: 7100.0
+Problem: ENGINE CHANGE DUE.
+Action: REMOVED & REPLACED ENGINE W/ S/N L-33786-51E. TORQUED ENGINE MOUNT BOLTS. STARTED ROUTING FUEL HOSES, OIL LINES. UPPER OIL LINES LOOSE FOR INSTALL OF OIL COOLER. ROUTED ELECTRICAL TO STARTER & INSTALLED ON STARTER. AFT #3 BAFFLE INSTALLED.
+
+### Example 11
+
+Work order: 1143584
+Registration: N515ND
+ATA code: 7200.0
+Problem: ENGINE DUE TIME CHANGE.
+Action: REMOVED ENG-BAFFLE ALL INSTALLED-INSTALLED ENG S/N L-32366-51E-TORQUED MOUNT BOLTS.
+
+### Example 12
+
+Work order: 1148105
+Registration: N524ND
+ATA code: 7230.0
+Problem: ENGINE VIBRATIONS AT HIGH & LOW RPM SETTINGS.
+Action: PERFORMED GROUND RUN, ALL ENGINE GROUND OPERATIONS CK'ED GOOD. FOUND FWD WINDSCREEN TO BY LOOSE IN FWD LOWER CHANNEL. RESEALED WINDSCREEN, REPLACED MISSING BAFFLE SCREW. REPLACED #4 CYL INTAKE GASKET. RECK'ED ALL ENGINE MOUNT TORQUES.
+

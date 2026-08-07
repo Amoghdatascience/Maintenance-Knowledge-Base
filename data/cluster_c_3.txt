@@ -1,0 +1,186 @@
+# Cluster c_3: baffle bracket
+
+Cluster ID: c_3
+Cluster name: baffle bracket
+Total records in this cluster: 105
+
+## Purpose
+
+This cluster represents maintenance records labeled as `baffle bracket`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- baffle: 108
+- bracket: 98
+- cracked: 33
+- r/h: 33
+- aft: 29
+- rear: 22
+- oil: 22
+- rivets: 20
+- loose: 19
+- cyl: 18
+- support: 16
+- sheared: 16
+- missing: 14
+- screw: 12
+- broken: 12
+- behind: 12
+- cooler: 10
+- has: 8
+- rivet: 7
+- tube: 7
+
+## Common action terms
+
+- baffle: 92
+- bracket: 67
+- reinstalled: 38
+- new: 32
+- oil: 29
+- rivets: 21
+- r/h: 12
+- screw: 12
+- rear: 12
+- cooler: 10
+- fabricated: 9
+- iaw: 9
+- screws: 9
+- filler: 9
+- tube: 9
+- support: 9
+- aft: 8
+- line: 8
+- reattached: 7
+- riveted: 6
+
+## Common ATA codes
+
+- 7230.0: 90
+- 7100.0: 3
+- 561.0: 2
+- 7200.0: 2
+- 7330.0: 1
+- 2730.0: 1
+- 7210.0: 1
+- 3240.0: 1
+- 7920.0: 1
+- 520.0: 1
+
+## Common registrations
+
+- N567ND: 4
+- N531ND: 4
+- N677ND: 4
+- N576ND: 3
+- N525ND: 3
+- N565ND: 3
+- N711ND: 3
+- N713ND: 2
+- N740ND: 2
+- N714ND: 2
+
+## Inclusion guidance
+
+A record belongs to cluster c_3 when the maintenance problem and corrective action are consistent with `baffle bracket`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1115679
+Registration: N556ND
+ATA code: 7230.0
+Problem: CYL #1 BAFFLE CRACKED AT SCREW SUPPORT & FWD BAFFLE BELOW #1 BAFFLE BRACKET.
+Action: FABRICATED PATCHES OF LIKE MATERIAL & RIVETED IAW CESSNA SRM 51-40-00.
+
+### Example 2
+
+Work order: 1116330
+Registration: N565ND
+ATA code: 7230.0
+Problem: AFT BAFFLE BRACKET RIVETS SHEARED.
+Action: REPLACED RIVETS ON BAFFLE BRACKET & REINSTALLED BAFFLING.
+
+### Example 3
+
+Work order: 1117864
+Registration: N567ND
+ATA code: 7230.0
+Problem: R/H REAR ENGINE BAFFLE MOUNTING BRACKET RIVETS BROKEN.
+Action: REMOVED & REPLACED BROKEN BAFFLE MOUNTING BRACKET RIVETS.
+
+### Example 4
+
+Work order: 1118025
+Registration: N509ND
+ATA code: 7230.0
+Problem: ENGINE BAFFLE CRACKED AT TOP REAR CENTER BRACKET, AT ENGINE HOISE EYE.
+Action: FABRICATED PATCH FROM LIKE MATERIAL & RIVETED IAW CESSNA SRM 51-40-00.
+
+### Example 5
+
+Work order: 1118970
+Registration: N567ND
+ATA code: 7230.0
+Problem: REAR R/H BAFFLE BRACKET RIVETS SHEARED.
+Action: REMOVED BAFFLE, REPLACED RIVETS, REINSTALLED BAFFLE.
+
+### Example 6
+
+Work order: 1118972
+Registration: N539ND
+ATA code: 7230.0
+Problem: BACK R/H BAFFLE BACK BRACKET RIVET HEAD IS SHEARED OFF.
+Action: REMOVED R/H BACK BAFFLE, INSTALLED BRACKET W/ SCREWS. INSTALLED R/H BACK BAFFLE BACK ON.
+
+### Example 7
+
+Work order: 1118976
+Registration: N514ND
+ATA code: 7230.0
+Problem: SCREW MISSING, AFT BAFFLE BRACKET.
+Action: INSTALLED SCREW.
+
+### Example 8
+
+Work order: 1119193
+Registration: N577ND
+ATA code: 7330.0
+Problem: BRACKET FOR ENG BAFFLING #3 CYL, BEHIND DIPSTICK TUBE BROKEN.
+Action: REMOVED BAFFLE, REPLACED BRACKET RIVETS, REINSTALLED BAFFLE.
+
+### Example 9
+
+Work order: 1119226
+Registration: N558ND
+ATA code: 7230.0
+Problem: R/H BACK BAFFLE BRACKET IS MISSING A RIVET & BAFFLE IS CRACKED.
+Action: FABRICATED PATCH, INSTALLED & RIVETED IAW CESSNA SRM 51-40-00. INSTALLED SCREWS ON BAFFLE BRACKET. INSTALLED BAFFLE BACK ON A/C.
+
+### Example 10
+
+Work order: 1119647
+Registration: N568ND
+ATA code: 7230.0
+Problem: AFT BAFFLE BRACKET RIVETS PULLING THROUGH.
+Action: REMOVED BAFFLE FROM A/C, REMOVED & REPLACED LOOSE RIVETS. REINSTALLED BAFFLE ON A/C.
+
+### Example 11
+
+Work order: 1119994
+Registration: N545ND
+ATA code: 7230.0
+Problem: REAR R/H ENGINE BAFFLE MOUNT BRACKET RIVETS SHEARED.
+Action: DRILLED OUT SHEARED RIVET, INSTALLED NEW, REPAIR DONE IAW CESSNA REPAIR MANUAL 51-40-00.
+
+### Example 12
+
+Work order: 1120467
+Registration: N546ND
+ATA code: 7230.0
+Problem: #3 BAFFLE IS MISSING SCREW ON BRACKET.
+Action: INSTALLED NEW SCREW.
+

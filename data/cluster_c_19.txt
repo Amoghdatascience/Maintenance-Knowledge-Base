@@ -1,0 +1,186 @@
+# Cluster c_19: carburetor carb
+
+Cluster ID: c_19
+Cluster name: carburetor carb
+Total records in this cluster: 771
+
+## Purpose
+
+This cluster represents maintenance records labeled as `carburetor carb`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- carb: 524
+- heat: 430
+- r/h: 264
+- l/h: 177
+- shroud: 148
+- box: 139
+- eng: 134
+- cracked: 112
+- worn: 97
+- air: 84
+- cable: 81
+- carbon: 69
+- loose: 66
+- due: 62
+- tabs: 58
+- carburetor: 57
+- off: 48
+- missing: 48
+- control: 43
+- cover: 43
+
+## Common action terms
+
+- carb: 319
+- heat: 258
+- new: 246
+- good: 158
+- shroud: 131
+- ops: 99
+- box: 99
+- noted: 91
+- cable: 86
+- defects: 83
+- cover: 75
+- r/h: 68
+- l/h: 59
+- air: 57
+- s/n: 56
+- detector: 52
+- valve: 51
+- further: 48
+- eng: 46
+- exhaust: 45
+
+## Common ATA codes
+
+- 7160.0: 331
+- 7320.0: 60
+- 7600.0: 45
+- 7610.0: 26
+- 550.0: 26
+- 7100.0: 25
+- 7200.0: 25
+- 7230.0: 23
+- 7810.0: 23
+- 520.0: 16
+
+## Common registrations
+
+- N689ND: 50
+- N688ND: 45
+- N687ND: 42
+- N785ND: 39
+- N781ND: 35
+- N697ND: 32
+- N695ND: 28
+- N782ND: 28
+- N783ND: 27
+- N793ND: 27
+
+## Inclusion guidance
+
+A record belongs to cluster c_19 when the maintenance problem and corrective action are consistent with `carburetor carb`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1116145
+Registration: N563ND
+ATA code: 3400.0
+Problem: DURING FLIGHT, ADVISORY CAME ON, CARBON MONOXIDE DETECTOR INOPERATIVE.
+Action: RAN A/C POWER FOR 2 HOURS. SHOOK WING & WIGGLED WIRING AT CO DETECTOR. COULD NOT DUPLICATE DISCREPANCY.
+
+### Example 2
+
+Work order: 1116915
+Registration: N537ND
+ATA code: 2450.0
+Problem: MULTIPLE ALERTS: FAILED PATH, GMA1 FAIL, CO DET FAIL, XPDR 1 FAIL, XTALK ERROR, TRAFFIC FAIL, AHRS 1 GPS FAIL.
+Action: TESTED, INSPECTED.
+
+### Example 3
+
+Work order: 1118171
+Registration: N550ND
+ATA code: 7200.0
+Problem: ENG CHANGE DUE.
+Action: ROUTED WIRES & ING HARNESSES. INSTALLED ENG HOSES, LINES, CARB CONTROL CABLES & ADJUSTED. TORQUED ENG MOUNTS. INSTALLED EXHAUST, ALT, VAC PUMP & RIGGED FUEL SERVO.
+
+### Example 4
+
+Work order: 1118859
+Registration: N511ND
+ATA code: 3100.0
+Problem: HIGH CARBON MONOXIDE LEVEL ADVISORY ILLUMINATED & REMAINED ILLUMINATED AFTER ENGINE START.
+Action: RAN A/C W/ HANDHELD CARBON MONOXIDE INDICATOR. FOUND SYSTEM OPERATING NORMAL. INSPECTED EXHAUST SYSTEM & HEATING SYSTEM, FOUND NO DEFECTS. OPS CHECK GOOD.
+
+### Example 5
+
+Work order: 1120409
+Registration: N511ND
+ATA code: 3120.0
+Problem: CO LEVEL HIGH ANNUNCIATOR WENT OFF SHORTLY AFTER ENGINE START. RECYCLED AVIONICS, OPENED WINDOWS & CO LEVEL HIGH STILL WENT OFF.
+Action: RAN A/C W/ HANDHELD CARBON MONOXIDE DETECTOR & FOUND SYSTEM OPERATING NORMAL. NO INDICATION NOTED. INSPECTED HEATER SYSTEM & FOUND NO DEFECTS.
+
+### Example 6
+
+Work order: 1121412
+Registration: N525ND
+ATA code: 3400.0
+Problem: SD CARB MISSING IN MFD.
+Action: FORMATTED & INSTALLED SD CARD.
+
+### Example 7
+
+Work order: 1121559
+Registration: N515ND
+ATA code: 3100.0
+Problem: HIGH CO ILLUMINATED & EXTINGUISHED AFTER SOME TIME.
+Action: RAN A/C USING CALIBRATED CO DETECTOR, NO CARBON MONOXIDE NOTED. NO INDICATION OF CARBON MONOXIDE DETECTION ON A/C MONITOR.
+
+### Example 8
+
+Work order: 1121979
+Registration: N568ND
+ATA code: 3400.0
+Problem: PFD ADVISORY: CARBON MONOXIDE DETECTOR INOP.
+Action: RELOADED G1000 SOFTWARE VERSION 563.26 & COMPLETED CONFIG. CHECKS GOOD.
+
+### Example 9
+
+Work order: 1122750
+Registration: N559ND
+ATA code: 3400.0
+Problem: CARBON MONOXIDE DETECTOR FAIL MESSAGE IN FLIGHT.
+Action: RELOADED G1000 SOFTWARE VERSION 563.26 & COMPLETED CONFIG PROCEDURES. OPS CHECK GOOD.
+
+### Example 10
+
+Work order: 1123054
+Registration: N571ND
+ATA code: 3100.0
+Problem: CO DET FAIL MESSAGE IN FLIGHT.
+Action: RELOADED SOFTWARE 563.26 & CONFIGURED. TESTED CO DET, CHECKS GOOD.
+
+### Example 11
+
+Work order: 1124039
+Registration: N547ND
+ATA code: 3400.0
+Problem: CARBON CO DETECTOR FAILED MESSAGE.
+Action: INSPECTED CO DETECTOR, RELOADED G1000 SOFTWARE VERSION 563.26 & CONFIGURED SYSTEM. CHECKS GOOD.
+
+### Example 12
+
+Work order: 1126424
+Registration: N565ND
+ATA code: 2100.0
+Problem: ADVISORY CAME ON SAYING "CO DET FAIL", CARBON MONOXIDE DETECTOR IS INOP.
+Action: INSPECTED A/C & FOUND AVIONICS MASTER SWITCH LOOSE IN HOLDER. REINSTALLED SWITCH, RAN A/C, OPS CK GOOD ON CO DETECTOR. COULD NOT DUPLICATE PROBLEM.
+

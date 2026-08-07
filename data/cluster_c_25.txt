@@ -1,0 +1,185 @@
+# Cluster c_25: engine seal tube bolt loose
+
+Cluster ID: c_25
+Cluster name: engine seal tube bolt loose
+Total records in this cluster: 26
+
+## Purpose
+
+This cluster represents maintenance records labeled as `engine seal tube bolt loose`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- eng: 21
+- bolt: 12
+- seal: 11
+- loose: 11
+- grounding: 8
+- fwd: 6
+- black: 5
+- worn: 5
+- front: 5
+- needs: 4
+- wire: 4
+- strap: 4
+- lwr: 3
+- air: 3
+- intake: 3
+- main: 3
+- further: 3
+- above: 2
+- l/h: 2
+- ground: 2
+
+## Common action terms
+
+- bolt: 13
+- tightened: 12
+- rtv: 6
+- worn: 5
+- areas: 5
+- bolts: 3
+- prop: 3
+- torqued: 2
+- oil: 2
+- line: 2
+- noted: 2
+- black: 2
+- sealed: 2
+- spine: 2
+- leak: 2
+- good: 2
+- fwd: 2
+- part: 2
+- crank: 2
+- halves: 2
+
+## Common ATA codes
+
+- 7100.0: 10
+- 7230.0: 5
+- 7150.0: 3
+- 7110.0: 2
+- 7200.0: 2
+- 7210.0: 1
+- 7920.0: 1
+- 2450.0: 1
+- 2420.0: 1
+
+## Common registrations
+
+- N768ND: 3
+- N538ND: 2
+- N653ND: 2
+- N564ND: 2
+- N577ND: 1
+- N515ND: 1
+- N529ND: 1
+- N530ND: 1
+- N540ND: 1
+- N608ND: 1
+
+## Inclusion guidance
+
+A record belongs to cluster c_25 when the maintenance problem and corrective action are consistent with `engine seal tube bolt loose`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1119920
+Registration: N577ND
+ATA code: 7100.0
+Problem: ON ENGINE START UP, RAN VERY ROUGH. SHUT DOWN & CALLED MX.
+Action: INSTALLED ENGINE S/N L2787051E TO A/C. TORQUED ENGINE BOLTS.
+
+### Example 2
+
+Work order: 1120483
+Registration: N540ND
+ATA code: 7920.0
+Problem: OIL COOLER LINE IS RUBBING ON ENGINE BOLT.
+Action: REPOSITIONED OIL COOLER LINE, NO DAMAGE NOTED ON OIL LINE.
+
+### Example 3
+
+Work order: 1140393
+Registration: N530ND
+ATA code: 7230.0
+Problem: FWD BLACK ENG SEAL WORN.
+Action: INSTALLED RTV SILICONE IN WORN AREAS.
+
+### Example 4
+
+Work order: 1142588
+Registration: N529ND
+ATA code: 7210.0
+Problem: FWD LWR ENG SEAL WORN ABOVE AIR INTAKE.
+Action: FILLED IN WORN SPOTS W/ BLACK RTV.
+
+### Example 5
+
+Work order: 1146328
+Registration: N515ND
+ATA code: 7230.0
+Problem: BLACK FWD ENG SEAL WORN.
+Action: INSTALLED RTV IN WORN AREAS.
+
+### Example 6
+
+Work order: 1147726
+Registration: N608ND
+ATA code: 7230.0
+Problem: FWD LWR BLACK ENG SEAL WEARING AT AIR INTAKE CAMLOCKS.
+Action: SEALED AREAS W/ RTV.
+
+### Example 7
+
+Work order: 1149762
+Registration: N545ND
+ATA code: 7230.0
+Problem: FRONT ENG SEAL (BLACK) ABOVE AIR INTAKE WORN SPOTS.
+Action: INSTALLED RTV TO WORN AREAS.
+
+### Example 8
+
+Work order: 1150885
+Registration: N538ND
+ATA code: 7230.0
+Problem: L/H FWD ENG SEAL NEEDS RIVET.
+Action: INSTALLED NEW RIVET.
+
+### Example 9
+
+Work order: 1154197
+Registration: N564ND
+ATA code: 7200.0
+Problem: ENG GROUNDING BOLT LOOSE.
+Action: TIGHTENED BOLT.
+
+### Example 10
+
+Work order: 1154268
+Registration: N653ND
+ATA code: 7100.0
+Problem: BOLT, FOR GROUNDING ENGINE, LOOSE.
+Action: TIGHTENED BOLT.
+
+### Example 11
+
+Work order: 1154719
+Registration: N539ND
+ATA code: 7100.0
+Problem: GROUNDING WIRE AT ENG BOLT LOOSE.
+Action: TIGHTENED BOLT.
+
+### Example 12
+
+Work order: 1154768
+Registration: N517ND
+ATA code: 7100.0
+Problem: GROUNDING WIRE BOLT AT ENG, LOOSE.
+Action: TIGHTENED BOLT.
+

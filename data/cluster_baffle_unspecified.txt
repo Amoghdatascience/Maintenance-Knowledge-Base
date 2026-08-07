@@ -1,0 +1,186 @@
+# Cluster baffle_unspecified: baffle unspecified
+
+Cluster ID: baffle_unspecified
+Cluster name: baffle unspecified
+Total records in this cluster: 547
+
+## Purpose
+
+This cluster represents maintenance records labeled as `baffle unspecified`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- baffle: 521
+- cracked: 240
+- cyl: 146
+- aft: 102
+- worn: 89
+- fwd: 80
+- l/h: 72
+- r/h: 70
+- eng: 65
+- side: 59
+- cylinder: 57
+- broken: 41
+- plugs: 40
+- both: 36
+- needs: 27
+- grommet: 24
+- rear: 24
+- muffler: 24
+- rod: 24
+- cable: 23
+
+## Common action terms
+
+- baffle: 337
+- fabricated: 126
+- new: 124
+- iaw: 99
+- patch: 95
+- riveted: 78
+- cyl: 75
+- like: 66
+- material: 65
+- aft: 48
+- doubler: 45
+- side: 44
+- out: 43
+- plugs: 42
+- fwd: 34
+- drilled: 32
+- section: 29
+- accepted: 28
+- cylinder: 27
+- reinstalled: 26
+
+## Common ATA codes
+
+- 7230.0: 409
+- 7100.0: 20
+- 7130.0: 18
+- 7200.0: 17
+- 561.0: 14
+- 7110.0: 10
+- 7820.0: 10
+- 6120.0: 9
+- 6100.0: 6
+- 520.0: 5
+
+## Common registrations
+
+- N797ND: 19
+- N344Y: 12
+- N689ND: 10
+- N250TH: 9
+- N794ND: 9
+- N785ND: 8
+- N524ND: 8
+- N683R: 8
+- N799ND: 8
+- N575ND: 7
+
+## Inclusion guidance
+
+A record belongs to cluster baffle_unspecified when the maintenance problem and corrective action are consistent with `baffle unspecified`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1116217
+Registration: N537ND
+ATA code: 7230.0
+Problem: L/H BACK TOP BAFFLE IS CRACKED.
+Action: FABRICATED PATCH & INSTALLED.
+
+### Example 2
+
+Work order: 1116712
+Registration: N508ND
+ATA code: 7230.0
+Problem: #3 & 4 SIDE BAFFLE PLUGS HAVE BROKEN PRONGS.
+Action: REPLACED PLUGS.
+
+### Example 3
+
+Work order: 1117954
+Registration: N563ND
+ATA code: 7230.0
+Problem: #2 & 4 BAFFLE PLUGS HAVE SEVERAL BROKEN PRONGS.
+Action: REPLACED BUTTON PLUGS.
+
+### Example 4
+
+Work order: 1118070
+Registration: N532ND
+ATA code: 7230.0
+Problem: FWD L/H BAFFLE IS CRACKED BELOW SHROUD AIR INTAKE.
+Action: FABRICATED PATCH OUT OF LIKE MATERIAL & INSTALLED. RIVETING IAW CESSNA SINGLE ENG SRM CH 51-40-00.
+
+### Example 5
+
+Work order: 1118171
+Registration: N550ND
+ATA code: 7230.0
+Problem: ENG BAFFLING CRACKED, R/H SIDE, ABOVE #1 CYLINDER.
+Action: FABRICATED NEW R/H BAFFLE W/ LIKE MATERIAL.
+
+### Example 6
+
+Work order: 1118472
+Registration: N537ND
+ATA code: 7230.0
+Problem: #3 AFT BAFFLE GROMMET TORN.
+Action: INSTALLED NEW GROMMET.
+
+### Example 7
+
+Work order: 1119032
+Registration: N519ND
+ATA code: 7230.0
+Problem: REAR BAFFLE PLUGS WORN OUT.
+Action: REPLACED BOTH PLUGS W/ NEW.
+
+### Example 8
+
+Work order: 1119832
+Registration: N509ND
+ATA code: 7230.0
+Problem: L/H REAR ENGINE BAFFLE CRACKED.
+Action: FABRICATED PATCH OF LIKE MATERIAL & RIVETED IAW CESSNA SE SRM 51-40-00(REV4).
+
+### Example 9
+
+Work order: 1119884
+Registration: N564ND
+ATA code: 7230.0
+Problem: FRONT ENGINE BAFFLE SCREWS CHAFING MUFFLER SHROUD.
+Action: INSTALLED PROPER LENGTH SCREWS.
+
+### Example 10
+
+Work order: 1120218
+Registration: N514ND
+ATA code: 7230.0
+Problem: FRONT BAFFLE BY INTAKE HEAT, AROUND MUFFLER SHROUD, IS CRACKED.
+Action: REMOVED MUFFLER TO GAIN ACCESS. BEGAN FABRICATING PATCH, DECIDED TO FABRICATE NEW PIECE OF BAFFLE & INSTALLED. REINSTALLED MUFFLER. ALL WORK DONE IAW CESSNA SRM CH 51-30-00 & 51-40-00.
+
+### Example 11
+
+Work order: 1120254
+Registration: N568ND
+ATA code: 7230.0
+Problem: FWD BAFFLE CENTER SECTION IS WORN THROUGH.
+Action: REMOVED WORN SECTION OF BAFFLE. FABRICATED NEW SECTION FROM LIKE MATERIAL AS ORIGINAL IAW SRM 51-30-00. RIVETED IN PLACE IAW SRM 51-40-00.
+
+### Example 12
+
+Work order: 1120990
+Registration: N540ND
+ATA code: 7230.0
+Problem: FRONT RUBBER BAFFLE CHAFING ON STARTER GROUND WIRE.
+Action: REMOVED RUBBER BAFFLE, TRIMMED AS NECESSARY & REINSTALLED.
+

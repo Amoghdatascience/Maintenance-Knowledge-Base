@@ -1,0 +1,46 @@
+# Cluster c_28: intake gasket leak/damage
+
+Cluster c_28 is used for maintenance records related to intake gasket leak/damage.
+The cluster should be assigned only when the problem description and corrective action provide enough evidence.
+
+## Inclusion Signals
+
+- intake gasket leak
+- induction leak
+- rough running due to intake leak
+- intake manifold gasket
+- air leak near intake
+- intake flange seep
+
+## Corrective Actions
+
+- removed and replaced intake gasket
+- resealed intake
+- torqued intake flange
+- performed leak check
+- installed new gasket
+- verified roughness corrected
+
+## Exclusion Rules
+
+Exclude records that mention only a generic inspection with no corrective action.
+Exclude records where the key component token is missing.
+Exclude unrelated records that contain a similar word but describe a different component.
+
+## Example Reasoning
+
+Example 1: If a record says 'intake flange seep' and the action says 'performed leak check', it is strong evidence for c_28.
+Example 2: If a record says 'intake manifold gasket' and the action says 'installed new gasket', it is strong evidence for c_28.
+Example 3: If a record says 'induction leak' and the action says 'torqued intake flange', it is strong evidence for c_28.
+Example 4: If a record says 'intake manifold gasket' and the action says 'removed and replaced intake gasket', it is strong evidence for c_28.
+Example 5: If a record says 'intake manifold gasket' and the action says 'verified roughness corrected', it is strong evidence for c_28.
+Example 6: If a record says 'induction leak' and the action says 'verified roughness corrected', it is strong evidence for c_28.
+Example 7: If a record says 'intake flange seep' and the action says 'performed leak check', it is strong evidence for c_28.
+Example 8: If a record says 'rough running due to intake leak' and the action says 'torqued intake flange', it is strong evidence for c_28.
+Example 9: If a record says 'induction leak' and the action says 'installed new gasket', it is strong evidence for c_28.
+Example 10: If a record says 'rough running due to intake leak' and the action says 'installed new gasket', it is strong evidence for c_28.
+Example 11: If a record says 'air leak near intake' and the action says 'verified roughness corrected', it is strong evidence for c_28.
+Example 12: If a record says 'induction leak' and the action says 'torqued intake flange', it is strong evidence for c_28.
+Example 13: If a record says 'induction leak' and the action says 'installed new gasket', it is strong evidence for c_28.
+Example 14: If a record says 'induction leak' and the action says 'torqued intake flange', it is strong evidence for c_28.
+Example 15: If a record says 'intake gasket leak' and the action says 'performed leak check', it is strong evidence for c_28.

@@ -1,0 +1,186 @@
+# Cluster c_21: engine failure fire power loss engine quit
+
+Cluster ID: c_21
+Cluster name: engine failure fire power loss engine quit
+Total records in this cluster: 175
+
+## Purpose
+
+This cluster represents maintenance records labeled as `engine failure fire power loss engine quit`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- quit: 91
+- idle: 74
+- during: 60
+- failure: 57
+- rpm: 52
+- power: 48
+- throttle: 39
+- after: 36
+- when: 30
+- run: 29
+- loss: 28
+- left: 28
+- restart: 25
+- checklist: 24
+- start: 20
+- mixture: 19
+- landing: 17
+- simulated: 17
+- flight: 17
+- rough: 16
+
+## Common action terms
+
+- good: 109
+- ops: 90
+- idle: 90
+- ran: 73
+- a/c: 71
+- mixture: 54
+- adjusted: 42
+- seasonal: 38
+- rpm: 36
+- speed: 27
+- run: 26
+- noted: 25
+- adjustment: 24
+- defects: 23
+- leak: 19
+- specs: 18
+- mag: 18
+- ground: 15
+- flight: 13
+- duplicate: 13
+
+## Common ATA codes
+
+- 7200.0: 44
+- 7100.0: 26
+- 7610.0: 21
+- 550.0: 11
+- 7410.0: 8
+- 7320.0: 8
+- 590.0: 6
+- 7300.0: 6
+- 7600.0: 4
+- 7930.0: 4
+
+## Common registrations
+
+- N655ND: 10
+- N546ND: 9
+- N527ND: 6
+- N781ND: 6
+- N548ND: 5
+- N525ND: 5
+- N695ND: 5
+- N529ND: 5
+- N566ND: 4
+- N780ND: 4
+
+## Inclusion guidance
+
+A record belongs to cluster c_21 when the maintenance problem and corrective action are consistent with `engine failure fire power loss engine quit`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1117553
+Registration: N577ND
+ATA code: 7410.0
+Problem: ENGINE QUIT, TRIED TO RESTART.
+Action: REMOVED & REPLACED R/H MAGNETO W/ S/N 11070634. TIMED & TORQUED TO SPECS. OPS & LEAK CHECK GOOD.
+
+### Example 2
+
+Work order: 1118925
+Registration: N543ND
+ATA code: 7200.0
+Problem: RAN ENGINE START CKLIST 3 TIMES, TRIED COLD START CKLIST 2 TIMES & ENGINE FLOODED ONCE. ENGINE DIDN'T START, NEVER HEARD ENGINE FIRE.
+Action: STARTED ENGINE USING NORMAL PROCEDURES, OPS CHECK GOOD.
+
+### Example 3
+
+Work order: 1120041
+Registration: N516ND
+ATA code: 7200.0
+Problem: SLIGHT POWER LOSS ON TAKE OFF (A/C IN FERGUS FALLS, MN).
+Action: FOR BILLING PURPOSES ONLY, WORK PERFORMED BY: A&P 2225109. SEE DISCREPANCY PAGE DATED 2/20/13 FOR SIGN OFF.
+
+### Example 4
+
+Work order: 1122167
+Registration: N550ND
+ATA code: 7610.0
+Problem: IDLE IS TOO LOW, ENGINE QUIT AFTER LANDING. ALSO HARD TO START.
+Action: ADJUSTED IDLE RPM FOR SEASONAL CONDITIONS. OPS CHECK GOOD.
+
+### Example 5
+
+Work order: 1122516
+Registration: N507ND
+ATA code: 7200.0
+Problem: AFTER PERFORMING SIMULATED ENGINE FAILURE, SMOOTHLY APPLIED FULL POWER & CLIMBED OUT. ABOUT 15 SEC AFTER, ENGINE VIBRATED & ENGINE RPM DECREASED FROM 2500 TO 2350. ENGINE REMAINED OK.
+Action: RAN UP A/C ENGINE. ENGINE RUNS SMOOTH. MAG DROPS, IDLE MIXTURE & SPEED ALL OPS CHECK GOOD. SEE W/O #1122518 FOR MAINTENANCE FLIGHT.
+
+### Example 6
+
+Work order: 1122526
+Registration: N577ND
+ATA code: 7200.0
+Problem: EXPERIENCED PARTIAL POWER LOSS DURING CLIMB.
+Action: FOR BILLING PURPOSES ONLY, WORK PERFORMED BY: A&P 3024870IA. SEE DISCREPANCY PAGE DATED 5/9/13 FOR SIGN OFF.
+
+### Example 7
+
+Work order: 1123814
+Registration: N576ND
+ATA code: 7220.0
+Problem: WHILE TAXING, ENGINE COUGHED & SPUTTERED ANYTIME RPMS WERE BELOW 1000 RPM. ENGINE QUIT RUNNING BEFORE LEAVING RAMP. ON RESTART, CONTINUED TO RUN ROUGH AT BOTH MIXTURE LEAN & MIXTURE RICH.
+Action: ENGINE RAN SMOOTH AT DIFFERENT SETTINGS.
+
+### Example 8
+
+Work order: 1123814
+Registration: N576ND
+ATA code: 7220.0
+Problem: WHILE TAXING, ENGINE COUGHED & SPUTTERED ANYTIME RPMS WERE BELOW 1000 RPM. ENGINE QUIT RUNNING BEFORE LEAVING RAMP. ON RESTART, CONTINUED TO RUN ROUGH AT BOTH MIXTURE LEAN & MIXTURE RICH.
+Action: RAN ENGINE. NOTED DISCREPANCY, ROUGH ENGINE BELOW 1000 RPM. PERFORMED MAGNETO DROP CK AT 1800 RPM, 110 RPM DROP ON BOTH MAGS. PERFORMED POWER RUN UP W/ MIXTURE LEAN TO CLEAR ANY FOULED PLUGS. CK'ED IDLE RM, W/IN SPECS. MIXTURE IDLE CK W/IN SPECS.
+
+### Example 9
+
+Work order: 1123962
+Registration: N531ND
+ATA code: 7100.0
+Problem: A/C HAD ENGINE FIRE - USED EXTINGUISHER.
+Action: CLEANED EXTINGUISHER RESIDUE OFF ENGINE W/ HOT WATER. INSPECTED ENGINE & EXHAUST NOTING NO DISCREPS. NO EVIDENCE OF FIRE NOTED. OPS CHECKED ENGINE NOTING NO DISCREPS. REMOVED & REPLACED FIRE EXTINGUISHER.
+
+### Example 10
+
+Work order: 1123967
+Registration: N531ND
+ATA code: 550.0
+Problem: HIDDEN DAMAGE INSP REQUIRED FOR ENG FIRE.
+Action: PERFORMED HIDDEN DAMAGE ON AFFECTED AREA, NO DAMAGE NOTICED. FIRE CAME OUT OF EXHAUST FLAME TUBE. NO DAMAGE DONE TO EXHAUST. DRY CHEMICAL FIRE EXTINGUISHER WAS SPRAYED ON ENGINE AREA. REF TO W/O #1123962 FOR CORRECTIVE ACTION.
+
+### Example 11
+
+Work order: 1124909
+Registration: N524ND
+ATA code: 7410.0
+Problem: ENGINE QUIT RUNNING AFTER REDUCING THROTTLE TO 1000 RPM, RESTARTED ENGINE & AFTER A FEW MINUTES ENGINE QUIT. RPM FLUCTUATED BETWEEN 300 - 400 RPM AFTER RESTART.
+Action: PERFORMED RUN UP, MAG DROPS 170 RPM ON BOTH W/ MIXTURE RICH, 90 RPM W/ MIXTURE LEANED DROPS W/IN SPECS. MIXTURE IDLE CHECK GOOD. LEAK CHECK MAGNETOS GOOD.
+
+### Example 12
+
+Work order: 1124909
+Registration: N524ND
+ATA code: 7410.0
+Problem: ENGINE QUIT RUNNING AFTER REDUCING THROTTLE TO 1000 RPM, RESTARTED ENGINE & AFTER A FEW MINUTES ENGINE QUIT. RPM FLUCTUATED BETWEEN 300 - 400 RPM AFTER RESTART.
+Action: PERFORMED RUN UP, ENGINE DID NOT QUIT AT ANYTIME OR DIFFERENT SETTINGS. MAG DROPS TOO HIGH, ABOUT 200 RPM. CHECKED MAG TIMING, OFF BY 4 DEGREES. RETIMED MAGS, CLEANED PLUGS, INSTALLED NEW GASKETS & TORQUED TO SPECS.
+

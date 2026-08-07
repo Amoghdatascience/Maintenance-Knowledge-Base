@@ -1,0 +1,110 @@
+# Cluster c_23: engine repair reinstall clean remove replace engine
+
+Cluster ID: c_23
+Cluster name: engine repair reinstall clean remove replace engine
+Total records in this cluster: 4
+
+## Purpose
+
+This cluster represents maintenance records labeled as `engine repair reinstall clean remove replace engine`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- mag: 4
+- l/h: 3
+- rpm: 3
+- dropped: 2
+- ran: 2
+- ign: 1
+- leads: 1
+- cap: 1
+- springs: 1
+- broken: 1
+- during: 1
+- run: 1
+- r/h: 1
+- rough: 1
+- then: 1
+- back: 1
+- fired: 1
+- after: 1
+- attempting: 1
+- clean: 1
+
+## Common action terms
+
+- mag: 5
+- left: 3
+- good: 2
+- right: 2
+- new: 1
+- electrobraid: 1
+- pin: 1
+- insulator: 1
+- spring: 1
+- ran: 1
+- a/c: 1
+- all: 1
+- checks: 1
+- roughness: 1
+- noted: 1
+- verified: 1
+- discrepancy: 1
+- ignition: 1
+- lead: 1
+- end: 1
+
+## Common ATA codes
+
+- 7410.0: 1
+- 7100.0: 1
+- 7200.0: 1
+- 520.0: 1
+
+## Common registrations
+
+- N695ND: 1
+- N571ND: 1
+- N798ND: 1
+- N842ND: 1
+
+## Inclusion guidance
+
+A record belongs to cluster c_23 when the maintenance problem and corrective action are consistent with `engine repair reinstall clean remove replace engine`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1167965
+Registration: N695ND
+ATA code: 7410.0
+Problem: 2 IGN LEADS @ MAG CAP SPRINGS BROKEN ON L/H MAG OF L/H ENGINE.
+Action: REPAIRED W/ NEW ELECTROBRAID PIN, INSULATOR & SPRING (2 EA).
+
+### Example 2
+
+Work order: 1170745
+Registration: N571ND
+ATA code: 7100.0
+Problem: DURING RUN UP, R/H MAG DROPPED 210 RPM, ENGINE RAN ROUGH THEN BACK FIRED. AFTER ATTEMPTING TO CLEAN ENGINE, MAG DROPPED 220 RPM.
+Action: RAN A/C, ALL MAG CHECKS GOOD. NO ROUGHNESS NOTED.
+
+### Example 3
+
+Work order: 1232963
+Registration: N798ND
+ATA code: 7200.0
+Problem: Rapid RPM drop below 175 accompanied with a lot of vibration. Ran fouled plug checklist and had the same result.
+Action: Verified discrepancy for the left engine. Repaired ignition lead end at left engine right mag. Replaced Left engine right mag. Ops and leak checked good. SN: 21120781
+
+### Example 4
+
+Work order: 1244140
+Registration: N842ND
+ATA code: 520.0
+Problem: LIO-360-B1G6 L/H magneto replacement
+Action: Removed and replaced RH Eng LH magneto with repaired, and timed mag externally to engine. Repaired mag PN: 4330 SN: 23120147
+

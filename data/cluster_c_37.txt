@@ -1,0 +1,186 @@
+# Cluster c_37: rocker cover valve cover
+
+Cluster ID: c_37
+Cluster name: rocker cover valve cover
+Total records in this cluster: 968
+
+## Purpose
+
+This cluster represents maintenance records labeled as `rocker cover valve cover`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- rocker: 926
+- leaking: 807
+- cover: 804
+- gasket: 318
+- cyl: 268
+- gaskets: 206
+- covers: 131
+- missing: 48
+- cylinder: 44
+- l/h: 42
+- r/h: 32
+- screw: 31
+- all: 29
+- valve: 28
+- eng: 28
+- screws: 25
+- leaks: 25
+- loose: 19
+- torn: 13
+- hardware: 9
+
+## Common action terms
+
+- rocker: 569
+- cover: 542
+- gasket: 520
+- gaskets: 329
+- new: 107
+- cyl: 66
+- screws: 38
+- tightened: 32
+- covers: 29
+- screw: 27
+- cleaned: 26
+- all: 24
+- leak: 24
+- good: 21
+- hardware: 13
+- silicone: 13
+- valve: 12
+- defects: 12
+- noted: 12
+- further: 11
+
+## Common ATA codes
+
+- 7230.0: 909
+- 7330.0: 13
+- 7200.0: 11
+- 520.0: 6
+- 7100.0: 6
+- 561.0: 3
+- 7130.0: 3
+- 7320.0: 2
+- 2730.0: 2
+- 3240.0: 2
+
+## Common registrations
+
+- N521ND: 20
+- N519ND: 18
+- N575ND: 18
+- N525ND: 18
+- N515ND: 17
+- N523ND: 17
+- N550ND: 16
+- N560ND: 16
+- N545ND: 16
+- N520ND: 16
+
+## Inclusion guidance
+
+A record belongs to cluster c_37 when the maintenance problem and corrective action are consistent with `rocker cover valve cover`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1114453
+Registration: N545ND
+ATA code: 7230.0
+Problem: #1 & 3 ROCKER COVERS LEAKING.
+Action: REMOVED & REPLACED #1 & 3 ROCKER COVER GASKETS.
+
+### Example 2
+
+Work order: 1115675
+Registration: N537ND
+ATA code: 7230.0
+Problem: #2 ROCKER COVER GASKET LEAKING.
+Action: REMOVED & REPLACED #2 ROCKER COVER GASKET.
+
+### Example 3
+
+Work order: 1115675
+Registration: N537ND
+ATA code: 7230.0
+Problem: #3 ROCKER COVER GASKET LEAKING.
+Action: REMOVED & REPLACED #3 ROCKER COVER GASKET.
+
+### Example 4
+
+Work order: 1115982
+Registration: N525ND
+ATA code: 7230.0
+Problem: #3 ROCKER COVER GASKET LEAKING.
+Action: REMOVED & REPLACED #3 ROCKER COVER GASKET.
+
+### Example 5
+
+Work order: 1115990
+Registration: N568ND
+ATA code: 7230.0
+Problem: #3 ROCKER COVER GASKET LEAKING.
+Action: REMOVED & REPLACED #3 ROCKER COVER GASKET.
+
+### Example 6
+
+Work order: 1115993
+Registration: N567ND
+ATA code: 7230.0
+Problem: #2 ROCKER COVER LEAKING.
+Action: REPLACED GASKET.
+
+### Example 7
+
+Work order: 1116009
+Registration: N514ND
+ATA code: 7230.0
+Problem: CYL #3 ROCKER COVER IS LEAKING.
+Action: REMOVED & REPLACED ROCKER COVER GASKET.
+
+### Example 8
+
+Work order: 1116011
+Registration: N510ND
+ATA code: 7230.0
+Problem: #2 & 4 ROCKER COVERS ARE LEAKING.
+Action: REMOVED & REPLACED GASKETS.
+
+### Example 9
+
+Work order: 1116040
+Registration: N550ND
+ATA code: 7230.0
+Problem: #2 & 3 ROCKER COVERS LEAKING.
+Action: REMOVED & REPLACED #2 & 3 ROCKER COVER GASKETS.
+
+### Example 10
+
+Work order: 1116041
+Registration: N513ND
+ATA code: 7230.0
+Problem: #2 ROCKER COVER LEAKING.
+Action: REMOVED & REPLACED #2 ROCKER COVER GASKET.
+
+### Example 11
+
+Work order: 1116041
+Registration: N513ND
+ATA code: 7230.0
+Problem: #1 & 3 ROCKER COVER GASKETS LEAKING.
+Action: REMOVED & REPLACED #1 & 3 ROCKER COVER GASKETS.
+
+### Example 12
+
+Work order: 1116212
+Registration: N570ND
+ATA code: 7230.0
+Problem: #1 ROCKER COVER GASKET IS LEAKING.
+Action: REMOVED & REPLACED GASKET.
+

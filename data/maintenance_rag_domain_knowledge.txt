@@ -1,0 +1,31 @@
+# Maintenance RAG Domain Knowledge
+
+This document describes a fictional but realistic maintenance-data knowledge base for testing RAG systems. The examples are designed to help retrieval pipelines answer questions about aircraft maintenance clusters, work orders, symptoms, corrective actions, and domain-specific rules.
+
+A maintenance work order usually contains a work order number, aircraft registration, date opened, date closed, ATA code, problem description, corrective action, cluster ID, and cluster name. The problem field describes the reported issue. The action field describes what maintenance personnel inspected, adjusted, repaired, removed, replaced, installed, tested, or approved.
+
+Maintenance clustering groups similar work orders together. A cluster may represent a component, failure mode, symptom pattern, or corrective action. For example, one cluster may represent engine idle or RPM issues, while another cluster may represent baffle bolt damage.
+
+Cluster c_22 represents engine idle and RPM issues. Records in this cluster may mention rough idle, low RPM, high RPM, unstable idle, idle override, engine dying at idle, failure to maintain idle, or idle adjustment. Strong corrective-action evidence includes adjusting idle, tuning fuel servo, replacing fuel servo, performing engine run-up, and verifying RPM stability.
+
+Cluster c_28 represents intake gasket leak or damage. Records in this cluster may mention intake gasket, induction leak, intake leak, gasket replacement, rough running caused by air leak, or intake manifold sealing. Strong evidence includes removing and replacing the intake gasket, resealing the intake, inspecting intake flange, and confirming leak correction.
+
+Cluster c_37 represents rocker cover loose, leaking, or damaged. Records may mention rocker cover, valve cover, oil leak near rocker cover, loose cover screw, gasket seep, cover replacement, or resealing. Corrective actions include tightening rocker cover hardware, replacing rocker cover gasket, resealing the cover, cleaning oil residue, and performing leak check.
+
+Cluster c_2 represents baffle bolt issues. Records should mention both baffle and bolt. A record that only mentions bolt without baffle should not automatically go to c_2. A record that only mentions baffle without bolt may belong to a parent baffle cluster or a different baffle child cluster.
+
+Cluster c_11 represents baffle tie rod issues. Records should mention both baffle and tie rod. Corrective actions may include replacing tie rod, securing baffle tie rod, adjusting tie rod tension, or installing missing tie rod hardware.
+
+Cluster c_7 represents baffle rivet issues. Records should mention both baffle and rivet. Corrective actions may include replacing missing rivets, installing new rivets, repairing loose baffle rivets, or reattaching baffle sections.
+
+Cluster c_10 represents baffle spring issues. Records should mention both baffle and spring. Corrective actions may include installing missing baffle spring, replacing weak spring, attaching spring to baffle seal, or securing spring hardware.
+
+A good RAG system should distinguish between similar clusters. For example, baffle bolt, baffle rivet, baffle spring, and baffle tie rod are separate child clusters. The retriever should return the specific child rule when the user asks about one of these clusters.
+
+Misfit removal is important in maintenance clustering. A misfit is a record assigned to a cluster even though the problem and action do not support that cluster. For example, a record mentioning dirty aircraft paint should not be assigned to an engine oil cooler cluster unless the action specifically refers to oil cooler contamination or repair. A pure inspection record should not be assigned to a corrective-action cluster unless the cluster is explicitly about inspection.
+
+For mixture-related clusters, records should be kept only when there is evidence of adjustment, approval, acceptance, correction, replacement, or another maintenance change. If the action says no adjustment was made, the record should be excluded from a mixture adjustment cluster.
+
+Domain-specific overrides improve consistency. For baffle child clusters, requiring the parent token baffle plus the child token such as bolt, rivet, spring, or tie rod reduces false positives. For flight-control clusters, terms such as aileron, elevator, rudder, flap, spoiler, and trim may indicate flight-control-related maintenance.
+
+A RAG assistant for maintenance data should provide concise answers, cite the retrieved source, and explain the rule used. It should not invent cluster rules that are not present in the knowledge base.

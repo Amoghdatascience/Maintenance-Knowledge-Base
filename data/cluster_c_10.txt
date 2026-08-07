@@ -1,0 +1,183 @@
+# Cluster c_10: baffle spring
+
+Cluster ID: c_10
+Cluster name: baffle spring
+Total records in this cluster: 46
+
+## Purpose
+
+This cluster represents maintenance records labeled as `baffle spring`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- baffle: 44
+- spring: 36
+- broken: 21
+- r/h: 14
+- l/h: 11
+- chafing: 8
+- oil: 7
+- line: 7
+- return: 6
+- cyl: 6
+- i/b: 6
+- side: 5
+- tie: 4
+- drain: 4
+- tube: 3
+- inner: 3
+- through: 3
+- lower: 3
+- rod: 3
+- cylinder: 3
+
+## Common action terms
+
+- spring: 40
+- baffle: 35
+- new: 23
+- reinstalled: 9
+- line: 7
+- oil: 6
+- alternator: 5
+- further: 5
+- defects: 5
+- noted: 5
+- drilled: 4
+- adjusted: 3
+- hole: 3
+- connected: 3
+- assy: 3
+- patch: 3
+- a/c: 3
+- wire: 2
+- drain: 2
+- leak: 2
+
+## Common ATA codes
+
+- 7230.0: 34
+- 7920.0: 5
+- 7910.0: 2
+- 7100.0: 2
+- 510.0: 1
+- 7200.0: 1
+- 7330.0: 1
+
+## Common registrations
+
+- N608ND: 5
+- N568ND: 4
+- N570ND: 3
+- N551ND: 3
+- N509ND: 2
+- N562ND: 2
+- N511ND: 2
+- N567ND: 1
+- N575ND: 1
+- N550ND: 1
+
+## Inclusion guidance
+
+A record belongs to cluster c_10 when the maintenance problem and corrective action are consistent with `baffle spring`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1116330
+Registration: N565ND
+ATA code: 7230.0
+Problem: R/H BOTTOM BAFFLE WIRE SPRING IS BROKEN.
+Action: REMOVED & REPLACED BAFFLE & WIRE SPRING W/ NEW.
+
+### Example 2
+
+Work order: 1116513
+Registration: N568ND
+ATA code: 7910.0
+Problem: #3 OIL RETURN TUBE CHAFED BY BAFFLE SPRING.
+Action: REPLACED OIL DRAIN TUBE W/ NEW PART. LEAK CHECK REQ.
+
+### Example 3
+
+Work order: 1116513
+Registration: N568ND
+ATA code: 7910.0
+Problem: #3 OIL RETURN TUBE CHAFED BY BAFFLE SPRING.
+Action: LEAK CHECK GOOD.
+
+### Example 4
+
+Work order: 1118970
+Registration: N567ND
+ATA code: 7230.0
+Problem: CYL #1/3 BAFFLE SPRING BROKEN.
+Action: REPLACED #1/3 BAFFLE SPRING.
+
+### Example 5
+
+Work order: 1119647
+Registration: N568ND
+ATA code: 7230.0
+Problem: R/H BAFFLE SPRING BROKEN.
+Action: REMOVED & REPLACED BAFFLE SPRING W/ NEW.
+
+### Example 6
+
+Work order: 1120535
+Registration: N558ND
+ATA code: 7230.0
+Problem: R/H BAFFLE SPRING BROKEN.
+Action: REMOVED & REPLACED BAFFLE SPRING W/ NEW.
+
+### Example 7
+
+Work order: 1120608
+Registration: N550ND
+ATA code: 7230.0
+Problem: R/H BAFFLE SPRING BROKEN.
+Action: REMOVED & REPLACED BAFFLE SPRING W/ NEW.
+
+### Example 8
+
+Work order: 1121994
+Registration: N551ND
+ATA code: 7230.0
+Problem: L/H BAFFLE SPRING IS BROKEN.
+Action: REMOVED & REPLACED BAFFLE SPRING W/ NEW.
+
+### Example 9
+
+Work order: 1123043
+Registration: N551ND
+ATA code: 7230.0
+Problem: L/H INNER BAFFLE SPRING IS BROKEN.
+Action: REMOVED & REPLACED BAFFLE SPRING W/ NEW.
+
+### Example 10
+
+Work order: 1123129
+Registration: N570ND
+ATA code: 7230.0
+Problem: #2 & 4 BAFFLE OUTER TIE & SPRING BROKEN.
+Action: INSTALLED NEW OUTER BAFFLE TIE.
+
+### Example 11
+
+Work order: 1123129
+Registration: N570ND
+ATA code: 7230.0
+Problem: #2 & 4 BAFFLE INNER TIE & SPRING OUT OF PLACE.
+Action: REINSTALLED BAFFLE TIE IN CORRECT POSITION.
+
+### Example 12
+
+Work order: 1127405
+Registration: N575ND
+ATA code: 7230.0
+Problem: L/H I/B BAFFLE SPRING IS BRKOEN.
+Action: INSTALLED NEW SPRING.
+

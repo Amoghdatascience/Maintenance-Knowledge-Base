@@ -1,0 +1,186 @@
+# Cluster c_4: baffle crack damage loose missing
+
+Cluster ID: c_4
+Cluster name: baffle crack damage loose missing
+Total records in this cluster: 462
+
+## Purpose
+
+This cluster represents maintenance records labeled as `baffle crack damage loose missing`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- baffle: 452
+- cracked: 243
+- cyl: 141
+- aft: 97
+- r/h: 88
+- crack: 82
+- l/h: 73
+- fwd: 67
+- missing: 57
+- has: 55
+- side: 54
+- loose: 52
+- eng: 46
+- cylinder: 45
+- oil: 34
+- rear: 26
+- hardware: 20
+- cooler: 16
+- plugs: 15
+- above: 15
+
+## Common action terms
+
+- crack: 287
+- drilled: 283
+- stop: 280
+- baffle: 230
+- fabricated: 70
+- cyl: 60
+- patch: 58
+- aft: 51
+- iaw: 51
+- new: 43
+- doubler: 42
+- riveted: 38
+- noted: 32
+- rivets: 27
+- material: 26
+- fwd: 26
+- hardware: 25
+- damage: 25
+- further: 23
+- like: 22
+
+## Common ATA codes
+
+- 7230.0: 409
+- 561.0: 11
+- 7100.0: 9
+- 7110.0: 7
+- 7920.0: 4
+- 7130.0: 4
+- 520.0: 3
+- 7200.0: 3
+- 8000.0: 2
+- 7910.0: 2
+
+## Common registrations
+
+- N891ND: 14
+- N799ND: 9
+- N566ND: 8
+- N796ND: 8
+- N847ND: 7
+- N842ND: 7
+- N527ND: 6
+- N785ND: 6
+- N641ND: 6
+- N794ND: 6
+
+## Inclusion guidance
+
+A record belongs to cluster c_4 when the maintenance problem and corrective action are consistent with `baffle crack damage loose missing`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113868
+Registration: N545ND
+ATA code: 7230.0
+Problem: #4 REAR ENGINE BAFFLE CRACKED.
+Action: STOP DRILLED CRACK.
+
+### Example 2
+
+Work order: 1116040
+Registration: N550ND
+ATA code: 7230.0
+Problem: L/H AFT UPPER BAFFLE CRACKED.
+Action: STOP DRILLED CRACK, FABRICATED PATCH & INSTALLED PATCH.
+
+### Example 3
+
+Work order: 1116449
+Registration: N531ND
+ATA code: 7230.0
+Problem: #4 CYL BAFFLE IS CRACKED.
+Action: STOP DRILLED CRACK.
+
+### Example 4
+
+Work order: 1116561
+Registration: N525ND
+ATA code: 7230.0
+Problem: L/H FWD ENGINE BAFFLE CRACKED.
+Action: STOP DRILLED CRACK.
+
+### Example 5
+
+Work order: 1116992
+Registration: N509ND
+ATA code: 7230.0
+Problem: #1 CYL BAFFLE CRACKED.
+Action: FABRICATED PATCH FROM .032 OF LIKE MATERIAL AS BAFFLE. STOP DRILLED CRACK, RIVETED PATCH.
+
+### Example 6
+
+Work order: 1117319
+Registration: N561ND
+ATA code: 7230.0
+Problem: L/H REAR ENGINE BAFFLE CRACKED.
+Action: STOP DRILLED CRACK.
+
+### Example 7
+
+Work order: 1117430
+Registration: N546ND
+ATA code: 7230.0
+Problem: #1 FRONT BAFFLE CRACKED.
+Action: STOP DRILLED CRACK.
+
+### Example 8
+
+Work order: 1117788
+Registration: N531ND
+ATA code: 7230.0
+Problem: TOP L/H BAFFLE CORNER HAS A CRACK.
+Action: STOP DRILLED CRACK.
+
+### Example 9
+
+Work order: 1117831
+Registration: N528ND
+ATA code: 7230.0
+Problem: CRACK IN RIGHT FRONT BAFFLE.
+Action: STOP DRILLED CRACK.
+
+### Example 10
+
+Work order: 1118070
+Registration: N532ND
+ATA code: 7110.0
+Problem: BAFFLE PLUGS HAVE TOO MANY TABS MISSING.
+Action: REPLACED BAFFLE PLUGS.
+
+### Example 11
+
+Work order: 1118117
+Registration: N566ND
+ATA code: 7230.0
+Problem: REAR R/H BAFFLE RIVETS MISSING.
+Action: REMOVED BAFFLE, REPLACED RIVETS, REINSTALLED BAFFLE.
+
+### Example 12
+
+Work order: 1118919
+Registration: N562ND
+ATA code: 7230.0
+Problem: HARDWARE MISSING ON R/H AFT BAFFLE.
+Action: INSTALLED NEW HARDWARE IN AFT R/H BAFFLE.
+

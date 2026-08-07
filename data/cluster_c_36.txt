@@ -1,0 +1,186 @@
+# Cluster c_36: pilot reported in flight noticed
+
+Cluster ID: c_36
+Cluster name: pilot reported in flight noticed
+Total records in this cluster: 5662
+
+## Purpose
+
+This cluster represents maintenance records labeled as `pilot reported in flight noticed`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- flight: 2121
+- seat: 704
+- light: 646
+- inop: 504
+- required: 457
+- error: 413
+- during: 402
+- side: 381
+- poh: 318
+- co-pilot: 316
+- opened: 276
+- copilot: 273
+- stall: 256
+- door: 252
+- off: 229
+- left: 227
+- right: 225
+- gear: 221
+- l/h: 220
+- back: 218
+
+## Common action terms
+
+- good: 2411
+- ops: 1827
+- flight: 987
+- seat: 728
+- light: 503
+- error: 402
+- poh: 399
+- new: 397
+- co-pilot: 361
+- a/c: 339
+- adjusted: 323
+- iaw: 297
+- cleaned: 288
+- cfi: 281
+- checks: 280
+- reinstalled: 268
+- switch: 266
+- noted: 260
+- operation: 246
+- s/n: 237
+
+## Common ATA codes
+
+- 2510.0: 917
+- 580.0: 542
+- 0.0: 362
+- 3310.0: 290
+- 3340.0: 283
+- 3400.0: 262
+- 520.0: 232
+- 2310.0: 212
+- 550.0: 211
+- 5210.0: 169
+
+## Common registrations
+
+- N687ND: 69
+- N794ND: 69
+- N689ND: 60
+- N529ND: 59
+- N509ND: 57
+- N780ND: 55
+- N524ND: 55
+- N550ND: 53
+- N688ND: 53
+- N842ND: 53
+
+## Inclusion guidance
+
+A record belongs to cluster c_36 when the maintenance problem and corrective action are consistent with `pilot reported in flight noticed`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113750
+Registration: N556ND
+ATA code: 2310.0
+Problem: COULD NOT HEAR ON PILOT HEADSET.
+Action: ADJUSTED PILOT PHONE JACK. CHECKS GOOD.
+
+### Example 2
+
+Work order: 1113760
+Registration: N537ND
+ATA code: 3140.0
+Problem: STALL WARNING HORN INOP.
+Action: CLEARED OBSTRUCTION IN SYSTEM, OPS CK OK.
+
+### Example 3
+
+Work order: 1113982
+Registration: N537ND
+ATA code: 2310.0
+Problem: PILOT SIDE PTT BUTTON DIDN'T WORK VERY WELL DURING FLIGHT.
+Action: REPLACED SWITCH. CHECKS GOOD.
+
+### Example 4
+
+Work order: 1114463
+Registration: N551ND
+ATA code: 3400.0
+Problem: FAILED DATA MESSAGE APPEARED THROUGHOUT FLIGHT.
+Action: REPLOADED SOFTWARE & CONFIG FILES, CHECKS GOOD.
+
+### Example 5
+
+Work order: 1114510
+Registration: N556ND
+ATA code: 5100.0
+Problem: BUG A/C FOR FLIGHT TIME
+Action: BUGGED A/C
+
+### Example 6
+
+Work order: 1114510
+Registration: N556ND
+ATA code: 2510.0
+Problem: PAGES TORN OUT OF POH
+Action: REPAIRED PAGES WITH PAPER REINFORCEMENT RINGS AND REINSTALLED IN POH
+
+### Example 7
+
+Work order: 1114775
+Registration: N556ND
+ATA code: 5100.0
+Problem: BUG A/C FOR PREFLIGHT
+Action: BUGGED A/C FOR PREFLIGHT
+
+### Example 8
+
+Work order: 1115044
+Registration: N556ND
+ATA code: 580.0
+Problem: BREAK-IN FLIGHT REQUIRED IAW LYCOMING SI 1427B.
+Action: PERFORMED MX FLIGHT NOTING NO DISCREPS. PHILLIP ZARICAR 3453106 CFI 5/14.
+
+### Example 9
+
+Work order: 1115354
+Registration: N513ND
+ATA code: 3700.0
+Problem: VACUUM PUMP FAILED IN FLIGHT.
+Action: REMOVED & REPLACED VAC PUMP W/ S/N 925616. OPS & LEAK CHECK GOOD.
+
+### Example 10
+
+Work order: 1115675
+Registration: N537ND
+ATA code: 2510.0
+Problem: PILOT SUN VISOR RETAINER SPRING MISSING.
+Action: REMOVED & REPLACED W/ RED KNOB KIT ON PILOT SUN VISOR.
+
+### Example 11
+
+Work order: 1115804
+Registration: N537ND
+ATA code: 2300.0
+Problem: PILOT HEADSET DID NOT WORK FOR INTERCOM.
+Action: ADJUSTED AUDIO SETTINGS, CHECKS GOOD.
+
+### Example 12
+
+Work order: 1115990
+Registration: N568ND
+ATA code: 3310.0
+Problem: MAP LIGHT KNOB MISSING ON PILOT YOKE.
+Action: INSTALLED NEW MAP LIGHT KNOB & SET SCREW.
+

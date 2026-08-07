@@ -1,0 +1,184 @@
+# Cluster c_11: baffle tie rod
+
+Cluster ID: c_11
+Cluster name: baffle tie rod
+Total records in this cluster: 87
+
+## Purpose
+
+This cluster represents maintenance records labeled as `baffle tie rod`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- baffle: 90
+- tie: 77
+- rod: 58
+- broken: 35
+- cyl: 25
+- l/h: 22
+- loose: 16
+- r/h: 15
+- oil: 9
+- return: 9
+- nut: 9
+- eng: 7
+- line: 7
+- inner: 6
+- lower: 6
+- wire: 5
+- rods: 5
+- bottom: 4
+- o/b: 4
+- aft: 4
+
+## Common action terms
+
+- tie: 76
+- baffle: 62
+- rod: 58
+- new: 23
+- cyl: 14
+- tightened: 11
+- rods: 9
+- adjusted: 8
+- nut: 8
+- l/h: 7
+- line: 7
+- return: 6
+- oil: 5
+- lower: 4
+- noted: 4
+- clearance: 4
+- eng: 4
+- cylinder: 4
+- hardware: 4
+- fwd: 3
+
+## Common ATA codes
+
+- 7230.0: 69
+- 561.0: 6
+- 7110.0: 4
+- 7100.0: 3
+- 7200.0: 2
+- 7220.0: 1
+- 7920.0: 1
+- 7130.0: 1
+
+## Common registrations
+
+- N529ND: 3
+- N573ND: 3
+- N524ND: 3
+- N908ND: 3
+- N683R: 3
+- N781ND: 3
+- N528ND: 2
+- N564ND: 2
+- N633ND: 2
+- N796ND: 2
+
+## Inclusion guidance
+
+A record belongs to cluster c_11 when the maintenance problem and corrective action are consistent with `baffle tie rod`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1115337
+Registration: N529ND
+ATA code: 7230.0
+Problem: L/H BOTTOM BAFFLE WIRE HOLDER IS BROKEN.
+Action: REMOVED & REPLACED LOWER L/H BAFFLE TIE ROD.
+
+### Example 2
+
+Work order: 1116010
+Registration: N575ND
+ATA code: 7230.0
+Problem: R/H INNER CYL BAFFLE TIE ROD IS INSTALLED INCORRECTLY.
+Action: TIE ROD BROKE WHILE REPOSITIONING. REMOVED & REPLACED ROD.
+
+### Example 3
+
+Work order: 1120445
+Registration: N563ND
+ATA code: 7230.0
+Problem: L/H BAFFLE O/B TIE ROD IS BROKEN.
+Action: REMOVED & REPLACED L/H BAFFLE TIE ROD.
+
+### Example 4
+
+Work order: 1121386
+Registration: N530ND
+ATA code: 7230.0
+Problem: L/H O/B LOWER BAFFLE TIE ROD BROKEN.
+Action: REMOVED & REPLACED TIE ROD.
+
+### Example 5
+
+Work order: 1126427
+Registration: N568ND
+ATA code: 7230.0
+Problem: R/H BAFFLE TIE ROD BROKEN.
+Action: REMOVED & REPLACED BAFFLE TIE ROD.
+
+### Example 6
+
+Work order: 1128559
+Registration: N573ND
+ATA code: 7230.0
+Problem: L/H BAFFLE TIE BROKEN.
+Action: INSTALLED NEW BAFFLE TIE.
+
+### Example 7
+
+Work order: 1132291
+Registration: N573ND
+ATA code: 7230.0
+Problem: L/H O/B BAFFLE TIE BROKEN.
+Action: REMOVED & REPLACED BAFFLE TIE.
+
+### Example 8
+
+Work order: 1134446
+Registration: N529ND
+ATA code: 7230.0
+Problem: ENGINE BAFFLE TIE ROD BROKEN.
+Action: REMOVED & REPLACED ENGINE BAFFLE TIE ROD.
+
+### Example 9
+
+Work order: 1137742
+Registration: N564ND
+ATA code: 7230.0
+Problem: BOTTOM R/H BAFFLE TIE DOWN UNSECURED FROM BAFFLE.
+Action: INSTALLED NEW TIE ROD.
+
+### Example 10
+
+Work order: 1138842
+Registration: N526ND
+ATA code: 7230.0
+Problem: R/H BAFFLE TIE ROD IS BROKEN.
+Action: REMOVED & REPLACED R/H BAFFLE TIE ROD.
+
+### Example 11
+
+Work order: 1138851
+Registration: N563ND
+ATA code: 7230.0
+Problem: BAFFLE TIE WIRE INSTALLED WRONG ON R/H OF ENG.
+Action: REMOVED & REPLACED R/H BAFFLE TIE WIRE.
+
+### Example 12
+
+Work order: 1140026
+Registration: N528ND
+ATA code: 561.0
+Problem: BAFFLE TIE ROD MISSING UNDER #2 & 4 CYLINDERS.
+Action: INSTALLED BAFFLE ROD.
+

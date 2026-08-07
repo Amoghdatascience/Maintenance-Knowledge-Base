@@ -1,0 +1,186 @@
+# Cluster c_16: cylinder head temperature
+
+Cluster ID: c_16
+Cluster name: cylinder head temperature
+Total records in this cluster: 340
+
+## Purpose
+
+This cluster represents maintenance records labeled as `cylinder head temperature`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- cht: 243
+- egt: 64
+- cyl: 54
+- broken: 50
+- probe: 48
+- during: 45
+- wire: 36
+- degrees: 32
+- red: 31
+- cylinder: 29
+- egt/cht: 27
+- cht/egt: 27
+- flight: 25
+- cruise: 24
+- than: 22
+- temp: 22
+- change: 22
+- rpm: 20
+- reading: 19
+- high: 18
+
+## Common action terms
+
+- cht: 169
+- good: 130
+- probe: 123
+- ops: 122
+- ran: 80
+- new: 74
+- a/c: 69
+- egt: 54
+- oil: 45
+- wire: 43
+- cyl: 32
+- noted: 32
+- defects: 30
+- wiring: 23
+- all: 21
+- secured: 20
+- fuel: 19
+- run: 19
+- probes: 18
+- resecured: 16
+
+## Common ATA codes
+
+- 7720.0: 181
+- 7700.0: 37
+- 7200.0: 20
+- 7100.0: 20
+- 7230.0: 17
+- 550.0: 16
+- 7710.0: 9
+- 520.0: 7
+- 3100.0: 4
+- 510.0: 4
+
+## Common registrations
+
+- N551ND: 14
+- N508ND: 9
+- N529ND: 9
+- N514ND: 8
+- N573ND: 8
+- N565ND: 7
+- N689ND: 7
+- N792ND: 7
+- N896J: 7
+- N516ND: 7
+
+## Inclusion guidance
+
+A record belongs to cluster c_16 when the maintenance problem and corrective action are consistent with `cylinder head temperature`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1114877
+Registration: N556ND
+ATA code: 7720.0
+Problem: #2 CHT PROBE WILL NOT COME OUT OF OLD ENGINE.
+Action: INSTALLED NEW CHT PROBE.
+
+### Example 2
+
+Work order: 1116018
+Registration: N558ND
+ATA code: 7710.0
+Problem: #2 CHT PROBE IS DEFORMED.
+Action: REMOVED & REPLACED PROBE.
+
+### Example 3
+
+Work order: 1116410
+Registration: N539ND
+ATA code: 7700.0
+Problem: STANDOFF OF #3 ROCKER COVER HAS BROKEN ZIP TIE ATTACHMENT POINT.
+Action: RESECURED CHT/EGT WIRING TO STANDOFF ATTACH POINT.
+
+### Example 4
+
+Work order: 1116575
+Registration: N516ND
+ATA code: 7720.0
+Problem: CHT MAX 525, AVG 400 FLUCTUATED THROUGHOUT WHOLE FLIGHT W/ RPM SETTING 2200 - 2400.
+Action: REMOVED & REPLACED CHT PROBE, OPS CHECK GOOD.
+
+### Example 5
+
+Work order: 1116727
+Registration: N538ND
+ATA code: 7720.0
+Problem: #4 CHT PROBE NOT READING ACCURATELY.
+Action: REPLACED CHT PROBE, OPS CHECK GOOD.
+
+### Example 6
+
+Work order: 1116727
+Registration: N538ND
+ATA code: 7230.0
+Problem: #2 & 4 INTAKE GASKETS ARE LEAKING, CAUSING CHT & EGT VARIATIONS.
+Action: OPS & LEAK CHECK GOOD.
+
+### Example 7
+
+Work order: 1116727
+Registration: N538ND
+ATA code: 7230.0
+Problem: #2 & 4 INTAKE GASKETS ARE LEAKING, CAUSING CHT & EGT VARIATIONS.
+Action: REPLACED #2 & 4 INTAKE TUBES, FLANGES & GASKETS.
+
+### Example 8
+
+Work order: 1117123
+Registration: N522ND
+ATA code: 7200.0
+Problem: #2 CYL "MISSING" ON RUN UP (RUNS ROUGH).
+Action: RAN, OPS OK. NO ROUGHNESS. EGT - CHT - STATIC RPM - IDLE SPEED & MIXTURE OK.
+
+### Example 9
+
+Work order: 1117223
+Registration: N545ND
+ATA code: 7720.0
+Problem: #2 CYL CHT & EGT WIRES LOOSE.
+Action: RESECURED WIRES.
+
+### Example 10
+
+Work order: 1117640
+Registration: N523ND
+ATA code: 7720.0
+Problem: #1 CYL CHT & EGT WIRES LOOSE.
+Action: SECURED EGT & CHT HARNESS W/ TIE WRAP AS NECESSARY.
+
+### Example 11
+
+Work order: 1119670
+Registration: N512ND
+ATA code: 7720.0
+Problem: CYL #4 CHT & EGT WIRES CHAFED.
+Action: INSTALLED SHRINK WRAP TO CHAFED AREAS.
+
+### Example 12
+
+Work order: 1119727
+Registration: N547ND
+ATA code: 7720.0
+Problem: EGT FOR CYLINDER #3 FLUCTUATED BETWEEN 900 - 1400 DEGREES. PEAK EGT WS 1525 ON CYL #2 & CHT FOR ALL CYLINDERS BETWEEN 310 - 330.
+Action: COULD NOT DUPLICATE DISCREPANCY. RAN UP A/C, EGT SYSTEM OPS CHECK GOOD AT THIS TIME.
+

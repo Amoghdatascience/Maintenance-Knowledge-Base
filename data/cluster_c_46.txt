@@ -1,0 +1,186 @@
+# Cluster c_46: propeller damage
+
+Cluster ID: c_46
+Cluster name: propeller damage
+Total records in this cluster: 892
+
+## Purpose
+
+This cluster represents maintenance records labeled as `propeller damage`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- prop: 734
+- nicked: 446
+- change: 218
+- due: 216
+- time: 203
+- propeller: 162
+- blades: 108
+- r/h: 49
+- nicks: 48
+- l/h: 48
+- has: 43
+- damaged: 28
+- minor: 26
+- file: 26
+- strike: 20
+- hours: 20
+- preflight: 19
+- tso: 18
+- nick: 15
+- timed: 11
+
+## Common action terms
+
+- prop: 876
+- filed: 410
+- s/n: 157
+- propeller: 142
+- torqued: 140
+- safetied: 135
+- bolts: 72
+- blended: 65
+- overhauled: 61
+- p/n: 52
+- new: 49
+- em8s14-0-62: 44
+- spinner: 34
+- nicks: 33
+- dressed: 29
+- r/h: 27
+- bulkhead: 26
+- l/h: 20
+- reinstalled: 17
+- reconditioned: 15
+
+## Common ATA codes
+
+- 6100.0: 712
+- 6110.0: 67
+- 520.0: 47
+- 510.0: 35
+- 550.0: 14
+- 561.0: 5
+- 590.0: 3
+- 610.0: 2
+- 8010.0: 2
+- 7200.0: 1
+
+## Common registrations
+
+- N546ND: 15
+- N799ND: 15
+- N618ND: 15
+- N797ND: 13
+- N619ND: 13
+- N607ND: 12
+- N610ND: 12
+- N609ND: 12
+- N631ND: 11
+- N579ND: 11
+
+## Inclusion guidance
+
+A record belongs to cluster c_46 when the maintenance problem and corrective action are consistent with `propeller damage`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1114877
+Registration: N556ND
+ATA code: 6100.0
+Problem: PROPELLER DUE TIME CHANGE.
+Action: REMOVED PROPELLER.
+
+### Example 2
+
+Work order: 1114877
+Registration: N556ND
+ATA code: 6100.0
+Problem: PROPELLER DUE TIME CHANGE.
+Action: INSTALLED RECONDITIONED PROP S/N AEC23508A. TORQUED & SAFETIED BOLTS.
+
+### Example 3
+
+Work order: 1116018
+Registration: N558ND
+ATA code: 6100.0
+Problem: PROP IS DUE FOR TIME CHANGE.
+Action: REMOVED PROP.
+
+### Example 4
+
+Work order: 1116272
+Registration: N525ND
+ATA code: 6110.0
+Problem: PROP NICKED.
+Action: FILED PROP.
+
+### Example 5
+
+Work order: 1116347
+Registration: N540ND
+ATA code: 6110.0
+Problem: PROP NICKED.
+Action: FILED PROP.
+
+### Example 6
+
+Work order: 1116499
+Registration: N526ND
+ATA code: 6100.0
+Problem: PROP NICKED.
+Action: REMOVED NICKS FROM PROP.
+
+### Example 7
+
+Work order: 1116753
+Registration: N565ND
+ATA code: 6100.0
+Problem: PROP BLADES NICKED.
+Action: FILED PROP.
+
+### Example 8
+
+Work order: 1117241
+Registration: N508ND
+ATA code: 6100.0
+Problem: PROP NICKED.
+Action: REMOVED NICKS FROM PROP.
+
+### Example 9
+
+Work order: 1117242
+Registration: N572ND
+ATA code: 6100.0
+Problem: PROP NICKED.
+Action: REMOVED NICKS FROM PROP.
+
+### Example 10
+
+Work order: 1117243
+Registration: N560ND
+ATA code: 6100.0
+Problem: PROP NICKED.
+Action: REMOVED NICKS FROM PROP.
+
+### Example 11
+
+Work order: 1117244
+Registration: N527ND
+ATA code: 6100.0
+Problem: PROPELLER NICKED.
+Action: REMOVED NICKS FROM PROPELLER.
+
+### Example 12
+
+Work order: 1117322
+Registration: N532ND
+ATA code: 6110.0
+Problem: 2 DEEP NICKS ON PROP.
+Action: REMOVED & REPLACED PROP W/ S/N ACE23559A IAW CESSNA SERVICE MANUAL 61-10-00 REV 26. TORQUED BOLTS TO SPECS & SAFETY WIRED. DAMAGE DETERMINED NOT "A PROP STRIKE".
+

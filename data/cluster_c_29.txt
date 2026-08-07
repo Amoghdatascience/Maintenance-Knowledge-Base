@@ -1,0 +1,186 @@
+# Cluster c_29: intake tube boot seal
+
+Cluster ID: c_29
+Cluster name: intake tube boot seal
+Total records in this cluster: 244
+
+## Purpose
+
+This cluster represents maintenance records labeled as `intake tube boot seal`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- intake: 188
+- tube: 132
+- leaking: 91
+- gasket: 45
+- air: 36
+- boot: 35
+- r/h: 33
+- torn: 31
+- eng: 31
+- scat: 28
+- worn: 27
+- l/h: 25
+- seal: 21
+- sump: 20
+- oil: 19
+- gaskets: 19
+- shroud: 18
+- has: 16
+- cyl: 14
+- heat: 14
+
+## Common action terms
+
+- intake: 94
+- new: 76
+- tube: 71
+- gasket: 56
+- boot: 37
+- scat: 24
+- air: 23
+- leak: 21
+- good: 21
+- seal: 19
+- rtv: 18
+- clamp: 18
+- shroud: 17
+- sump: 15
+- reinstalled: 15
+- accepted: 15
+- heat: 13
+- worn: 13
+- hose: 13
+- oil: 13
+
+## Common ATA codes
+
+- 7230.0: 121
+- 7160.0: 36
+- 2140.0: 14
+- 7200.0: 8
+- 7100.0: 7
+- 6120.0: 5
+- 7800.0: 4
+- 7310.0: 3
+- 2420.0: 3
+- 2710.0: 3
+
+## Common registrations
+
+- N796ND: 7
+- N780ND: 7
+- N250TH: 6
+- N687ND: 5
+- N571ND: 5
+- N344Y: 5
+- N689ND: 5
+- N522ND: 5
+- N683R: 5
+- N649ND: 4
+
+## Inclusion guidance
+
+A record belongs to cluster c_29 when the maintenance problem and corrective action are consistent with `intake tube boot seal`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1122113
+Registration: N565ND
+ATA code: 7230.0
+Problem: #2 INTAKE I/B BOLT HOLE HAS DAMAGED THREADS.
+Action: REPAIRED THREADS W/ TAP.
+
+### Example 2
+
+Work order: 1124231
+Registration: N571ND
+ATA code: 7230.0
+Problem: INTAKE TUBE LEAKING AT CONNECTION POINT W/ OIL SUMP CYL #4.
+Action: CLEANED & PERFORMED ENGINE RUN UP, CONFIRMED DISCREPANCY.
+
+### Example 3
+
+Work order: 1124231
+Registration: N571ND
+ATA code: 7230.0
+Problem: INTAKE TUBE LEAKING AT CONNECTION POINT W/ OIL SUMP CYL #4.
+Action: RESWAGED INTAKE PIPE IAW LYCOMING OVERHAUL MANUAL & INSTALLED IN GASKET. LEAK CHECK GOOD.
+
+### Example 4
+
+Work order: 1125381
+Registration: N540ND
+ATA code: 7230.0
+Problem: #2 INTAKE TUBE GASKET LEAKING.
+Action: INSTALLED NEW #2 INTAKE TUBE GASKET.
+
+### Example 5
+
+Work order: 1126307
+Registration: N563ND
+ATA code: 7230.0
+Problem: CYL #2 INTAKE TUBE AT SUMP HAS POSSIBLE FUEL LEAK.
+Action: CLEANED TUBE, GROUND RUN LEAK CK GOOD.
+
+### Example 6
+
+Work order: 1127110
+Registration: N564ND
+ATA code: 7160.0
+Problem: MUFFLER HEAT SHROUD IS MISALIGNED.
+Action: ALIGNED SHROUD & FITTED INTAKE SEAL.
+
+### Example 7
+
+Work order: 1127395
+Registration: N529ND
+ATA code: 7820.0
+Problem: MUFFLER STACK SUPPORT CRACKED.
+Action: REMOVED S/N 26808 & INSTALLED S/N 29953. FITTED HEAT SHROUD & HEAT SHROUD INTAKE SEAL.
+
+### Example 8
+
+Work order: 1130016
+Registration: N509ND
+ATA code: 7100.0
+Problem: FUEL SERVO HAS EVIDENCE OF LEAK.
+Action: CLEANED AIR INTAKE & FUEL SERVO FOR LEAK CK AFTER RUN UP.
+
+### Example 9
+
+Work order: 1130038
+Registration: N571ND
+ATA code: 7230.0
+Problem: #4 INTAKE LEAKING @ OIL SUMP.
+Action: SWAGED TUBE.
+
+### Example 10
+
+Work order: 1130038
+Registration: N571ND
+ATA code: 7230.0
+Problem: #4 INTAKE LEAKING @ OIL SUMP.
+Action: LEAK CK GOOD.
+
+### Example 11
+
+Work order: 1130234
+Registration: N556ND
+ATA code: 3320.0
+Problem: REAR PASSENGER OVERHEAD LIGHT POPPED CIRCUIT BREAKER, WHEN TURNED ON.
+Action: FOUND RUBBER BOOT MISSING, INSTALLED NEW BOOT.
+
+### Example 12
+
+Work order: 1130341
+Registration: N538ND
+ATA code: 7230.0
+Problem: #1 INTAKE IS LEAKING AT OIL SUMP.
+Action: CLEANED, REMOVED TUBE (UPPER) & RESWAGED LOWER TUBE IN SUMP. REINSTALLED UPPER TUBE W/ NEW GASKET.
+

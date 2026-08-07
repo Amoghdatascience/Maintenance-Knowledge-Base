@@ -1,0 +1,186 @@
+# Cluster c_18: drain line tube
+
+Cluster ID: c_18
+Cluster name: drain line tube
+Total records in this cluster: 389
+
+## Purpose
+
+This cluster represents maintenance records labeled as `drain line tube`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- drain: 361
+- line: 141
+- oil: 124
+- leaking: 116
+- rocker: 104
+- fuel: 90
+- loose: 80
+- cyl: 79
+- clamps: 56
+- lines: 54
+- tube: 43
+- quick: 39
+- all: 34
+- l/h: 33
+- sump: 31
+- cylinder: 30
+- r/h: 26
+- hose: 26
+- needs: 23
+- clamp: 20
+
+## Common action terms
+
+- drain: 270
+- tightened: 117
+- line: 113
+- clamps: 98
+- oil: 74
+- new: 54
+- noted: 50
+- further: 48
+- fuel: 46
+- all: 46
+- hose: 43
+- defects: 43
+- quick: 42
+- rocker: 42
+- good: 33
+- leak: 33
+- lines: 32
+- tube: 29
+- clamp: 27
+- cleaned: 23
+
+## Common ATA codes
+
+- 7920.0: 124
+- 7230.0: 55
+- 7900.0: 31
+- 2800.0: 24
+- 561.0: 19
+- 7300.0: 16
+- 7310.0: 13
+- 2820.0: 10
+- 520.0: 9
+- 7910.0: 9
+
+## Common registrations
+
+- N642ND: 12
+- N543ND: 8
+- N531ND: 8
+- N689ND: 7
+- N678ND: 7
+- N652ND: 7
+- N573ND: 7
+- N579ND: 6
+- N569ND: 6
+- N515ND: 6
+
+## Inclusion guidance
+
+A record belongs to cluster c_18 when the maintenance problem and corrective action are consistent with `drain line tube`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1116003
+Registration: N516ND
+ATA code: 2830.0
+Problem: CANNED ELECTRIC FUEL PUMP DRAIN TUBE FOR USE ON 571ND W/O #1115909, PD #1.
+Action: REMOVED AS SERVICEABLE. PART ON ORDER.
+
+### Example 2
+
+Work order: 1116003
+Registration: N516ND
+ATA code: 2830.0
+Problem: CANNED ELECTRIC FUEL PUMP DRAIN TUBE FOR USE ON 571ND W/O #1115909, PD #1.
+Action: INSTALLED NEW ELECTRIC FUEL PUMP DRAIN.
+
+### Example 3
+
+Work order: 1116751
+Registration: N512ND
+ATA code: 7310.0
+Problem: FUEL SPIDER DRAIN LINE NEEDS TO BE SUPPORTED.
+Action: SUPPORTED W/ TYWRAPS.
+
+### Example 4
+
+Work order: 1117244
+Registration: N527ND
+ATA code: 7250.0
+Problem: CYL #1 OIL RETURN LINE CHAFING.
+Action: REMOVED & REPLACED OIL DRAIN LINE.
+
+### Example 5
+
+Work order: 1117255
+Registration: N511ND
+ATA code: 2800.0
+Problem: L/H FWD I/B FUEL QUICK DRAIN LEAKS.
+Action: INSTALLED NEW QUICK DRAIN VALVE, OPS CK GOOD.
+
+### Example 6
+
+Work order: 1117322
+Registration: N532ND
+ATA code: 7230.0
+Problem: #4 CYL ROCKER DRAIN LINE CLAMP LOOSE & LEAKS NOTED.
+Action: SECURED DRAIN CLAMP & TIGHTENING. CLEANED LEAKS IN AREA.
+
+### Example 7
+
+Work order: 1117794
+Registration: N573ND
+ATA code: 7300.0
+Problem: L/H WING AFT I/B FUEL DRAIN LEAKING.
+Action: REMOVED & REPLACED L/H WING AFT I/B FUEL DRAIN.
+
+### Example 8
+
+Work order: 1118475
+Registration: N568ND
+ATA code: 7900.0
+Problem: #1 OIL RETURN LINE RUBBED ON OIL DRAIN LINE.
+Action: REPLACED LINE. LEAK CHECK GOOD.
+
+### Example 9
+
+Work order: 1118737
+Registration: N547ND
+ATA code: 7300.0
+Problem: QUICK DRAIN IS LEAKING ON FUEL STRAINER.
+Action: REPLACED QUICK DRAIN VALVE, OPS CK OK.
+
+### Example 10
+
+Work order: 1119263
+Registration: N564ND
+ATA code: 2830.0
+Problem: DRAIN LINE BROKE OFF FROM FUEL PUMP.
+Action: REMOVED & REPLACED DRAIN LINE, OPS CK GOOD.
+
+### Example 11
+
+Work order: 1119351
+Registration: N531ND
+ATA code: 7300.0
+Problem: FUEL INJECTOR DRAIN LINE CRACKED.
+Action: REMOVED CRACKED PORTION, REPOSITIONED LINE & SECURED.
+
+### Example 12
+
+Work order: 1120493
+Registration: N556ND
+ATA code: 2800.0
+Problem: R/H WING FUEL DRAIN IS LEAKING.
+Action: REMOVED & REPLACED LEAKY FUEL SUMP.
+

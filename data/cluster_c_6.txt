@@ -1,0 +1,186 @@
+# Cluster c_6: baffle plug
+
+Cluster ID: c_6
+Cluster name: baffle plug
+Total records in this cluster: 245
+
+## Purpose
+
+This cluster represents maintenance records labeled as `baffle plug`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- baffle: 243
+- plug: 188
+- worn: 91
+- plugs: 64
+- r/h: 54
+- l/h: 39
+- hole: 35
+- broken: 33
+- missing: 30
+- damaged: 28
+- spark: 26
+- both: 24
+- needs: 21
+- side: 21
+- cyl: 20
+- button: 13
+- tabs: 12
+- out: 11
+- access: 11
+- patch: 10
+
+## Common action terms
+
+- baffle: 159
+- plug: 150
+- new: 83
+- plugs: 77
+- patch: 29
+- doubler: 13
+- riveted: 11
+- iaw: 11
+- cessna: 10
+- srm: 10
+- further: 9
+- noted: 9
+- fabricated: 8
+- button: 7
+- like: 6
+- material: 6
+- hole: 6
+- r/h: 6
+- patches: 6
+- both: 6
+
+## Common ATA codes
+
+- 7230.0: 204
+- 7110.0: 10
+- 7100.0: 10
+- 7200.0: 6
+- 7330.0: 4
+- 7420.0: 3
+- 520.0: 2
+- 560.0: 1
+- 7210.0: 1
+- 7140.0: 1
+
+## Common registrations
+
+- N549ND: 8
+- N539ND: 7
+- N524ND: 7
+- N521ND: 7
+- N559ND: 7
+- N571ND: 6
+- N525ND: 6
+- N537ND: 6
+- N577ND: 5
+- N509ND: 5
+
+## Inclusion guidance
+
+A record belongs to cluster c_6 when the maintenance problem and corrective action are consistent with `baffle plug`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1116009
+Registration: N514ND
+ATA code: 7230.0
+Problem: L/H UPPER BAFFLE FOR CYL #4 PLUG HOLE IS ENLARGED.
+Action: INSTALLED PATCH MADE OF LIKE MATERIAL & RIVETED IAW CESSNA SINGLE ENGINE SRM CH 51-40-00.
+
+### Example 2
+
+Work order: 1116328
+Registration: N559ND
+ATA code: 7230.0
+Problem: L/H BAFFLE PLUG NEEDS TO BE REPLACED.
+Action: REMOVED & REPLACED BAFFLE PLUG.
+
+### Example 3
+
+Work order: 1116365
+Registration: N524ND
+ATA code: 7230.0
+Problem: #3 BAFFLE PLUG IS WORN.
+Action: REMOVED & REPLACED PLUG.
+
+### Example 4
+
+Work order: 1116726
+Registration: N566ND
+ATA code: 7230.0
+Problem: BAFFLE SPARK PLUG CAPS ARE WORN OUT.
+Action: INSTALLED NEW BAFFLE CAPS.
+
+### Example 5
+
+Work order: 1117164
+Registration: N573ND
+ATA code: 7230.0
+Problem: BAFFLE PLUG MISSING ON ENGINE.
+Action: REPLACED PLUG.
+
+### Example 6
+
+Work order: 1117255
+Registration: N511ND
+ATA code: 7230.0
+Problem: ENGINE BAFFLE PLUG TABS BROKEN.
+Action: INSTALLED NEW ENGINE BAFFLE PLUGS.
+
+### Example 7
+
+Work order: 1118921
+Registration: N538ND
+ATA code: 7230.0
+Problem: ENGINE BAFFLE PLUGS BAD.
+Action: INSTALLED NEW BAFFLE PLUGS.
+
+### Example 8
+
+Work order: 1119070
+Registration: N540ND
+ATA code: 7230.0
+Problem: L/H BAFFLE, SPARK PLUG ACCESS PLUG WORN TABS.
+Action: REMOVED & REPLACED BROKEN BAFFLE PLUG.
+
+### Example 9
+
+Work order: 1121713
+Registration: N577ND
+ATA code: 7230.0
+Problem: R/H ENGINE BAFFLE PLUG BROKEN.
+Action: INSTALLED NEW BAFFLE PLUG.
+
+### Example 10
+
+Work order: 1121762
+Registration: N524ND
+ATA code: 7230.0
+Problem: BAFFLE PLUG IS MISSING.
+Action: INSTALLED NEW PLUG.
+
+### Example 11
+
+Work order: 1121976
+Registration: N521ND
+ATA code: 7230.0
+Problem: ENGINE BAFFLE PLUGS WORN.
+Action: REMOVED & REPLACED BAFFLE PLUGS.
+
+### Example 12
+
+Work order: 1122309
+Registration: N570ND
+ATA code: 7230.0
+Problem: SPARK PLUG BAFFLE HOLE PLUGS ARE WORN.
+Action: REMOVED & REPLACED PLUGS.
+

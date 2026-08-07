@@ -1,0 +1,186 @@
+# Cluster c_44: landing gear tire
+
+Cluster ID: c_44
+Cluster name: landing gear tire
+Total records in this cluster: 7948
+
+## Purpose
+
+This cluster represents maintenance records labeled as `landing gear tire`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- tire: 4635
+- mlg: 3936
+- worn: 3262
+- r/h: 2093
+- l/h: 2018
+- brake: 1473
+- main: 1413
+- flat: 1085
+- low: 922
+- linings: 881
+- has: 804
+- nlg: 771
+- showing: 716
+- nose: 560
+- out: 556
+- gear: 551
+- spot: 537
+- landing: 490
+- left: 425
+- strut: 402
+
+## Common action terms
+
+- tire: 4261
+- tube: 2718
+- mlg: 2503
+- new: 2273
+- brake: 1304
+- serviced: 1168
+- r/h: 1003
+- linings: 969
+- l/h: 965
+- wheel: 731
+- nlg: 619
+- main: 441
+- gear: 436
+- good: 387
+- assy: 352
+- strut: 337
+- landing: 307
+- spec: 303
+- ops: 297
+- accepted: 290
+
+## Common ATA codes
+
+- 3240.0: 5572
+- 3210.0: 735
+- 3220.0: 553
+- 3200.0: 438
+- 550.0: 149
+- 3230.0: 139
+- 3340.0: 101
+- 520.0: 64
+- 561.0: 38
+- 3260.0: 33
+
+## Common registrations
+
+- N796ND: 119
+- N794ND: 118
+- N835ND: 117
+- N842ND: 107
+- N847ND: 106
+- N797ND: 97
+- N799ND: 96
+- N798ND: 88
+- N780ND: 77
+- N893ND: 72
+
+## Inclusion guidance
+
+A record belongs to cluster c_44 when the maintenance problem and corrective action are consistent with `landing gear tire`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1112782
+Registration: N556ND
+ATA code: 3240.0
+Problem: NOSE TIRE FLAT.
+Action: REMOVED & REPLACED NOSE TIRE & TUBE W/ NEW.
+
+### Example 2
+
+Work order: 1113389
+Registration: N556ND
+ATA code: 3240.0
+Problem: FLAT SPOT ON R/H MLG TIRE.
+Action: TIRE TREAD STILL W/IN LIMITS.
+
+### Example 3
+
+Work order: 1113517
+Registration: N537ND
+ATA code: 3240.0
+Problem: NLG TIRE FLAT ON RAMP.
+Action: REMOVED & REPLACED TIRE & TUBE.
+
+### Example 4
+
+Work order: 1113581
+Registration: N556ND
+ATA code: 3240.0
+Problem: R/H MLG TIRE HAS CORD SHOWING.
+Action: REPLACED TIRE & TUBE.
+
+### Example 5
+
+Work order: 1113784
+Registration: N537ND
+ATA code: 3240.0
+Problem: R/H MAIN TIRE WORN EXCESSIVLY, FOUND LEFT MAIN TIRE WORN AFTER INSPECTION.
+Action: REPLACED LEFT TIRE & TUBE.
+
+### Example 6
+
+Work order: 1113798
+Registration: N545ND
+ATA code: 3240.0
+Problem: R/H MLG TIRE WORN.
+Action: REMOVED & REPLACED TIRE & TUBE.
+
+### Example 7
+
+Work order: 1114378
+Registration: N556ND
+ATA code: 3240.0
+Problem: L/H MLG TIRE HAS CORD SHOWING.
+Action: REMOVED & REPLACED L/H MAIN LANDING GEAR TIRE & TUBE.
+
+### Example 8
+
+Work order: 1114458
+Registration: N537ND
+ATA code: 3240.0
+Problem: L/H & R/H MLG BRAKE LININGS WORN.
+Action: INSTALLED NEW BRAKE LININGS IN L/H & R/H MLG CALIPERS.
+
+### Example 9
+
+Work order: 1114510
+Registration: N556ND
+ATA code: 3240.0
+Problem: L/H MLG TIRE COTTER PIN CUT SHORT
+Action: INSTALLED NEW COTTER PIN
+
+### Example 10
+
+Work order: 1114776
+Registration: N529ND
+ATA code: 3240.0
+Problem: MLG BRAKE LININGS ARE WORN BELOW LIMITS.
+Action: INSTALLED NEW BRAKE LININGS ON BOTH MLG CALIPERS.
+
+### Example 11
+
+Work order: 1114928
+Registration: N545ND
+ATA code: 3240.0
+Problem: L/H & R/H MLG BRAKE LININGS WORN.
+Action: INSTALLED NEW L/H & R/H MLG BRAKE LININGS.
+
+### Example 12
+
+Work order: 1114934
+Registration: N513ND
+ATA code: 3220.0
+Problem: NLG TIRE IS WEATHER CRACKED.
+Action: REMOVED & REPLACED NLG TIRE.
+

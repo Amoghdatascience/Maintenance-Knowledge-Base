@@ -1,0 +1,182 @@
+# Cluster c_14: cylinder crack failure
+
+Cluster ID: c_14
+Cluster name: cylinder crack failure
+Total records in this cluster: 35
+
+## Purpose
+
+This cluster represents maintenance records labeled as `cylinder crack failure`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- cracked: 31
+- cylinder: 22
+- eng: 11
+- r/h: 11
+- cyl: 11
+- baffling: 9
+- l/h: 7
+- side: 5
+- plug: 5
+- lwr: 4
+- spark: 4
+- above: 3
+- stack: 3
+- brake: 3
+- rpm: 3
+- has: 3
+- exhaust: 2
+- needed: 2
+- changed: 2
+- baffle: 2
+
+## Common action terms
+
+- new: 12
+- good: 10
+- cylinder: 10
+- cyl: 9
+- exhaust: 8
+- oil: 8
+- cylinders: 8
+- push: 7
+- baffling: 7
+- clearance: 6
+- l/h: 5
+- ops: 5
+- leak: 5
+- iaw: 5
+- serviced: 5
+- mineral: 5
+- rod: 5
+- stack: 4
+- lycoming: 4
+- overhaul: 4
+
+## Common ATA codes
+
+- 7230.0: 19
+- 7234.0: 11
+- 7810.0: 2
+- 7820.0: 1
+- 3240.0: 1
+- 7410.0: 1
+
+## Common registrations
+
+- N695ND: 4
+- N688ND: 4
+- N718ND: 3
+- N687ND: 3
+- N557ND: 3
+- N654ND: 2
+- N689ND: 1
+- N508ND: 1
+- N516ND: 1
+- N529ND: 1
+
+## Inclusion guidance
+
+A record belongs to cluster c_14 when the maintenance problem and corrective action are consistent with `cylinder crack failure`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1118171
+Registration: N550ND
+ATA code: 7230.0
+Problem: ENG BAFFLING CRACKED, R/H SIDE, ABOVE #1 CYLINDER.
+Action: CLEANED UP EDGES & INSTALLED.
+
+### Example 2
+
+Work order: 1124445
+Registration: N529ND
+ATA code: 7810.0
+Problem: EXHAUST STACK CYL #1 CRACKED.
+Action: REMOVED & REPLACED EXHAUST STACK CYL #1.
+
+### Example 3
+
+Work order: 1144674
+Registration: N516ND
+ATA code: 7820.0
+Problem: #1 CYL STACK CRACKED.
+Action: REMOVED & REPLACED STACK.
+
+### Example 4
+
+Work order: 1157922
+Registration: N508ND
+ATA code: 3240.0
+Problem: WHILE TAXIING, L/H BRAKE PEDAL WENT TO FLOOR & BRAKE STOPPED WORKING. ON POST FLIGHT, FOUND L/H BRAKE CALIPER WAS LOOSE.
+Action: INSPECTED, FOUND NO DEFECTS W/ L/H BRAKE CALIPER. WAS ABLE TO DUPLICATE L/H MASTER CYL FAILURE ONCE.
+
+### Example 5
+
+Work order: 1160192
+Registration: N695ND
+ATA code: 7230.0
+Problem: #1 CYLINDER ON R/H ENGINE IS CRACKED.
+Action: OPS & LEAK CK GOOD.
+
+### Example 6
+
+Work order: 1160192
+Registration: N695ND
+ATA code: 7230.0
+Problem: #1 CYLINDER ON R/H ENGINE IS CRACKED.
+Action: REMOVED CYLINDER ASSY. REPLACED W/ NEW CYLINDER ASSY IAW LYCOMING OVERHAUL MANUAL. SERVICED ENGINE W/ MINERAL OIL (OLD CYL WILL BE SENT IN FOR WARRANTY).
+
+### Example 7
+
+Work order: 1160372
+Registration: N689ND
+ATA code: 7230.0
+Problem: R/H ENGINE RUNNING ROUGH. DURING RUN UP ENGINE WAS VIOLENTLY SHAKING. RAN FOULED PLUG & COULD NOT GET ENGINE RPM ABOVE 2230.
+Action: CONFIRMED DISCREPANCY. INSPECTED R/H ENGINE & FOUND #3 CYL CRACKED. REMOVED UPPER SPARK PLUG ON CYLINDERS.
+
+### Example 8
+
+Work order: 1160498
+Registration: N654ND
+ATA code: 7230.0
+Problem: #1 CYLINDER CRACKED.
+Action: INSTALLED NEW #1 CYL IAW LYCOMING OVERHAUL MANUAL.
+
+### Example 9
+
+Work order: 1160498
+Registration: N654ND
+ATA code: 7230.0
+Problem: #1 CYLINDER CRACKED.
+Action: LEAK & OPS CK GOOD.
+
+### Example 10
+
+Work order: 1161737
+Registration: N653ND
+ATA code: 7234.0
+Problem: #1 CYL CRACKED.
+Action: SEE W/O #1162266 FOR ENGINE REPLACEMENT.
+
+### Example 11
+
+Work order: 1163287
+Registration: N557ND
+ATA code: 7234.0
+Problem: #2 CYLINDER CRACKED.
+Action: REMOVED #2, 3, 4 CYLINDERS & BEGAN REPLACING W/ NEW CYLINDERS IAW LYCOMING OVERHAUL MANUAL. TORQUED CYLINDER BASE NUTS. BEGAN REASSEMBLY.
+
+### Example 12
+
+Work order: 1163287
+Registration: N557ND
+ATA code: 7234.0
+Problem: #2 CYLINDER CRACKED.
+Action: FINISHED REASSEMBLY OF CYLINDERS 2, 3, 4. DRY TAPPET CLEARANCE CK GOOD AFTER REPLACING #4 EXHAUST PUSH ROD W/ LONGER PUSH ROD, FOR CLEARANCE. TURNED IN P/N 15F19957-29 TO PARTS AS SERVICEABLE. SERVICED ENG W/ MINERAL OIL. RAN UP A/C, OPS & LEAK CK GOOD.
+

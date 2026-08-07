@@ -1,0 +1,186 @@
+# Cluster c_15: exhaust valve stuck valve
+
+Cluster ID: c_15
+Cluster name: exhaust valve stuck valve
+Total records in this cluster: 247
+
+## Purpose
+
+This cluster represents maintenance records labeled as `exhaust valve stuck valve`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- valve: 176
+- exhaust: 136
+- carbon: 52
+- resistance: 44
+- cylinder: 42
+- cyl: 36
+- guide: 35
+- rough: 33
+- clearance: 33
+- rpm: 25
+- due: 24
+- lio-360-b1g6: 24
+- start: 21
+- replacement: 21
+- roughness: 20
+- failed: 20
+- insp: 20
+- sticking: 18
+- ran: 18
+- lycoming: 17
+
+## Common action terms
+
+- exhaust: 203
+- valve: 161
+- good: 115
+- cyl: 75
+- cylinder: 70
+- noted: 61
+- resistance: 59
+- clearance: 50
+- new: 50
+- carbon: 48
+- leak: 44
+- reamed: 44
+- lycoming: 44
+- rocker: 43
+- valves: 42
+- tappet: 40
+- ops: 39
+- defects: 38
+- iaw: 36
+- dry: 35
+
+## Common ATA codes
+
+- 7230.0: 94
+- 520.0: 59
+- 7200.0: 32
+- 7100.0: 14
+- 550.0: 12
+- 400.0: 12
+- 7220.0: 7
+- 2140.0: 4
+- 7410.0: 1
+- 7710.0: 1
+
+## Common registrations
+
+- N799ND: 17
+- N653ND: 10
+- N631ND: 10
+- N877ND: 9
+- N633ND: 8
+- N634ND: 8
+- N603ND: 6
+- N568ND: 6
+- N797ND: 6
+- N796ND: 6
+
+## Inclusion guidance
+
+A record belongs to cluster c_15 when the maintenance problem and corrective action are consistent with `exhaust valve stuck valve`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1117123
+Registration: N522ND
+ATA code: 7200.0
+Problem: #2 CYL "MISSING" ON RUN UP (RUNS ROUGH).
+Action: INSPECTED & FOUND #2 EXHAUST VALVE TIGHT. PERFORMED CLEANING IAW SI 1425A PART III. A/C NEED RUN FOR OPS & LEAK CK.
+
+### Example 2
+
+Work order: 1117737
+Registration: N563ND
+ATA code: 7410.0
+Problem: BAD MAG DROP.
+Action: RAN A/C, SUSPECT #2 & 4 STUCK VALVE.
+
+### Example 3
+
+Work order: 1117850
+Registration: N545ND
+ATA code: 7230.0
+Problem: #2 CYLINDER HAS A STUCK VALVE.
+Action: CHECKED VALVE GUIDE CLEARANCE, CHECK OK. CLEANED SPARK PLUGS, BORESCOPED CYLINDER, CHECK GOOD. REASSEMBLED, RAN A/C, OPS CHECK GOOD. LEAK CHECK GOOD.
+
+### Example 4
+
+Work order: 1125152
+Registration: N517ND
+ATA code: 7230.0
+Problem: #3 CYLINDER EXHAUST VALVE PUSH ROD TUBE APPEARS TO BE LEAKING.
+Action: CLEANED AREA.
+
+### Example 5
+
+Work order: 1125152
+Registration: N517ND
+ATA code: 7230.0
+Problem: #3 CYLINDER EXHAUST VALVE PUSH ROD TUBE APPEARS TO BE LEAKING.
+Action: LEAK CHECK GOOD.
+
+### Example 6
+
+Work order: 1126025
+Registration: N633ND
+ATA code: 7230.0
+Problem: #4 CYLINDER DEAD ON START UP, NO CHT OR EGT INDICATIONS.
+Action: REAMED EXHAUST VALVE GUIDES ON ALL 4 CYLINDERS. CLEANED & GAPPED SPARK PLUGS. PERFORMED POST MAINTENANCE RUN. ADJUST FUEL CONTROL.
+
+### Example 7
+
+Work order: 1126213
+Registration: N602ND
+ATA code: 7230.0
+Problem: #3 CYLINDER DROPPED OFF LINE.
+Action: REAMED EXHAUST VALVE GUIDES, ALL 4 CYLINDERS. CLEANED & ROTATED SPARK PLUGS. ADJUSTED FUEL CONTROL. PERFORMED POST MAINTENANCE RUN.
+
+### Example 8
+
+Work order: 1126427
+Registration: N568ND
+ATA code: 7100.0
+Problem: INSPECTED #1 CYL & FOUND EXHAUST VALVE BURNT.
+Action: DISCONNECTED & REMOVED STARTER. REMOVED MUFFLER, #1 & 3 EXHAUST STACKS. REMOVED #1 INTAKE. REMOVED #1 CYL ROCKER COVER. REPOSITIONED FWD BAFFLE TO ALLOW #1 CYL REMOVAL. REMOVED #1 CYL & #1 PISTON.
+
+### Example 9
+
+Work order: 1126427
+Registration: N568ND
+ATA code: 7100.0
+Problem: INSPECTED #1 CYL & FOUND EXHAUST VALVE BURNT.
+Action: INSTALLED NEW CYLINDER & PISTION ASSY. REINSTALLED MUFFLER & NEW EXHAUST GASKETS. REINSTALLED #1 INTAKE USING NEW GASKET. RESECURED FWD BAFFLE. REINSTALLED #1 ROCKER COVER. REINSTALLED ALTERNATOR. SEE PD #8 FOR CORRECTIVE ACTION.
+
+### Example 10
+
+Work order: 1126427
+Registration: N568ND
+ATA code: 7100.0
+Problem: INSPECTED #1 CYL & FOUND EXHAUST VALVE BURNT.
+Action: REINSTALLED #1 OIL RETURN LINE. SEE PD #10 FOR CORRECTIVE ACTION. SERVICED ENGINE W/ MINERAL OIL.
+
+### Example 11
+
+Work order: 1127561
+Registration: N507ND
+ATA code: 7710.0
+Problem: DURING CRUISE, ENGINE BECAME INCREDIBLY ROUGH. ENGINE CONTINUED TO RUN ROUGH CAUSING A/C TO SHAKE & VIBRATE.
+Action: REMOVED #2 CYL. FOUND #2 EXHAUST VALVE & GUIDE GALLED. STARTED INSTALLING SERVICEABLE CYLINDER. TORQUED BASE FLANGE.
+
+### Example 12
+
+Work order: 1129301
+Registration: N569ND
+ATA code: 2140.0
+Problem: CABIN HEAT VALVE STICKY.
+Action: LUBRICATED VALVE, OPS CK GOOD.
+

@@ -1,0 +1,186 @@
+# Cluster c_12: cowling cowl damage loose
+
+Cluster ID: c_12
+Cluster name: cowling cowl damage loose
+Total records in this cluster: 5941
+
+## Purpose
+
+This cluster represents maintenance records labeled as `cowling cowl damage loose`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- cowl: 3693
+- shock: 1863
+- torn: 1582
+- mount: 1537
+- cowling: 895
+- mounts: 841
+- lower: 611
+- r/h: 441
+- oil: 433
+- top: 402
+- screw: 393
+- bottom: 375
+- l/h: 367
+- missing: 343
+- cracked: 343
+- needs: 330
+- worn: 301
+- eng: 293
+- loose: 291
+- tape: 268
+
+## Common action terms
+
+- cowl: 2407
+- cowling: 1412
+- mount: 1378
+- shock: 1208
+- new: 1083
+- mounts: 941
+- top: 739
+- good: 662
+- reinstalled: 629
+- noted: 573
+- defects: 544
+- ran: 464
+- ops: 423
+- a/c: 419
+- oil: 409
+- tape: 382
+- cleaned: 351
+- lower: 348
+- screw: 326
+- chafe: 285
+
+## Common ATA codes
+
+- 7110.0: 3855
+- 550.0: 327
+- 7100.0: 276
+- 520.0: 191
+- 7200.0: 146
+- 2400.0: 75
+- 2430.0: 71
+- 7900.0: 68
+- 7230.0: 50
+- 5300.0: 47
+
+## Common registrations
+
+- N508ND: 96
+- N576ND: 78
+- N689ND: 74
+- N557ND: 73
+- N559ND: 70
+- N562ND: 69
+- N653ND: 68
+- N561ND: 67
+- N546ND: 67
+- N531ND: 66
+
+## Inclusion guidance
+
+A record belongs to cluster c_12 when the maintenance problem and corrective action are consistent with `cowling cowl damage loose`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113868
+Registration: N545ND
+ATA code: 7110.0
+Problem: ENG UPPER COWL NEEDS CHAFE TAPE.
+Action: INSTALLED CHAFE TAPE ON TOP COWL CHAFING AREAS.
+
+### Example 2
+
+Work order: 1114453
+Registration: N545ND
+ATA code: 7110.0
+Problem: #4 COWL SHOCK MOUNT TORN.
+Action: REMOVED & REPLACED #4 COWL SHOCK MOUNT.
+
+### Example 3
+
+Work order: 1114776
+Registration: N529ND
+ATA code: 7110.0
+Problem: COWL SHOCK MOUNTS #10 & 11 ARE TORN.
+Action: REMOVED & REPLACED COWL SHOCK MOUNTS 10 & 11.
+
+### Example 4
+
+Work order: 1114988
+Registration: N551ND
+ATA code: 7110.0
+Problem: COWL SHOCK MOUNTS 6, 10 & 11 TORN.
+Action: REMOVED & REPLACED COWL SHOCK MOUNTS.
+
+### Example 5
+
+Work order: 1115108
+Registration: N537ND
+ATA code: 7110.0
+Problem: #6 COWL SHOCK MOUNT TORN.
+Action: REMOVED & REPLACED SHOCK MOUNT W/ NEW.
+
+### Example 6
+
+Work order: 1115619
+Registration: N538ND
+ATA code: 7110.0
+Problem: TOP COWL NEEDS ANTI-ABRASION TAPE INSTALLED.
+Action: INSTALLED ANTI-ABRASION TAPE TO TOP COWL.
+
+### Example 7
+
+Work order: 1115679
+Registration: N556ND
+ATA code: 7110.0
+Problem: COWL SHOCK MOUNTS #1 & 11 ARE TORN.
+Action: REPLACED TORN COWL SHOCK MOUNTS.
+
+### Example 8
+
+Work order: 1115762
+Registration: N545ND
+ATA code: 7110.0
+Problem: COWL WEARING ON FUSELAGE SKIN.
+Action: APPLIED CHAFE TAPE TO LOWER RIGHT FWD FUSELAGE.
+
+### Example 9
+
+Work order: 1115850
+Registration: N551ND
+ATA code: 7110.0
+Problem: COWL SHOCK MOUNT #1 IS TORN.
+Action: REPLACED TORN COWL SHOCK MOUNT.
+
+### Example 10
+
+Work order: 1115866
+Registration: N529ND
+ATA code: 7110.0
+Problem: #10 COWL SHOCK MOUNT TORN.
+Action: REMOVED & REPLACED SHOCK MOUNT.
+
+### Example 11
+
+Work order: 1115982
+Registration: N525ND
+ATA code: 7110.0
+Problem: #2, 3, 4 & 10 COWL SHOCK MOUNTS TORN.
+Action: REMOVED & REPLACED #2, 3, 4 & 10 COWL SHOCK MOUNTS.
+
+### Example 12
+
+Work order: 1115993
+Registration: N567ND
+ATA code: 7110.0
+Problem: #10 & 11 COWL MOUNTS TORN.
+Action: REPLACED #10 & 11 COWL MOUNTS.
+

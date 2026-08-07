@@ -1,0 +1,186 @@
+# Cluster c_22: engine idle rpm issue
+
+Cluster ID: c_22
+Cluster name: engine idle rpm issue
+Total records in this cluster: 1609
+
+## Purpose
+
+This cluster represents maintenance records labeled as `engine idle rpm issue`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- idle: 1109
+- rpm: 626
+- during: 306
+- run: 284
+- mixture: 272
+- throttle: 230
+- low: 215
+- died: 214
+- when: 213
+- after: 178
+- high: 169
+- down: 163
+- rough: 161
+- rise: 149
+- shut: 137
+- power: 130
+- off: 118
+- start: 108
+- due: 106
+- back: 92
+
+## Common action terms
+
+- idle: 1287
+- good: 1060
+- mixture: 798
+- ops: 762
+- adjusted: 724
+- ran: 563
+- a/c: 425
+- rpm: 423
+- seasonal: 366
+- speed: 252
+- adjustment: 216
+- run: 191
+- noted: 182
+- defects: 153
+- mag: 153
+- fuel: 148
+- specs: 144
+- leak: 134
+- ground: 130
+- servo: 106
+
+## Common ATA codes
+
+- 7200.0: 288
+- 7610.0: 276
+- 7100.0: 245
+- 7320.0: 180
+- 7600.0: 103
+- 7300.0: 67
+- 550.0: 62
+- 7310.0: 61
+- 400.0: 39
+- 7410.0: 31
+
+## Common registrations
+
+- N559ND: 27
+- N579ND: 25
+- N546ND: 23
+- N842ND: 21
+- N557ND: 20
+- N514ND: 19
+- N847ND: 19
+- N509ND: 18
+- N515ND: 18
+- N521ND: 18
+
+## Inclusion guidance
+
+A record belongs to cluster c_22 when the maintenance problem and corrective action are consistent with `engine idle rpm issue`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1114877
+Registration: N556ND
+ATA code: 7100.0
+Problem: ENG CHANGE DUE.
+Action: RAN ENGINE, ADJUSTED IDLE SPEED & MIXTURE TO SPECS. OPS & LEAK CHECK GOOD.
+
+### Example 2
+
+Work order: 1115866
+Registration: N529ND
+ATA code: 7610.0
+Problem: IDLE MIXTURE CHECK PRODUCES NO RISE.
+Action: ADJUSTED IDLE MIXTURE.
+
+### Example 3
+
+Work order: 1115991
+Registration: N569ND
+ATA code: 7320.0
+Problem: HIGH IDLE.
+Action: ADJUSTED IDLE & MIXTURE FOR SEASONAL CONDITIONS. A/C CK GOOD.
+
+### Example 4
+
+Work order: 1116125
+Registration: N572ND
+ATA code: 7320.0
+Problem: ENGINE FAILS TO IDLE.
+Action: ADJUSTED IDLE MIXTURE & IDLE RPM. ENGINE IDLE OPS CHECK GOOD.
+
+### Example 5
+
+Work order: 1116366
+Registration: N550ND
+ATA code: 7600.0
+Problem: ON RUN UP, WHEN DOING IDLE CHECK, RPM DROPPED TO ~500, SPITTING & SPUTTERING. SOUNDED LIKE WAS GOING TO QUIT.
+Action: RESET IDLE RPM & MIXTURE SETTINGS. OPS CHECKED GOOD.
+
+### Example 6
+
+Work order: 1116419
+Registration: N521ND
+ATA code: 7320.0
+Problem: ENGINE DIES DURING IDLE CK.
+Action: CHECKED IDLE IAW 172S MM, CH 73-00-01 SEC 7 PAR A, NO DEFECTS NOTED.
+
+### Example 7
+
+Work order: 1116445
+Registration: N521ND
+ATA code: 7610.0
+Problem: ENGINE DIED DURING HOLD SHORT OF RUNWAY. ENGINE IDLE IS AT 400 RPM, THEN DIES.
+Action: ADJUSTED IDLE RPM, OPS CHECK GOOD.
+
+### Example 8
+
+Work order: 1116447
+Registration: N557ND
+ATA code: 8000.0
+Problem: A/C WILL NOT START.
+Action: FINISHED REMOVAL OF FUEL SERVO & INSTALLED OVERHAULED FUEL SERVO S/N 70200701. OPS CHECK GOOD. SET IDLE & MIXTURE, REFER TO PD #2.
+
+### Example 9
+
+Work order: 1116461
+Registration: N521ND
+ATA code: 7610.0
+Problem: ENGINE DIED WHEN THROTTLE REDUCED TO IDLE.
+Action: ADJUSTED IDLE RPM, IDLE CHECKS GOOD.
+
+### Example 10
+
+Work order: 1116519
+Registration: N515ND
+ATA code: 7320.0
+Problem: IDLE MIXTURE RISE, 60 - 70 RPM.
+Action: ADJUSTED MIXTURE.
+
+### Example 11
+
+Work order: 1116519
+Registration: N515ND
+ATA code: 7320.0
+Problem: IDLE MIXTURE RISE, 60 - 70 RPM.
+Action: OPS CHECKED IDLE & MIXTURE NOTING NO DISCREP.
+
+### Example 12
+
+Work order: 1116588
+Registration: N557ND
+ATA code: 7200.0
+Problem: NORMAL COLD ENGINE START PROPER LEAN & NORMAL TAXI. ENGINE FAILED AS STARTED TURN OFF OF RAMP.
+Action: REPLACED FUEL SERVO W/ S/N 70DB1303. REPLACED L/H & R/H MAGNETOS ON PD 2 & 3. ADJUSTED MIXTURE & IDLE SETTINGS. ENGINE RUN UP & LEAK CHECK GOOD.
+

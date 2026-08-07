@@ -1,0 +1,186 @@
+# Cluster cylinder_Exhaust_unspecified: cylinder_Exhaust unspecified
+
+Cluster ID: cylinder_Exhaust_unspecified
+Cluster name: cylinder_Exhaust unspecified
+Total records in this cluster: 950
+
+## Purpose
+
+This cluster represents maintenance records labeled as `cylinder_Exhaust unspecified`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- exhaust: 505
+- stack: 240
+- cyl: 192
+- cylinder: 157
+- cracked: 104
+- muffler: 93
+- r/h: 93
+- l/h: 92
+- shroud: 76
+- holes: 76
+- tappet: 75
+- clearance: 74
+- dry: 71
+- has: 66
+- failed: 66
+- eng: 63
+- too: 61
+- many: 60
+- stacks: 56
+- clamp: 54
+
+## Common action terms
+
+- exhaust: 457
+- stack: 252
+- new: 249
+- good: 160
+- cylinder: 130
+- cyl: 130
+- muffler: 88
+- ops: 83
+- shroud: 69
+- overhauled: 65
+- stacks: 63
+- s/n: 62
+- clamp: 55
+- leak: 49
+- riser: 42
+- intake: 41
+- r/h: 36
+- ptt: 36
+- serviced: 35
+- accepted: 35
+
+## Common ATA codes
+
+- 7810.0: 277
+- 7820.0: 113
+- 7230.0: 110
+- 7800.0: 104
+- 520.0: 37
+- 2310.0: 31
+- 7200.0: 31
+- 7310.0: 29
+- 3220.0: 22
+- 561.0: 18
+
+## Common registrations
+
+- N798ND: 26
+- N895ND: 23
+- N796ND: 21
+- N780ND: 19
+- N799ND: 17
+- N877ND: 15
+- N797ND: 14
+- N726ND: 14
+- N649ND: 13
+- N514ND: 12
+
+## Inclusion guidance
+
+A record belongs to cluster cylinder_Exhaust_unspecified when the maintenance problem and corrective action are consistent with `cylinder_Exhaust unspecified`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1115108
+Registration: N537ND
+ATA code: 7310.0
+Problem: CYL #4 INJECTOR NOZZLE LEAKING.
+Action: OPS CHECK GOOD, NO LEAKS.
+
+### Example 2
+
+Work order: 1115675
+Registration: N537ND
+ATA code: 7820.0
+Problem: MUFFLER IS TIMED OUT.
+Action: REMOVED & REPLACED MUFFLER W/ S/N 1QK37-0004 & R/H SIDE EXHAUST GASKETS.
+
+### Example 3
+
+Work order: 1116801
+Registration: N538ND
+ATA code: 2310.0
+Problem: COPILOTS MIC BUTTON INOP.
+Action: REMOVED & REPLACED COPILOTS PTT SWITCH. OPERATIONAL CHECK GOOD.
+
+### Example 4
+
+Work order: 1117060
+Registration: N571ND
+ATA code: 7820.0
+Problem: CENTER EXHAUST SHROUD SCREW MISSING.
+Action: REPLACED CENTER EXHAUST SHROUD SCREW.
+
+### Example 5
+
+Work order: 1117133
+Registration: N549ND
+ATA code: 3240.0
+Problem: R/H BRAKE CYLINDER LOW ON FLUID.
+Action: SERVICED R/H CYLINDER.
+
+### Example 6
+
+Work order: 1117135
+Registration: N562ND
+ATA code: 7820.0
+Problem: MUFFLER HAS BURNED OUT SPOTS/CRACKS IN EXHAUST PIPES.
+Action: REPLACED MUFFLER W/ S/N 24512.
+
+### Example 7
+
+Work order: 1117421
+Registration: N560ND
+ATA code: 2140.0
+Problem: ODOR EXPERIENCED ON UPWIND. STRONG BURNING SMELL.
+Action: REMOVED BIRD REMAINS FROM EXHAUST SHROUD. CLEANED EXHAUST SHROUD.
+
+### Example 8
+
+Work order: 1117449
+Registration: N507ND
+ATA code: 2310.0
+Problem: RIGHT SIDE PTT REQUIRES EXTREME PRESSURE.
+Action: CLEANED & TESTED, CHECKS GOOD.
+
+### Example 9
+
+Work order: 1117747
+Registration: N539ND
+ATA code: 7320.0
+Problem: THROTTLE SERVO VALVE CRACKED.
+Action: ADJUSTED AS REQUIRED. OPS & LEAK CK GOOD.
+
+### Example 10
+
+Work order: 1117816
+Registration: N514ND
+ATA code: 7820.0
+Problem: HARDWARE MISSING FROM EXHAUST SHROUD.
+Action: INSTALLED HARDWARE IN EXHAUST SHROUD.
+
+### Example 11
+
+Work order: 1117832
+Registration: N546ND
+ATA code: 2310.0
+Problem: COPILOTS PTT SWITCH IS INTERMITTENT.
+Action: CLEANED & TESTED, CHECKS GOOD.
+
+### Example 12
+
+Work order: 1117953
+Registration: N519ND
+ATA code: 2300.0
+Problem: COPILOT PTT NOT WORKING.
+Action: CLEANED SWITCH, OPS CHECK GOOD.
+

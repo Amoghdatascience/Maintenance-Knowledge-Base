@@ -1,0 +1,186 @@
+# Cluster UNKNOWN: unknown
+
+Cluster ID: UNKNOWN
+Cluster name: unknown
+Total records in this cluster: 48046
+
+## Purpose
+
+This cluster represents maintenance records labeled as `unknown`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- r/h: 5411
+- l/h: 5018
+- worn: 4225
+- brake: 4176
+- due: 4082
+- loose: 3458
+- door: 3089
+- fuel: 2766
+- seat: 2647
+- broken: 2552
+- missing: 2385
+- needs: 2138
+- light: 1968
+- cracked: 1944
+- low: 1836
+- muffler: 1724
+- inop: 1700
+- nose: 1517
+- linings: 1514
+- has: 1488
+
+## Common action terms
+
+- good: 8462
+- new: 7804
+- ops: 5709
+- brake: 3013
+- s/n: 2540
+- cleaned: 2097
+- linings: 1929
+- fuel: 1918
+- serviced: 1870
+- tightened: 1824
+- noted: 1813
+- r/h: 1751
+- further: 1739
+- reinstalled: 1726
+- door: 1676
+- l/h: 1654
+- part: 1628
+- seat: 1495
+- muffler: 1491
+- defects: 1435
+
+## Common ATA codes
+
+- 3240.0: 4364
+- 520.0: 4029
+- 2510.0: 3844
+- 5210.0: 1509
+- 3400.0: 1503
+- 3220.0: 1440
+- 7820.0: 1364
+- 2730.0: 1091
+- 3340.0: 1037
+- 550.0: 983
+
+## Common registrations
+
+- N689ND: 526
+- N344Y: 521
+- N250TH: 484
+- N796ND: 474
+- N509ND: 471
+- N573ND: 458
+- N687ND: 454
+- N556ND: 443
+- N794ND: 442
+- N548ND: 438
+
+## Inclusion guidance
+
+A record belongs to cluster UNKNOWN when the maintenance problem and corrective action are consistent with `unknown`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113450
+Registration: N556ND
+ATA code: 5230.0
+Problem: BAGGAGE DOOR SPRING IS BROKEN.
+Action: REMOVED & REPLACED LATCH. INSTALLED W/ SCREWS & NUTS.
+
+### Example 2
+
+Work order: 1113633
+Registration: N545ND
+ATA code: 3400.0
+Problem: G1000 SOFTWARE NEEDS TO BE UPDATED TO VERSION 563.26.
+Action: UPDATED SOFTWARE DATA. CONFIGURED GDL90 & INSTALLED SOFTWARE CD INTO A/C POH. OPS CHECK GOOD.
+
+### Example 3
+
+Work order: 1113633
+Registration: N545ND
+ATA code: 3400.0
+Problem: NAV 1 SERVICE (RETURN UNIT FOR REPAIR MESSAGE). STATUS PAGE SHOWED RED "X". AFTER RESET, MESSAGE & RED "X" NO LONGER APPEARED.
+Action: REPLACED GIA63W W/ S/N 68506299 IN #1 RACK. CONFIGURED & CHECKED OPERATION. OPS CHECK GOOD.
+
+### Example 4
+
+Work order: 1113852
+Registration: N556ND
+ATA code: 3240.0
+Problem: L/H BRAKE PADS WORN.
+Action: REMOVED & REPLACED L/H BRAKE PADS W/ NEW.
+
+### Example 5
+
+Work order: 1113852
+Registration: N556ND
+ATA code: 3420.0
+Problem: STBY ATTITUDE INDICATOR MEL.
+Action: UNABLE TO DUPLICATE DISCREPANCY. OPS CHCK GOOD. THIS CLEARS MEL.
+
+### Example 6
+
+Work order: 1113868
+Registration: N545ND
+ATA code: 2700.0
+Problem: COPILOTS FWD WINDOW TRIM NEEDS TO BE RESECURED.
+Action: RESECURED COPILOTS FWD WINDOW TRIM.
+
+### Example 7
+
+Work order: 1113868
+Registration: N545ND
+ATA code: 5710.0
+Problem: WIRE BUNDLE IN L/H WING LEADING EDGE @ PITOT TUBE NEEDS TO BE RESECURED.
+Action: RESECURED WIRE BUNDLE, ATTACHED BUNDLE CLIP TO AIRFRAME W/ ADHESIVE.
+
+### Example 8
+
+Work order: 1113978
+Registration: N537ND
+ATA code: 2500.0
+Problem: MAP LIGHT KNOB IS MISSING.
+Action: INSTALLED NEW MAP LIGHT KNOB.
+
+### Example 9
+
+Work order: 1113978
+Registration: N537ND
+ATA code: 5210.0
+Problem: R/H DOOR BOTTOM DOOR PIN IS BROKEN.
+Action: REMOVED & REPLACED DOOR PIN.
+
+### Example 10
+
+Work order: 1114101
+Registration: N556ND
+ATA code: 3140.0
+Problem: STALL WARNING HORN DOESN'T SOUND.
+Action: FUNCTIONAL CHECKED STALL WARNING HORN, OPS GOOD. COULD NOT DUPLICATE.
+
+### Example 11
+
+Work order: 1114310
+Registration: N551ND
+ATA code: 8000.0
+Problem: STARTER BENDIX LOOSE.
+Action: TIGHTENED & RESECURED STARTER BENDIX BOLTS.
+
+### Example 12
+
+Work order: 1114310
+Registration: N551ND
+ATA code: 5210.0
+Problem: COPILOT LOWER DOOR HINGE PIN BROKEN.
+Action: REMOVED & REPLACED DOOR HINGE PIN W/ NEW.
+

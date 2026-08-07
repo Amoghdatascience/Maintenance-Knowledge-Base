@@ -1,0 +1,186 @@
+# Cluster c_13: cylinder compression low compression
+
+Cluster ID: c_13
+Cluster name: cylinder compression low compression
+Total records in this cluster: 638
+
+## Purpose
+
+This cluster represents maintenance records labeled as `cylinder compression low compression`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- compression: 503
+- low: 253
+- cyl: 235
+- cylinder: 219
+- has: 167
+- exhaust: 108
+- test: 75
+- seat: 73
+- erosion: 67
+- r/h: 59
+- eng: 49
+- during: 48
+- rough: 46
+- rpm: 43
+- l/h: 43
+- due: 40
+- psi: 38
+- valve: 38
+- leaking: 33
+- roughness: 31
+
+## Common action terms
+
+- good: 262
+- compression: 260
+- valve: 255
+- cylinder: 229
+- cyl: 225
+- exhaust: 197
+- ran: 123
+- leak: 117
+- ops: 104
+- intake: 96
+- a/c: 94
+- new: 89
+- oil: 83
+- noted: 79
+- defects: 75
+- reinstalled: 73
+- torqued: 69
+- all: 66
+- lycoming: 63
+- clearance: 63
+
+## Common ATA codes
+
+- 7230.0: 307
+- 7200.0: 93
+- 550.0: 82
+- 7100.0: 53
+- 520.0: 40
+- 7220.0: 22
+- 7410.0: 11
+- 7233.0: 4
+- 7234.0: 4
+- 3220.0: 3
+
+## Common registrations
+
+- N785ND: 22
+- N896J: 21
+- N344Y: 20
+- N250TH: 17
+- N561ND: 15
+- N680ND: 15
+- N683R: 15
+- N689ND: 13
+- N579ND: 12
+- N520ND: 11
+
+## Inclusion guidance
+
+A record belongs to cluster c_13 when the maintenance problem and corrective action are consistent with `cylinder compression low compression`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1116449
+Registration: N531ND
+ATA code: 7230.0
+Problem: #4 CYL HAS LOW COMPRESSION, AROUND 34 PSI.
+Action: TRIED STAKING VALVES, STILL NO COMPRESION. INSPECTED CYL & FOUND EXHAUST VALVE TO BE BURNED. REMOVED BAFFLING, INTAKE TUBE, FUEL LINES, OIL RETURN LINES, CYLINDER & PUSH ROD TUBES.
+
+### Example 2
+
+Work order: 1116449
+Registration: N531ND
+ATA code: 7230.0
+Problem: #4 CYL HAS LOW COMPRESSION, AROUND 34 PSI.
+Action: REMOVED PISTON, INSTALLED REPAIRED CYLINDER ASSY IAW LYCOMING DIRECT DRIVE OVERHAUL MANUAL. SERVICED ENGINE W/ 8 QTS MINERAL OIL.
+
+### Example 3
+
+Work order: 1117123
+Registration: N522ND
+ATA code: 7200.0
+Problem: #2 CYL "MISSING" ON RUN UP (RUNS ROUGH).
+Action: PERFORMED COMPRESSION CK ON #2 CYL - 78/80 & REMOVED ROCKER BOX COVER.
+
+### Example 4
+
+Work order: 1117202
+Registration: N575ND
+ATA code: 7200.0
+Problem: #3 CYLINDER HAS NO COMPRESSION.
+Action: FOUND LEAK FROM EX VALVE & EX VALVE CONTACT ON PISTON. REMOVED BAFFLE & EXHAUST, REMOVED CYL, INSTALLED REPLACEMENT CYL ON ENGINE. CYL TORQUED.
+
+### Example 5
+
+Work order: 1117202
+Registration: N575ND
+ATA code: 7200.0
+Problem: #3 CYLINDER HAS NO COMPRESSION.
+Action: RUN UP & LEAK CK GOOD.
+
+### Example 6
+
+Work order: 1117202
+Registration: N575ND
+ATA code: 7200.0
+Problem: #3 CYLINDER HAS NO COMPRESSION.
+Action: COMPLETED INSTALL OF CYLINDER. DRY TAPPET CLEARANCE CK'ED OK.
+
+### Example 7
+
+Work order: 1117837
+Registration: N558ND
+ATA code: 7100.0
+Problem: #3 CYLINDER HAS LOW COMPRESSION.
+Action: REMOVED COVER & STAKED VALVES - NO CHANGE.
+
+### Example 8
+
+Work order: 1117837
+Registration: N558ND
+ATA code: 7100.0
+Problem: #3 CYLINDER HAS LOW COMPRESSION.
+Action: REMOVED EXHAUST, INTAKE, DRAINS, ETC NECESSARY TO REMOVE #3 CYLINDER. REMOVED CYLINDER. INSTALLED REPAIRED CYLINDER & TORQUED IAW LYCOMING DIRECT DRIVE OVERHAUL MANUAL.
+
+### Example 9
+
+Work order: 1117837
+Registration: N558ND
+ATA code: 7100.0
+Problem: #3 CYLINDER HAS LOW COMPRESSION.
+Action: CHECKED DRY LASH (OK) & ASSEMBLED #3 VALVE TRAIN. INSTALLED INJECTOR NOZZLE & LINE (SEE PD #9). INSTALLED OIL PRESSURE LINE, INSTALLED CYLINDER DRAIN LINES #1 & 3. INSTALLED BAFFLES. REINSTALLED DIPSTICK & SAFETIED.
+
+### Example 10
+
+Work order: 1117837
+Registration: N558ND
+ATA code: 7100.0
+Problem: #3 CYLINDER HAS LOW COMPRESSION.
+Action: REASSEMBLED MUFFLER CONNECTIONS, #3 INTAKE TUBE, SERVICED W/ MINERAL OIL. INSTALLED & TORQUED ALL SPARK PLUGS. HOOKED UP LEADS.
+
+### Example 11
+
+Work order: 1118743
+Registration: N549ND
+ATA code: 7230.0
+Problem: ENG RUNS ROUGH ON START. MX HAND SPUN PROP & REPORTED 1 CYL HAS LOW COMPRESSION.
+Action: PERFORMED COMPRESSION CHECK & FOUND #3 EXHAUST VALVE STUCK. INSPECTED #3 CYL & DETERMINED PISTON MADE CONTACT W/ VALVE. PISTON & JUG REQUIRE REPLACEMENT. REAMED EXAUST GUIDES ON #1, 2 & 4 CYLINDERS IAW LYCOMING SI 1425A. STARTED CLOSING UP CYLINDERS.
+
+### Example 12
+
+Work order: 1118743
+Registration: N549ND
+ATA code: 7230.0
+Problem: ENG RUNS ROUGH ON START. MX HAND SPUN PROP & REPORTED 1 CYL HAS LOW COMPRESSION.
+Action: REMOVED & REPLACED #3 CYLINDER IAW LYCOMING O/H MANUAL. COMPLETED CLOSE UP OF ALL CYLINDERS. OPS & LEAK CK GOOD.
+

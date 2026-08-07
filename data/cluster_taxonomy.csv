@@ -1,0 +1,52 @@
+cluster,parent,description
+c_0,inspection,inspection routine scheduled inspection
+c_1,start_system,aircraft start issue hard start no start starter no crank
+c_2,baffle,baffle bolt
+c_3,baffle,baffle bracket
+c_4,baffle,baffle crack damage loose missing
+c_5,baffle,baffle mount
+c_6,baffle,baffle plug
+c_7,baffle,baffle rivet
+c_8,baffle,baffle screw
+c_9,baffle,baffle seal
+c_10,baffle,baffle spring
+c_11,baffle,baffle tie rod
+c_12,cowling,cowling cowl damage loose
+c_13,cylinder_Exhaust,cylinder compression low compression
+c_14,cylinder_Exhaust,cylinder crack failure
+c_15,cylinder_Exhaust,exhaust valve stuck valve
+c_16,cylinder_Exhaust,cylinder head temperature
+c_17,cylinder_Exhaust,pushrod tube
+c_18,engine_general,drain line tube
+c_19,engine_general,carburetor carb
+c_20,engine_general,crankcase crankshaft firewall
+c_21,engine_general,engine failure fire power loss engine quit
+c_22,engine_general,engine idle rpm issue
+c_23,engine_general,engine repair reinstall clean remove replace engine
+c_24,engine_general,engine run rough rough running misfire
+c_25,engine_general,engine seal tube bolt loose
+c_26,propeller,propeller overspeed
+c_27,induction_intake,induction leak induction system
+c_28,induction_intake,intake gasket
+c_29,induction_intake,intake tube boot seal
+c_30,ignition,magneto ignition mag drop
+c_31,fuel_control,mixture adjust mixture control
+c_32,oil_system,oil cooler
+c_33,oil_system,oil dipstick tube filler tube
+c_34,oil_system,oil leak oil pressure oil temperature
+c_35,oil_system,oil return line
+c_36,pilot_reported,pilot reported in flight noticed
+c_37,valve_cover,rocker cover valve cover
+c_38,valve_cover,sniffler valve
+c_39,ignition,spark plug plug fouled
+c_40,electrical,battery issue low voltage weak battery charging issue
+c_41,start_system,external start issue external power ground power unit start
+c_42,flight_control,aileron
+c_43,appearance_cleaning,appearance cleaning paint wash dirty exterior clean fuselage surface finish cosmetic exterior surface
+c_44,landing_gear_tire,landing gear tire
+c_45,cylinder_Exhaust,exhaust gas temperature
+c_46,propeller,propeller damage
+c_47,flight_control,elevator
+c_48,flight_control,rudder
+c_49,flight_control,flap
+c_50,flight_control,spoiler

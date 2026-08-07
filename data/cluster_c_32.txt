@@ -1,0 +1,186 @@
+# Cluster c_32: oil cooler
+
+Cluster ID: c_32
+Cluster name: oil cooler
+Total records in this cluster: 1224
+
+## Purpose
+
+This cluster represents maintenance records labeled as `oil cooler`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- oil: 1214
+- cooler: 1163
+- due: 428
+- change: 378
+- time: 322
+- needs: 154
+- cracked: 148
+- date: 111
+- winter: 96
+- hoses: 95
+- line: 82
+- eff: 82
+- hose: 80
+- flange: 75
+- l/h: 73
+- eng: 61
+- has: 58
+- r/h: 51
+- need: 49
+- lower: 48
+
+## Common action terms
+
+- oil: 790
+- cooler: 778
+- leak: 264
+- s/n: 261
+- good: 241
+- hoses: 140
+- overhauled: 138
+- further: 116
+- type: 115
+- required: 112
+- new: 93
+- p/n: 88
+- line: 78
+- cleaned: 76
+- winter: 71
+- n/a: 69
+- ops: 58
+- hose: 58
+- fittings: 56
+- fitting: 54
+
+## Common ATA codes
+
+- 7900.0: 273
+- 7250.0: 265
+- 7920.0: 175
+- 400.0: 118
+- 7170.0: 109
+- 520.0: 77
+- 7230.0: 47
+- 510.0: 44
+- 7910.0: 31
+- 561.0: 18
+
+## Common registrations
+
+- N250TH: 24
+- N799ND: 23
+- N796ND: 20
+- N610ND: 19
+- N895ND: 16
+- N835ND: 16
+- N609ND: 15
+- N649ND: 15
+- N797ND: 15
+- N713ND: 14
+
+## Inclusion guidance
+
+A record belongs to cluster c_32 when the maintenance problem and corrective action are consistent with `oil cooler`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1114877
+Registration: N556ND
+ATA code: 7900.0
+Problem: OIL COOLER DUE TIME CHANGE.
+Action: REMOVED OLD OIL COOLER & INSTALLE OVERHAULED COOLER S/N 4158.
+
+### Example 2
+
+Work order: 1115993
+Registration: N567ND
+ATA code: 7920.0
+Problem: OIL COOLER TIMED OUT.
+Action: REMOVED OIL COOLER.
+
+### Example 3
+
+Work order: 1115993
+Registration: N567ND
+ATA code: 7920.0
+Problem: OIL COOLER TIMED OUT.
+Action: INSTALLED OIL COOLER S/N 3929.
+
+### Example 4
+
+Work order: 1115993
+Registration: N567ND
+ATA code: 7920.0
+Problem: OIL COOLER TIMED OUT.
+Action: LEAK CHECK GOOD.
+
+### Example 5
+
+Work order: 1116018
+Registration: N558ND
+ATA code: 7800.0
+Problem: OIL COOLER DUE FOR TIME CHANGE.
+Action: REMOVED & REPLACED OIL COOLER W/ S/N 4007.
+
+### Example 6
+
+Work order: 1116018
+Registration: N558ND
+ATA code: 7800.0
+Problem: OIL COOLER DUE FOR TIME CHANGE.
+Action: OPS & LEAK CHECK GOOD.
+
+### Example 7
+
+Work order: 1116175
+Registration: N517ND
+ATA code: 7120.0
+Problem: ENG MOUNT REQS MORE INVESTIGATION FOR WORN SPOT FORM BREATHER HOSE CLAMP.
+Action: AFTER RUN UP, OIL NOTED AT OIL COOLER LOWER FITTING.
+
+### Example 8
+
+Work order: 1116936
+Registration: N561ND
+ATA code: 7900.0
+Problem: LOWER OIL COOLER HOSE LEAKING.
+Action: REMOVED & REPLACED OIL COOLER LOWER HOSE. LEAK CK GOOD.
+
+### Example 9
+
+Work order: 1117772
+Registration: N525ND
+ATA code: 7920.0
+Problem: OIL COOLER DUE FOR TIME CHANGE.
+Action: REMOVED & REPLACED OIL COOLER W/ S/N 3936.
+
+### Example 10
+
+Work order: 1117772
+Registration: N525ND
+ATA code: 7920.0
+Problem: OIL COOLER DUE FOR TIME CHANGE.
+Action: OPS & LK CHECK GOOD.
+
+### Example 11
+
+Work order: 1118025
+Registration: N509ND
+ATA code: 7920.0
+Problem: OIL COOLER CHANGE DUE.
+Action: REMOVED COOLER.
+
+### Example 12
+
+Work order: 1118025
+Registration: N509ND
+ATA code: 7920.0
+Problem: OIL COOLER CHANGE DUE.
+Action: INSTALLED COOLER S/N 4159.
+

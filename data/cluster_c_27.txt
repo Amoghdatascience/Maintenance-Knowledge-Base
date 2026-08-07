@@ -1,0 +1,186 @@
+# Cluster c_27: induction leak induction system
+
+Cluster ID: c_27
+Cluster name: induction leak induction system
+Total records in this cluster: 1145
+
+## Purpose
+
+This cluster represents maintenance records labeled as `induction leak induction system`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- induction: 1095
+- air: 1011
+- filter: 516
+- filters: 501
+- due: 239
+- tube: 74
+- replacement: 63
+- leaking: 60
+- donaldson: 53
+- gasket: 48
+- r/h: 39
+- l/h: 37
+- hrs: 33
+- hose: 16
+- needs: 13
+- dirty: 13
+- cyl: 12
+- change: 12
+- worn: 11
+- time: 10
+
+## Common action terms
+
+- filter: 725
+- air: 679
+- induction: 648
+- new: 603
+- filters: 166
+- approved: 83
+- accepted: 70
+- defects: 66
+- noted: 64
+- gasket: 60
+- further: 60
+- tube: 51
+- l/h: 48
+- r/h: 45
+- due: 31
+- intake: 27
+- hose: 22
+- cleaned: 21
+- both: 20
+- element: 17
+
+## Common ATA codes
+
+- 520.0: 920
+- 7230.0: 75
+- 7100.0: 65
+- 7160.0: 50
+- 510.0: 7
+- 400.0: 6
+- 7110.0: 6
+- 561.0: 5
+- 7200.0: 4
+- 550.0: 2
+
+## Common registrations
+
+- N791ND: 20
+- N502ND: 19
+- N785ND: 18
+- N796ND: 17
+- N607ND: 17
+- N794ND: 14
+- N797ND: 14
+- N891ND: 13
+- N842ND: 13
+- N792ND: 13
+
+## Inclusion guidance
+
+A record belongs to cluster c_27 when the maintenance problem and corrective action are consistent with `induction leak induction system`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113868
+Registration: N545ND
+ATA code: 7230.0
+Problem: INDUCTION TUBE HOSE CLAMPS LOOSE (ALL CYLS).
+Action: TIGHTENED HOSE CLAMPS.
+
+### Example 2
+
+Work order: 1114458
+Registration: N537ND
+ATA code: 7230.0
+Problem: INDUCTION TUBE HOSE CLAMPS LOOSE (ALL CYL).
+Action: TIGHTENED HOSE CLAMPS.
+
+### Example 3
+
+Work order: 1114928
+Registration: N545ND
+ATA code: 7230.0
+Problem: #2 & 4 INDUCTION TUBE GASKETS LEAKING.
+Action: INSTALLED NEW #2 & 4 INDUCTION TUBE GASKETS.
+
+### Example 4
+
+Work order: 1116018
+Registration: N558ND
+ATA code: 7100.0
+Problem: ENGINE DUE FOR TIME CHANGE.
+Action: CONTINUED ROUTING & CONNECTING LINES, WIRES & HOSES. INSTALLED TACH GENERATOR, EXHAUST SYSTEM, FUEL INJECTION SERVO & INDUCTION SYSTEM.
+
+### Example 5
+
+Work order: 1116161
+Registration: N549ND
+ATA code: 7230.0
+Problem: #2 INDUCTION TUBE GASKET LEAKING.
+Action: INSTALLED NEW #2 INDUCTION TUBE GASKET.
+
+### Example 6
+
+Work order: 1116325
+Registration: N528ND
+ATA code: 7160.0
+Problem: INDUCTION AIR FILTER BOX CRACKED.
+Action: CANNED SERVICEABLE PART FROM 558ND W/O #1116018. REMOVED & REPLACED AIR FILTER BOX.
+
+### Example 7
+
+Work order: 1116326
+Registration: N577ND
+ATA code: 7230.0
+Problem: #2 INDUCTION TUBE GASKET IS LEAKING.
+Action: REMOVED & REPLACED #2 INTAKE GASKET.
+
+### Example 8
+
+Work order: 1116453
+Registration: N552ND
+ATA code: 7230.0
+Problem: INDUCTION TUBE HOSE CLAMPS LOOSE (ALL CYL).
+Action: TIGHTENED HOSE CLAMPS.
+
+### Example 9
+
+Work order: 1116504
+Registration: N571ND
+ATA code: 7230.0
+Problem: INDUCTION TUBE HOSE CLAMPS LOOSE (ALL CYLS).
+Action: TIGHTENED HOSE CLAMPS.
+
+### Example 10
+
+Work order: 1116628
+Registration: N522ND
+ATA code: 7230.0
+Problem: INDUCTION TUBE HOSE CLAMPS LOOSE.
+Action: TIGHTENED HOSE CLAMPS.
+
+### Example 11
+
+Work order: 1116931
+Registration: N528ND
+ATA code: 7160.0
+Problem: AIR INTAKE ELBOW CRACKED, DELAMINATED COMPOSITE MATERIAL IN AREA.
+Action: REMOVED & REPLACED AIR INDUCTION ELBOW ASSY. CANNED FROM 556ND W/O #1116983 PD #1 AS SERVICEABLE. CAN TAG #1552.
+
+### Example 12
+
+Work order: 1116980
+Registration: N559ND
+ATA code: 7230.0
+Problem: INDUCTION TUBE HOSE CLAMPS LOOSE (ALL CYL).
+Action: TIGHTENED HOSE CLAMPS.
+

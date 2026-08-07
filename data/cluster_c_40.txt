@@ -1,0 +1,186 @@
+# Cluster c_40: battery issue low voltage weak battery charging issue
+
+Cluster ID: c_40
+Cluster name: battery issue low voltage weak battery charging issue
+Total records in this cluster: 4130
+
+## Purpose
+
+This cluster represents maintenance records labeled as `battery issue low voltage weak battery charging issue`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- battery: 2426
+- due: 692
+- cap: 554
+- elt: 499
+- alternator: 466
+- emergency: 457
+- main: 437
+- stby: 395
+- switch: 379
+- batt: 375
+- capacity: 356
+- test: 325
+- alt: 316
+- amps: 294
+- light: 292
+- master: 289
+- failed: 277
+- start: 271
+- during: 264
+- off: 256
+
+## Common action terms
+
+- battery: 2420
+- good: 1450
+- ops: 1191
+- s/n: 935
+- elt: 702
+- new: 699
+- alternator: 496
+- cap: 380
+- a/c: 363
+- charged: 362
+- noted: 281
+- switch: 277
+- emergency: 262
+- main: 261
+- charger: 255
+- ran: 253
+- defects: 252
+- due: 249
+- reinstalled: 233
+- p/n: 233
+
+## Common ATA codes
+
+- 520.0: 1033
+- 2400.0: 987
+- 2430.0: 665
+- 2560.0: 300
+- 3310.0: 157
+- 2420.0: 156
+- 3400.0: 106
+- 550.0: 106
+- 2510.0: 63
+- 2570.0: 48
+
+## Common registrations
+
+- N634ND: 53
+- N602ND: 47
+- N785ND: 46
+- N678ND: 46
+- N511ND: 43
+- N532ND: 39
+- N548ND: 39
+- N605ND: 39
+- N557ND: 38
+- N780ND: 38
+
+## Inclusion guidance
+
+A record belongs to cluster c_40 when the maintenance problem and corrective action are consistent with `battery issue low voltage weak battery charging issue`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1112943
+Registration: N556ND
+ATA code: 2400.0
+Problem: BATTERY IS DEAD.
+Action: REMOVED & REPLACED BATTERY W/ S/N G02729294.
+
+### Example 2
+
+Work order: 1114510
+Registration: N556ND
+ATA code: 2420.0
+Problem: FOD ON ALTERNATOR BELT
+Action: REMOVED FOD
+
+### Example 3
+
+Work order: 1114632
+Registration: N513ND
+ATA code: 2430.0
+Problem: BATTERY TRAY BRACKET CRACKED.
+Action: REMOVED & REPLACED BATTERY TRAY BRACKET.
+
+### Example 4
+
+Work order: 1115108
+Registration: N537ND
+ATA code: 2570.0
+Problem: BROKEN ADEL CLAMP ON BATTERY BRACKET.
+Action: REPLACED ADEL CLAMP W/ NEW.
+
+### Example 5
+
+Work order: 1115337
+Registration: N529ND
+ATA code: 5300.0
+Problem: BATTERY BRACKET CRACKED.
+Action: FABRICATED NEW BRACKET USING LIKE MATERIAL & INSTALLED. RIVETED IAW SRM 51-40-00.
+
+### Example 6
+
+Work order: 1115375
+Registration: N513ND
+ATA code: 2310.0
+Problem: COMM 1 WOULD CREATE VERY LONG STATIC EVERY 5 - 10 MINUTES FOR 1 - 2 MINUTES AT A TIME.
+Action: FOUND AUDIO PANEL CAUSING NOISE W/ COMM 1 SELECTED. REMOVED S/N 47105046. INSTALLED S/N 47108780. LOADED SOFTWARE & CONFIGURATION FILES. OPERATION TESTS GOOD.
+
+### Example 7
+
+Work order: 1115538
+Registration: N551ND
+ATA code: 2430.0
+Problem: BATTERY BOILING/OVERHEATED.
+Action: REMOVED S/N G02714818 & INSTALLED S/N G02680581. OPS CK GOOD. CAP CK DUE 3/31/13 OR 3662.6 TACH.
+
+### Example 8
+
+Work order: 1115762
+Registration: N545ND
+ATA code: 2430.0
+Problem: A/C BATTERY HAS A DEAD CELL.
+Action: INSTALLED BATTERY S/N 40513479.
+
+### Example 9
+
+Work order: 1115762
+Registration: N545ND
+ATA code: 2430.0
+Problem: A/C BATTERY HAS A DEAD CELL.
+Action: COMPLETED FORM 337 FOR STC #SA01118WI.
+
+### Example 10
+
+Work order: 1115854
+Registration: N537ND
+ATA code: 2400.0
+Problem: BATT IS DEAD.
+Action: INSTALLED BATT ON CHARGER. REINSTALLED BATT, OPS CK GOOD.
+
+### Example 11
+
+Work order: 1115992
+Registration: N517ND
+ATA code: 2430.0
+Problem: ALT INDICATING DISCHARGE.
+Action: RAN A/C & FOUND VOLTAGE TO BE 28.0 VDC W/ RPM 900+. AMMETER NEEDS TO BE CALIBRATED.
+
+### Example 12
+
+Work order: 1115992
+Registration: N517ND
+ATA code: 2430.0
+Problem: ALT INDICATING DISCHARGE.
+Action: RECALIBRATED AMMETER - SEE W/O #1115995 PD #1. ALTERNATOR & AMMETER CHECK GOOD.
+

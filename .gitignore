@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.gpt_rags/
+
+# Secrets -- .env holds TAVILY_API_KEY
+.env
+.env.*
+!.env.example
+
+# Generated vector index (rebuild with: rm -rf chroma_db && python ingest.py)
+chroma_db/
+
+# macOS
+.DS_Store

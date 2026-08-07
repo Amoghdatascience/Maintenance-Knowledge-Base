@@ -1,0 +1,179 @@
+# Cluster c_2: baffle bolt
+
+Cluster ID: c_2
+Cluster name: baffle bolt
+Total records in this cluster: 26
+
+## Purpose
+
+This cluster represents maintenance records labeled as `baffle bolt`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- baffle: 27
+- bolt: 24
+- missing: 13
+- cyl: 11
+- aft: 8
+- side: 7
+- fwd: 6
+- cracked: 5
+- l/h: 5
+- bracket: 4
+- alternator: 4
+- hole: 3
+- eng: 3
+- r/h: 2
+- rivets: 2
+- loose: 2
+- crack: 2
+- near: 2
+- attach: 2
+- front: 2
+
+## Common action terms
+
+- bolt: 24
+- baffle: 20
+- cyl: 10
+- new: 10
+- oil: 7
+- drilled: 6
+- side: 6
+- bracket: 5
+- cooler: 5
+- stop: 5
+- crack: 5
+- hole: 5
+- line: 4
+- reinstalled: 4
+- fwd: 4
+- into: 3
+- fabricated: 3
+- out: 3
+- riveted: 3
+- iaw: 3
+
+## Common ATA codes
+
+- 7230.0: 24
+- 7200.0: 1
+- 2430.0: 1
+
+## Common registrations
+
+- N563ND: 2
+- N716ND: 2
+- N561ND: 1
+- N519ND: 1
+- N536ND: 1
+- N574ND: 1
+- N508ND: 1
+- N566ND: 1
+- N512ND: 1
+- N538ND: 1
+
+## Inclusion guidance
+
+A record belongs to cluster c_2 when the maintenance problem and corrective action are consistent with `baffle bolt`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1119032
+Registration: N519ND
+ATA code: 7230.0
+Problem: R/H BAFFLE MISSING RIVET ON AFT SUPPORT BRACKET.
+Action: REMOVED BAFFLE, REPAIRED BRACKET & STRIPPED OIL COOLER BOLT. OIL COOLER LINES & OIL PRESSURE LNIE REMOVED FOR MX. #3 CYL DRAIN LINE DISCONNECTED FOR MX. RECONNECTED LINES, INSTALLED BAFFLES & COOLER.
+
+### Example 2
+
+Work order: 1120961
+Registration: N566ND
+ATA code: 7230.0
+Problem: #3 CYL BAFFLE BRACKET RIVETS ARE LOOSE ON BACK SIDE OF BAFFLE.
+Action: REMOVED BAFFLE, REINSTALLED BRACKET. REINSTALLED BAFFLE. RECONNECTED UPPER OIL COOLER LINE, OIL TRANSDUCER LINE, #3 OIL RETURN LINE. INSTALLED NEW NUTPLATE & BOLT ON OIL COOLER.
+
+### Example 3
+
+Work order: 1132939
+Registration: N561ND
+ATA code: 7230.0
+Problem: BAFFLE CRACKED AT LOWER LEFT BOLT OF OIL COOLER.
+Action: STOP DRILLED BAFFLE.
+
+### Example 4
+
+Work order: 1137921
+Registration: N536ND
+ATA code: 7230.0
+Problem: CRACK NOTED ON ENGINE BAFFLE NEAR AFT ALTERNATOR ATTACH BOLT.
+Action: STOP DRILLED CRACK.
+
+### Example 5
+
+Work order: 1138342
+Registration: N574ND
+ATA code: 7230.0
+Problem: BOLT MISSING ON #3 CYL SIDE BAFFLE.
+Action: INSTALLED BOLT WHERE NEEDED.
+
+### Example 6
+
+Work order: 1138851
+Registration: N563ND
+ATA code: 7230.0
+Problem: FRONT FWD BAFFLE HUNG UP ON BOLT OF ALTERNATOR EXTRA BRACKET.
+Action: REROUTED BAFFLE.
+
+### Example 7
+
+Work order: 1138851
+Registration: N563ND
+ATA code: 7230.0
+Problem: BAFFLE BOLT OR SCREW MISSING, FWD L/H SIDE IN FRONT OF #2 CYL.
+Action: INSTALLED NEW SCREW.
+
+### Example 8
+
+Work order: 1138962
+Registration: N508ND
+ATA code: 7230.0
+Problem: CRACK ON FWD BAFFLE, AFT OF ALTERNATOR MOUNT BOLT.
+Action: STOP DRILLED CRACK.
+
+### Example 9
+
+Work order: 1151078
+Registration: N512ND
+ATA code: 7200.0
+Problem: #2 CYL SIDE BAFFLE MISSING BOLT.
+Action: INSTALLED BOLT IN #2 CYL SIDE BAFFLE.
+
+### Example 10
+
+Work order: 1159231
+Registration: N538ND
+ATA code: 7230.0
+Problem: #3 ENGINE BAFFLE BOLT HOLE, FOR HOLD DOWN, NEEDS NEW RIVETS.
+Action: REMOVED BAD RIVETS & INSTALLED NEW.
+
+### Example 11
+
+Work order: 1159293
+Registration: N521ND
+ATA code: 7230.0
+Problem: #3 CYL AFT BAFFLE MISSING MOUNT BOLT.
+Action: INSTALLED NEW MOUNT BOLT.
+
+### Example 12
+
+Work order: 1188275
+Registration: N680ND
+ATA code: 7230.0
+Problem: #4 L/H BAFFLE MISSING BOLT.
+Action: INSTALLED BOLT.
+

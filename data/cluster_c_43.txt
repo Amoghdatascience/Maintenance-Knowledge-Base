@@ -1,0 +1,186 @@
+# Cluster c_43: appearance cleaning paint wash dirty exterior clean fuselage surface finish cosmetic exterior surface
+
+Cluster ID: c_43
+Cluster name: appearance cleaning paint wash dirty exterior clean fuselage surface finish cosmetic exterior surface
+Total records in this cluster: 13368
+
+## Purpose
+
+This cluster represents maintenance records labeled as `appearance cleaning paint wash dirty exterior clean fuselage surface finish cosmetic exterior surface`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- prop: 6053
+- nicks: 3559
+- has: 3157
+- nicked: 2964
+- blades: 1232
+- small: 1033
+- cracked: 1010
+- r/h: 921
+- l/h: 878
+- dirty: 808
+- needs: 796
+- spinner: 664
+- interior: 655
+- loose: 624
+- props: 622
+- requires: 590
+- wing: 582
+- tail: 553
+- exterior: 454
+- fwd: 423
+
+## Common action terms
+
+- prop: 5932
+- dressed: 4986
+- nicks: 1700
+- cleaned: 1659
+- painted: 1655
+- new: 1066
+- blades: 1013
+- interior: 808
+- paint: 661
+- out: 608
+- filed: 552
+- washed: 546
+- tail: 541
+- noted: 506
+- further: 500
+- a/c: 476
+- bolt: 458
+- spinner: 443
+- r/h: 438
+- exterior: 433
+
+## Common ATA codes
+
+- 6100.0: 6710
+- 1220.0: 1144
+- 6110.0: 662
+- 3210.0: 296
+- 7800.0: 263
+- 5300.0: 233
+- 2510.0: 192
+- 3220.0: 184
+- 550.0: 171
+- 5700.0: 165
+
+## Common registrations
+
+- N531ND: 175
+- N653ND: 164
+- N573ND: 144
+- N557ND: 130
+- N572ND: 127
+- N513ND: 125
+- N559ND: 125
+- N540ND: 123
+- N549ND: 121
+- N562ND: 121
+
+## Inclusion guidance
+
+A record belongs to cluster c_43 when the maintenance problem and corrective action are consistent with `appearance cleaning paint wash dirty exterior clean fuselage surface finish cosmetic exterior surface`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1113239
+Registration: N556ND
+ATA code: 6100.0
+Problem: PROPELLER HAS NICKS.
+Action: FILED NICKS FROM PROPELLER.
+
+### Example 2
+
+Work order: 1113852
+Registration: N556ND
+ATA code: 6100.0
+Problem: PROP HAS NICKS.
+Action: DRESSED PROP.
+
+### Example 3
+
+Work order: 1113868
+Registration: N545ND
+ATA code: 6100.0
+Problem: PROP HAS SMALL NICKS.
+Action: DRESSED PROP.
+
+### Example 4
+
+Work order: 1113978
+Registration: N537ND
+ATA code: 6100.0
+Problem: PROP NICKED.
+Action: DRESSED PROP.
+
+### Example 5
+
+Work order: 1114310
+Registration: N551ND
+ATA code: 6100.0
+Problem: PROP HAS NICKS.
+Action: DRESSED NICKS FROM PROP.
+
+### Example 6
+
+Work order: 1114453
+Registration: N545ND
+ATA code: 6100.0
+Problem: PROP NICKED.
+Action: DRESSED PROP.
+
+### Example 7
+
+Work order: 1114458
+Registration: N537ND
+ATA code: 6100.0
+Problem: PROP BLADES NICKED.
+Action: REMOVED NICKS FROM PROP.
+
+### Example 8
+
+Work order: 1114632
+Registration: N513ND
+ATA code: 6100.0
+Problem: PROP NICKED.
+Action: DRESSED PROP.
+
+### Example 9
+
+Work order: 1114688
+Registration: N538ND
+ATA code: 6100.0
+Problem: PROP NICKED.
+Action: DRESSED PROP.
+
+### Example 10
+
+Work order: 1114775
+Registration: N556ND
+ATA code: 3120.0
+Problem: SMALL WASHER ON OAT PROBE
+Action: REMOVED WASHER
+
+### Example 11
+
+Work order: 1114776
+Registration: N529ND
+ATA code: 6110.0
+Problem: FWD SPINNER BULKHEAD IS CRACKED.
+Action: REMOVED & REPLACED FWD SPINNER BULKHEAD. TORQUED & SAFETIED BOLTS.
+
+### Example 12
+
+Work order: 1114776
+Registration: N529ND
+ATA code: 3220.0
+Problem: NLG TORQUE LINK IS LOOSE.
+Action: SHIMMED UPPER & LOWER TORQUE LINK. REPLACED SPACER (UPPER), BOLTS & SAFETIED.
+

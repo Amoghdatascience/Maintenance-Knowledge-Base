@@ -1,0 +1,186 @@
+# Cluster start_system_unspecified: start_system unspecified
+
+Cluster ID: start_system_unspecified
+Cluster name: start_system unspecified
+Total records in this cluster: 717
+
+## Purpose
+
+This cluster represents maintenance records labeled as `start_system unspecified`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- start: 273
+- starter: 250
+- assist: 137
+- change: 90
+- time: 77
+- due: 75
+- after: 73
+- would: 71
+- crew: 55
+- requires: 53
+- needs: 47
+- requests: 45
+- loose: 41
+- ground: 38
+- power: 30
+- has: 30
+- gear: 29
+- hours: 29
+- tis: 29
+- gps: 27
+
+## Common action terms
+
+- good: 230
+- starter: 203
+- a/c: 163
+- ops: 162
+- s/n: 145
+- started: 144
+- using: 104
+- procedures: 102
+- new: 95
+- nl/ec: 73
+- p/n: 64
+- power: 44
+- ground: 40
+- ran: 33
+- start: 32
+- operation: 31
+- assisted: 30
+- tests: 30
+- tested: 29
+- bugged: 25
+
+## Common ATA codes
+
+- 8000.0: 175
+- 8010.0: 102
+- 550.0: 39
+- 3400.0: 39
+- 590.0: 38
+- 520.0: 33
+- 510.0: 29
+- 5100.0: 26
+- 3410.0: 21
+- 2310.0: 18
+
+## Common registrations
+
+- N250TH: 14
+- N607ND: 13
+- N551ND: 11
+- N561ND: 10
+- N847ND: 10
+- N508ND: 10
+- N576ND: 10
+- N780ND: 10
+- N689ND: 9
+- N548ND: 9
+
+## Inclusion guidance
+
+A record belongs to cluster start_system_unspecified when the maintenance problem and corrective action are consistent with `start_system unspecified`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1114632
+Registration: N513ND
+ATA code: 8000.0
+Problem: STARTER RING GEAR MISSING TEETH.
+Action: REMOVED & REPLACED STARTER RING GEAR.
+
+### Example 2
+
+Work order: 1116447
+Registration: N557ND
+ATA code: 8000.0
+Problem: A/C WILL NOT START.
+Action: RAN A/C & DETERMINED FUEL SERVO TO BE MALFUNCTIONING.
+
+### Example 3
+
+Work order: 1116465
+Registration: N515ND
+ATA code: 8000.0
+Problem: CREW REQUIRES START ASSIST.
+Action: STARTED A/C USING NORMAL PROCEDURES.
+
+### Example 4
+
+Work order: 1116475
+Registration: N576ND
+ATA code: 8010.0
+Problem: A/C IS HARD TO START (MANY WRITE UPS).
+Action: OPS & LEAK CHECK GOOD.
+
+### Example 5
+
+Work order: 1116475
+Registration: N576ND
+ATA code: 8010.0
+Problem: A/C IS HARD TO START (MANY WRITE UPS).
+Action: REMOVED & REPLACED FUEL SERVO W/ S/N 70E09207.
+
+### Example 6
+
+Work order: 1116614
+Registration: N508ND
+ATA code: 3460.0
+Problem: ON START UP, GPS 1 & 2 DID NOT SHOW A SIGNAL ON AUX PAGE.
+Action: RELOADED GPS 1 & 2 SOFTWARE. AVIONICS OPERATED FOR 2 HOURS W/ NO DISCREPANCIES NOTED. OPS CHECK GOOD.
+
+### Example 7
+
+Work order: 1116806
+Registration: N563ND
+ATA code: 8000.0
+Problem: CREW REQUIRES START ASSIST.
+Action: STARTED A/C USING NORMAL PROCEDURES.
+
+### Example 8
+
+Work order: 1117279
+Registration: N552ND
+ATA code: 7100.0
+Problem: PILOT COULD NOT GET A/C STARTED.
+Action: STARTED A/C USING EPU CART, STARTED A/C USING NORMAL PROCEDURES & UNHOOKED CART.
+
+### Example 9
+
+Work order: 1117316
+Registration: N538ND
+ATA code: 550.0
+Problem: A/C WILL NOT START IN HILLSBORO.
+Action: PILOT STARTED A/C WHILE MECH ENROUTED TO HILLSBORO. W/O FOR BILLING TRAVEL TIME ONLY.
+
+### Example 10
+
+Work order: 1117412
+Registration: N536ND
+ATA code: 8000.0
+Problem: STARTER WOULDN'T CRANK OVER.
+Action: T/S & FOUND STARTER DRIVE SHEAR PIN SHEARED. REMOVED & REPLACED SHEAR PIN IAW SKYTEC DWG #25099 DATED 10/30/03. STARTED A/C W/O DISCREP.
+
+### Example 11
+
+Work order: 1117772
+Registration: N525ND
+ATA code: 8010.0
+Problem: STARTER DUE FOR TIME CHANGE.
+Action: REMOVED & REPLACED STARTER W/ S/N FNE-151280.
+
+### Example 12
+
+Work order: 1118025
+Registration: N509ND
+ATA code: 8010.0
+Problem: STARTER CHANGE DUE.
+Action: REMOVED & REPLACED STARTER W/ S/N FNE-291277. OPS CHECK GOOD.
+

@@ -1,0 +1,306 @@
+# Cluster Taxonomy Knowledge Base
+
+This document defines the official maintenance cluster taxonomy.
+Each cluster has a cluster ID, parent group, and short description.
+
+Use this taxonomy as the authoritative mapping for questions like:
+- What is cluster 38?
+- What parent group does c_38 belong to?
+- Which clusters are flight-control related?
+- Which clusters are baffle child clusters?
+- What does c_22 represent?
+
+Total defined clusters: 51
+
+## Cluster Definitions
+
+### c_0
+Parent group: inspection
+Description: inspection routine scheduled inspection
+
+### c_1
+Parent group: start_system
+Description: aircraft start issue hard start no start starter no crank
+
+### c_2
+Parent group: baffle
+Description: baffle bolt
+
+### c_3
+Parent group: baffle
+Description: baffle bracket
+
+### c_4
+Parent group: baffle
+Description: baffle crack damage loose missing
+
+### c_5
+Parent group: baffle
+Description: baffle mount
+
+### c_6
+Parent group: baffle
+Description: baffle plug
+
+### c_7
+Parent group: baffle
+Description: baffle rivet
+
+### c_8
+Parent group: baffle
+Description: baffle screw
+
+### c_9
+Parent group: baffle
+Description: baffle seal
+
+### c_10
+Parent group: baffle
+Description: baffle spring
+
+### c_11
+Parent group: baffle
+Description: baffle tie rod
+
+### c_12
+Parent group: cowling
+Description: cowling cowl damage loose
+
+### c_13
+Parent group: cylinder_Exhaust
+Description: cylinder compression low compression
+
+### c_14
+Parent group: cylinder_Exhaust
+Description: cylinder crack failure
+
+### c_15
+Parent group: cylinder_Exhaust
+Description: exhaust valve stuck valve
+
+### c_16
+Parent group: cylinder_Exhaust
+Description: cylinder head temperature
+
+### c_17
+Parent group: cylinder_Exhaust
+Description: pushrod tube
+
+### c_18
+Parent group: engine_general
+Description: drain line tube
+
+### c_19
+Parent group: engine_general
+Description: carburetor carb
+
+### c_20
+Parent group: engine_general
+Description: crankcase crankshaft firewall
+
+### c_21
+Parent group: engine_general
+Description: engine failure fire power loss engine quit
+
+### c_22
+Parent group: engine_general
+Description: engine idle rpm issue
+
+### c_23
+Parent group: engine_general
+Description: engine repair reinstall clean remove replace engine
+
+### c_24
+Parent group: engine_general
+Description: engine run rough rough running misfire
+
+### c_25
+Parent group: engine_general
+Description: engine seal tube bolt loose
+
+### c_26
+Parent group: propeller
+Description: propeller overspeed
+
+### c_27
+Parent group: induction_intake
+Description: induction leak induction system
+
+### c_28
+Parent group: induction_intake
+Description: intake gasket
+
+### c_29
+Parent group: induction_intake
+Description: intake tube boot seal
+
+### c_30
+Parent group: ignition
+Description: magneto ignition mag drop
+
+### c_31
+Parent group: fuel_control
+Description: mixture adjust mixture control
+
+### c_32
+Parent group: oil_system
+Description: oil cooler
+
+### c_33
+Parent group: oil_system
+Description: oil dipstick tube filler tube
+
+### c_34
+Parent group: oil_system
+Description: oil leak oil pressure oil temperature
+
+### c_35
+Parent group: oil_system
+Description: oil return line
+
+### c_36
+Parent group: pilot_reported
+Description: pilot reported in flight noticed
+
+### c_37
+Parent group: valve_cover
+Description: rocker cover valve cover
+
+### c_38
+Parent group: valve_cover
+Description: sniffler valve
+
+### c_39
+Parent group: ignition
+Description: spark plug plug fouled
+
+### c_40
+Parent group: electrical
+Description: battery issue low voltage weak battery charging issue
+
+### c_41
+Parent group: start_system
+Description: external start issue external power ground power unit start
+
+### c_42
+Parent group: flight_control
+Description: aileron
+
+### c_43
+Parent group: appearance_cleaning
+Description: appearance cleaning paint wash dirty exterior clean fuselage surface finish cosmetic exterior surface
+
+### c_44
+Parent group: landing_gear_tire
+Description: landing gear tire
+
+### c_45
+Parent group: cylinder_Exhaust
+Description: exhaust gas temperature
+
+### c_46
+Parent group: propeller
+Description: propeller damage
+
+### c_47
+Parent group: flight_control
+Description: elevator
+
+### c_48
+Parent group: flight_control
+Description: rudder
+
+### c_49
+Parent group: flight_control
+Description: flap
+
+### c_50
+Parent group: flight_control
+Description: spoiler
+
+## Parent Groups
+
+### appearance_cleaning
+- c_43: appearance cleaning paint wash dirty exterior clean fuselage surface finish cosmetic exterior surface
+
+### baffle
+- c_2: baffle bolt
+- c_3: baffle bracket
+- c_4: baffle crack damage loose missing
+- c_5: baffle mount
+- c_6: baffle plug
+- c_7: baffle rivet
+- c_8: baffle screw
+- c_9: baffle seal
+- c_10: baffle spring
+- c_11: baffle tie rod
+
+### cowling
+- c_12: cowling cowl damage loose
+
+### cylinder_Exhaust
+- c_13: cylinder compression low compression
+- c_14: cylinder crack failure
+- c_15: exhaust valve stuck valve
+- c_16: cylinder head temperature
+- c_17: pushrod tube
+- c_45: exhaust gas temperature
+
+### electrical
+- c_40: battery issue low voltage weak battery charging issue
+
+### engine_general
+- c_18: drain line tube
+- c_19: carburetor carb
+- c_20: crankcase crankshaft firewall
+- c_21: engine failure fire power loss engine quit
+- c_22: engine idle rpm issue
+- c_23: engine repair reinstall clean remove replace engine
+- c_24: engine run rough rough running misfire
+- c_25: engine seal tube bolt loose
+
+### flight_control
+- c_42: aileron
+- c_47: elevator
+- c_48: rudder
+- c_49: flap
+- c_50: spoiler
+
+### fuel_control
+- c_31: mixture adjust mixture control
+
+### ignition
+- c_30: magneto ignition mag drop
+- c_39: spark plug plug fouled
+
+### induction_intake
+- c_27: induction leak induction system
+- c_28: intake gasket
+- c_29: intake tube boot seal
+
+### inspection
+- c_0: inspection routine scheduled inspection
+
+### landing_gear_tire
+- c_44: landing gear tire
+
+### oil_system
+- c_32: oil cooler
+- c_33: oil dipstick tube filler tube
+- c_34: oil leak oil pressure oil temperature
+- c_35: oil return line
+
+### pilot_reported
+- c_36: pilot reported in flight noticed
+
+### propeller
+- c_26: propeller overspeed
+- c_46: propeller damage
+
+### start_system
+- c_1: aircraft start issue hard start no start starter no crank
+- c_41: external start issue external power ground power unit start
+
+### valve_cover
+- c_37: rocker cover valve cover
+- c_38: sniffler valve

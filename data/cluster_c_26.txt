@@ -1,0 +1,186 @@
+# Cluster c_26: propeller overspeed
+
+Cluster ID: c_26
+Cluster name: propeller overspeed
+Total records in this cluster: 349
+
+## Purpose
+
+This cluster represents maintenance records labeled as `propeller overspeed`. The evidence below is generated from the actual PROBLEM and ACTION fields in final_joined_output.csv.
+
+## Common problem terms
+
+- overspeed: 256
+- rpm: 190
+- prop: 132
+- rotor: 73
+- during: 56
+- flight: 52
+- seconds: 47
+- required: 38
+- r/h: 38
+- auto: 36
+- reached: 35
+- takeoff: 33
+- rotation: 32
+- propeller: 30
+- left: 29
+- right: 25
+- gear: 25
+- hit: 23
+- indicated: 23
+- speed: 22
+
+## Common action terms
+
+- overspeed: 152
+- required: 134
+- further: 105
+- rpm: 93
+- data: 82
+- flight: 74
+- sb369s: 62
+- iaw: 58
+- lycoming: 56
+- reviewed: 55
+- good: 47
+- momentary: 43
+- m/r: 41
+- prop: 40
+- fdm: 39
+- ops: 38
+- less: 36
+- see: 34
+- considered: 33
+- a/c: 30
+
+## Common ATA codes
+
+- 590.0: 159
+- 550.0: 88
+- 580.0: 36
+- 7100.0: 10
+- 7200.0: 8
+- 6100.0: 6
+- 6120.0: 6
+- 7700.0: 6
+- 7710.0: 5
+- 2140.0: 5
+
+## Common registrations
+
+- N250TH: 38
+- N586TS: 28
+- N790ND: 20
+- N799ND: 13
+- N344Y: 12
+- N798ND: 12
+- N782ND: 11
+- N695ND: 10
+- N689ND: 10
+- N305ND: 7
+
+## Inclusion guidance
+
+A record belongs to cluster c_26 when the maintenance problem and corrective action are consistent with `propeller overspeed`.
+Strong evidence usually comes from both the PROBLEM field and the ACTION field.
+A record should not be treated as a strong example if the problem text only contains a vague inspection note and the action does not describe a related corrective step.
+
+## Example records
+
+### Example 1
+
+Work order: 1118042
+Registration: N572ND
+ATA code: 550.0
+Problem: ENGINE OVERSPEED.
+Action: REVIEWED G1000 FLIGHT DATA LOG & DETERMINED ENGINE DID NOT EXCEED 2700 RPM. CONTACTED PILOT & CONFIRMED NO ANNUNCIATORS, BELLS ALERTED & ENGINE RPM AT NO POINT INDICATED IN RED. DETERMINED NO OVERSPEED OCCURED.
+
+### Example 2
+
+Work order: 1122702
+Registration: N572ND
+ATA code: 550.0
+Problem: RPM'S REACHED 2740 FOR ABOUT 1 SECOND.
+Action: REVIEWED LYCOMING DB 369L, DETERMINED OVERSPEED TO MEET CRITERIA FOR <5% MOMENTARY OVERSPEED. NO FURTHER MAINTENANCE ACTION REQUIRED.
+
+### Example 3
+
+Work order: 1123103
+Registration: N605ND
+ATA code: 3410.0
+Problem: NO AIRSPEED INDICATION ON G1000 OR STANDBY AIRSPEED IND AFTER TAKEOFF.
+Action: REMOVED PITOT PROBE, CLEARED INSECT BLOCKAGE FORM REAR OF TUBE. REINSTALLED, CHECKED AIRSPEED ON PFD/MFD & STBY AIRSPEED INDICATORS W/ BARFIELD PITOT STATIC TEST SET.
+
+### Example 4
+
+Work order: 1125060
+Registration: N560ND
+ATA code: 550.0
+Problem: PROP OVERSPEED ON DESCENT.
+Action: REVIEWED DATA, FOUND OVERSPEED TO BE LESS THAN 5%, OVERSPEED OCCURED DUE TO A/C DESCENT, NO FURTHER ACTION REQUIRED.
+
+### Example 5
+
+Work order: 1125643
+Registration: N532ND
+ATA code: 550.0
+Problem: PROP OVERSPEED TO 2730 DURING EMERGENCY DESCENT RECOVERY.
+Action: DOWN LOCKED DATA & FOUND A/C NEVER EVEN REACHED OVERSPEED - 2673.8 IS HIGHEST RPM REACHED. NO FURTHER MX REQUIRED. VERIFIED IAW SI 369L.
+
+### Example 6
+
+Work order: 1125766
+Registration: N523ND
+ATA code: 3400.0
+Problem: UPON TAKE OFF, BOTH PRIMARY & STANDBY AIRSPEED PRODUCED NO AIRSPEED.
+Action: CLEARED PITOT SYSTEM OF MOISTURE. CHECKS GOOD.
+
+### Example 7
+
+Work order: 1126913
+Registration: N522ND
+ATA code: 550.0
+Problem: PROP OVERSPEED TO 2730 ON DESCENT.
+Action: DOWNLOADED ENGINE DATA & ANALYZED. FOUND OVERSPEED TO BE CONSIDERED MOMENTARY IAW SI 369L, NO FURTHER MX REQUIRED. OVERSPEED CAUSED BY PILOT.
+
+### Example 8
+
+Work order: 1131290
+Registration: N524ND
+ATA code: 7100.0
+Problem: DURING DESCENT, RPM EXCEEDED 2700. GOT TO 2740.
+Action: RESEARCHED FDM DATA, NO OVERSPEED OCCURED.
+
+### Example 9
+
+Work order: 1131813
+Registration: N608ND
+ATA code: 550.0
+Problem: NOTICED STUDEND HAD THROTTLE FULL & THEN NOTICED ENGINE OVERSPEED @ 2790 RPM. BELIEVE IT WAS OVER 2700 FOR APPROX 3 - 4 SECONDS IN A DESCENT.
+Action: NO FURTHER ACTION REQUIRED. SWAPPED FDM CARDS.
+
+### Example 10
+
+Work order: 1132994
+Registration: N520ND
+ATA code: 520.0
+Problem: FDM CARD NEEDED TO BE SWAPPED DUE TO ENGINE OVERSPEED.
+Action: SWAPPED FDM CARD.
+
+### Example 11
+
+Work order: 1133126
+Registration: N547ND
+ATA code: 3100.0
+Problem: FDM CARD SWAP REQUIRED FOR ENGINE OVERSPEED.
+Action: REMOVED & REPLACED CARD.
+
+### Example 12
+
+Work order: 1133318
+Registration: N522ND
+ATA code: 3400.0
+Problem: AIRSPEED INDICATOR SHOWS 23 KNOTS ON THE GROUND.
+Action: TESTED A/C AIRSPEED AT GROUND & UP TO 100 KNOTS. COULD NOT DUPLICATE DISCREPANCY.
+
