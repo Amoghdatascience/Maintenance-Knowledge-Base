@@ -399,6 +399,8 @@ class AgenticRAGNodes:
                     "iterations": iterations,
                 }
 
+        print(f"[reflect] grading {len(evidence)} item(s)...", flush=True)
+
         try:
             result = self.llm.with_structured_output(Verdict).invoke(
                 build_reflection_prompt(question, evidence)
@@ -415,6 +417,8 @@ class AgenticRAGNodes:
             }
 
         status = result.status if result.status in {"SUFFICIENT", "INSUFFICIENT"} else "INSUFFICIENT"
+
+        print(f"[reflect] {status}", flush=True)
 
         return {
             "verdict": status,
@@ -463,6 +467,12 @@ class AgenticRAGNodes:
             }
 
         partial = state["verdict"] != "SUFFICIENT"
+
+        print(
+            f"[generate] writing answer from {len(evidence)} item(s)"
+            f"{' (partial)' if partial else ''}...",
+            flush=True,
+        )
 
         try:
             response = self.llm.invoke(

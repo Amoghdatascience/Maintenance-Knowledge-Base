@@ -4,6 +4,8 @@ main.py
 Command-line interface for Agentic RAG.
 """
 
+import time
+
 from dotenv import load_dotenv
 
 from config import RAGConfig
@@ -75,12 +77,15 @@ class AgenticRAGApp:
             if not question:
                 continue
 
+            started = time.time()
             result = self.graph.ask(question)
+            elapsed = time.time() - started
 
             print("\n--- Final Answer ---")
             print(result["answer"])
 
             self.print_debug_info(result)
+            print(f"Elapsed: {elapsed:.1f}s")
 
 
 def main() -> None:
