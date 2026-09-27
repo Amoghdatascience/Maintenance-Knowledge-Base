@@ -12,8 +12,6 @@ Instead of routing each question to a single retrieval method, a planner decompo
 
 Requires Python 3.14 and [Ollama](https://ollama.com).
 
-> **This repository is private.** `data/` contains real maintenance records — aircraft registrations, timestamps, and per-tail fault counts in the cluster documents. Keep it private, and do not redistribute the contents. `.env` is gitignored so API keys stay out of history; use `.env.example` as the template.
-
 From a clean checkout:
 
 ```bash
