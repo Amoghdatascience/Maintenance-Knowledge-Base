@@ -15,8 +15,12 @@ wheels/
 .env.*
 !.env.example
 
-# Generated vector index (rebuild with: rm -rf chroma_db && python ingest.py)
+# Generated vector index (rebuild with: python ingest.py --reset)
 chroma_db/
+
+# Evaluation outputs and chunking-sweep indexes
+eval/results/
+eval/.chunk_dbs/
 
 # macOS
 .DS_Store

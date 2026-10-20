@@ -14,13 +14,13 @@ structural rather than a convention. See research.py.
 
 from __future__ import annotations
 
-import hashlib
 from typing import List, Literal, Sequence
 
 from pydantic import BaseModel, Field
 
 from config import RAGConfig
 from csv_lookup import CSVKnowledgeBase
+from evidence import EvidenceRanker, merge_pool, select_arrival_order
 from graph_state import AgenticRAGState, EvidenceItem
 from llm import build_llm, message_to_text
 from planner import Planner, step_key
@@ -189,6 +189,15 @@ class AgenticRAGNodes:
             self.retriever,
         )
 
+        # Reuses the retriever's already-loaded embedding model, so ranking
+        # evidence adds no model load and no new dependency.
+        embeddings = getattr(self.retriever, "embeddings", None)
+        self.ranker = EvidenceRanker(
+            embed_query=getattr(embeddings, "embed_query", None),
+            embed_documents=getattr(embeddings, "embed_documents", None),
+            rrf_k=getattr(config, "rrf_k", 60),
+        )
+
     # ------------------------------------------------------------------
     # Triage
     # ------------------------------------------------------------------
@@ -247,8 +256,10 @@ class AgenticRAGNodes:
         # Clusters may be scoped to only if they appear in the question or in
         # evidence already gathered, so a replan can legitimately narrow to
         # clusters that metadata_search just discovered.
+        # The whole pool, not just the budgeted selection: an ID discovered in
+        # a chunk that did not make the cut is still legitimately grounded.
         grounding_text = state["question"] + " " + " ".join(
-            item["content"] for item in state["evidence"]
+            item["content"] for item in state.get("evidence_pool") or state["evidence"]
         )
 
         plan = self.planner.build_plan(
@@ -292,44 +303,46 @@ class AgenticRAGNodes:
 
     def accumulate(self, state: AgenticRAGState) -> dict:
         """
-        Merge new evidence into the pool: deduplicate, then cap the total size.
+        Merge new evidence into the pool, then select the best of the WHOLE
+        pool under the budget.
 
         Deduplication matters because data/ has overlapping documents for some
         clusters (cluster_c_10.txt and cluster_c10_baffle_spring.txt).
+
+        Selection is re-done from scratch every pass (see evidence.py), so a
+        replan's targeted evidence can displace a weaker chunk from pass 1.
+        EVIDENCE_SELECTION=arrival restores the old first-in-wins behaviour.
         """
-        merged = list(state["evidence"])
-        seen = {self._fingerprint(item) for item in merged}
-
-        for item in state["pending_evidence"]:
-            fingerprint = self._fingerprint(item)
-
-            if fingerprint in seen:
-                continue
-
-            seen.add(fingerprint)
-            merged.append(item)
-
-        capped: List[EvidenceItem] = []
+        pool = merge_pool(
+            state.get("evidence_pool") or state["evidence"],
+            state["pending_evidence"],
+        )
         budget = self.config.max_evidence_chars
 
-        for item in merged:
-            length = len(item["content"])
+        if getattr(self.config, "evidence_selection", "ranked") == "arrival":
+            selected = select_arrival_order(pool, budget)
+        else:
+            try:
+                selected = self.ranker.select(
+                    question=state["question"],
+                    items=pool,
+                    budget=budget,
+                    asked_clusters=self.taxonomy.match_clusters(state["question"]),
+                    asked_parents=self.taxonomy.match_parents(state["question"]),
+                    sub_questions=state.get("sub_questions", []),
+                )
+            except Exception as error:  # noqa: BLE001 - never lose a run over ranking
+                print(f"[accumulate] ranking failed, using arrival order: {error}")
+                selected = select_arrival_order(pool, budget)
 
-            if length > budget:
-                continue
+        if len(selected) < len(pool):
+            used = sum(len(item["content"]) for item in selected)
+            print(
+                f"[accumulate] selected {len(selected)}/{len(pool)} items "
+                f"({used}/{budget} chars)"
+            )
 
-            capped.append(item)
-            budget -= length
-
-        if len(capped) < len(merged):
-            print(f"[accumulate] kept {len(capped)}/{len(merged)} items within budget")
-
-        return {"evidence": capped, "pending_evidence": []}
-
-    @staticmethod
-    def _fingerprint(item: EvidenceItem) -> str:
-        digest = hashlib.sha1(item["content"][:200].encode()).hexdigest()
-        return f"{item['source']}|{digest}"
+        return {"evidence_pool": pool, "evidence": selected, "pending_evidence": []}
 
     # ------------------------------------------------------------------
     # Reflection
@@ -380,12 +393,19 @@ class AgenticRAGNodes:
 
         if asked_clusters:
             covered = {item["cluster"] for item in evidence if item["cluster"]}
-            blob = " ".join(item["content"] for item in evidence).lower()
+
+            # Whole-ID matching. A plain substring test let a question about
+            # c_1 pass on evidence that only mentioned c_10.
+            mentioned = set(
+                self.taxonomy.mentioned_clusters(
+                    " ".join(item["content"] for item in evidence)
+                )
+            )
 
             missing = [
                 cluster_id
                 for cluster_id in asked_clusters
-                if cluster_id not in covered and cluster_id not in blob
+                if cluster_id not in covered and cluster_id not in mentioned
             ]
 
             if missing:

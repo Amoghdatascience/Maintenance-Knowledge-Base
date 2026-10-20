@@ -21,7 +21,6 @@ from typing import List, Literal, Optional, Sequence
 from pydantic import BaseModel, Field
 
 from config import RAGConfig
-from csv_lookup import CSVKnowledgeBase
 from graph_state import PlanStep
 from taxonomy import Taxonomy
 
@@ -278,6 +277,17 @@ comparisons between clusters.
                 steps.append(
                     _make_step("csv_lookup", question, cluster_ids=clusters)
                 )
+            else:
+                # csv_lookup's describe already includes the taxonomy
+                # definition; without it, an explanatory question about a
+                # cluster with no documents (c_38, c_50) got no evidence at all.
+                steps.append(
+                    _make_step(
+                        "metadata_search",
+                        f"Definitions of {', '.join(clusters)}.",
+                        cluster_ids=clusters,
+                    )
+                )
 
             # Scoped by cluster metadata, so this cannot return a different
             # cluster's document -- the substitution risk that kept exact IDs
@@ -518,17 +528,3 @@ Examples:
 
         return kept
 
-
-def extract_structured_hints(question: str) -> dict:
-    """
-    Pull structured identifiers out of a question.
-
-    Reuses the extractors already written for the CSV layer rather than
-    duplicating the regexes here.
-    """
-    return {
-        "workorders": CSVKnowledgeBase._extract_workorders(question),
-        "registration": CSVKnowledgeBase._extract_registration(question.lower()),
-        "ata_codes": CSVKnowledgeBase._extract_ata_codes(question),
-        "keyword": CSVKnowledgeBase._extract_keyword_for_search(question.lower()),
-    }

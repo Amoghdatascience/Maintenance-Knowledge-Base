@@ -212,11 +212,18 @@ class Taxonomy:
             if parent not in matched:
                 matched.append(parent)
 
+        # Text with matched group names blanked out, for the discriminator
+        # pass below. Without it "flight control" also matched pilot_reported,
+        # whose description ("pilot reported in flight noticed") makes
+        # "flight" look like a pilot_reported-only word.
+        residual = lowered
+
         for parent in self._clusters_in:
             spaced = parent.lower().replace("_", " ")
 
             if spaced in lowered or parent.lower() in lowered:
                 remember(parent)
+                residual = residual.replace(spaced, " ").replace(parent.lower(), " ")
                 continue
 
             for token in parent.lower().split("_"):
@@ -228,7 +235,7 @@ class Taxonomy:
                     break
 
         for word, parent in self._discriminators.items():
-            if re.search(rf"\b{re.escape(word)}\b", lowered):
+            if re.search(rf"\b{re.escape(word)}\b", residual):
                 remember(parent)
 
         return matched
@@ -297,16 +304,14 @@ class Taxonomy:
 
             terms.append(f"{cluster_id} {self.description_of(cluster_id)}")
 
+        # Groups add only their name. The metadata filter already restricts the
+        # search to the group, and appending every member's description
+        # drowned the user's own words: "oil cooler problems" became "... oil
+        # leak oil pressure oil temperature oil return line ..." and retrieved
+        # c_34 instead of c_32 (found by eval/eval_retrieval.py).
         for parent in parent_groups or []:
-            if not self.is_parent(parent):
-                continue
-
-            members = self.clusters_in(parent)
-            descriptions = " ".join(self.description_of(c) for c in members)
-
-            terms.append(
-                f"{parent} parent group {' '.join(members)} {descriptions}"
-            )
+            if self.is_parent(parent):
+                terms.append(parent.replace("_", " "))
 
         return " ".join(terms).strip()
 

@@ -32,7 +32,6 @@ def check(name: str, condition: bool, detail: str = "") -> None:
 def evidence(content: str, source: str = "data/cluster_c_38.txt") -> EvidenceItem:
     return {
         "tool": "vector_search",
-        "sub_question": "test",
         "content": content,
         "source": source,
         "cluster": "c_38",
@@ -266,9 +265,11 @@ try:
         str(sorted({i["tool"] for i in result["evidence"]})),
     )
 
+    # Not just "some answer": the exact count from the CSV must be in it.
     check(
-        "count question produces an answer",
-        bool(result["answer"].strip()),
+        "count question answers with the exact count (1609)",
+        "1609" in result["answer"].replace(",", ""),
+        result["answer"][:200],
     )
 
     missing = graph.ask("What is cluster c_99?")
@@ -282,9 +283,11 @@ try:
     scoped_result = graph.ask("Compare c_37 and c_38.")
     seen_clusters = {i["cluster"] for i in scoped_result["evidence"] if i["cluster"]}
 
+    # Both halves are required. The old "or seen <= {...}" also passed on an
+    # EMPTY set, i.e. when nothing at all was retrieved.
     check(
         "comparison retrieves both clusters and nothing else",
-        {"c_37", "c_38"}.issubset(seen_clusters) or seen_clusters <= {"c_37", "c_38"},
+        seen_clusters == {"c_37", "c_38"},
         str(seen_clusters),
     )
 
