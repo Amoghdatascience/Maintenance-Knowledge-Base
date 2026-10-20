@@ -18,7 +18,6 @@ class EvidenceItem(TypedDict):
     """
 
     tool: str  # csv_lookup | vector_search | metadata_search
-    sub_question: str
     content: str
     source: str  # filename, or the CSV path for structured lookups
     cluster: str  # "" when the evidence is not cluster-scoped
@@ -66,6 +65,14 @@ class AgenticRAGState(TypedDict):
     plan: List[PlanStep]
     executed_steps: List[str]  # step keys already run, so replans cannot repeat
     pending_evidence: List[EvidenceItem]  # this pass's raw hits, pre-merge
+
+    # Everything retrieved so far, deduplicated, never trimmed. Re-ranked
+    # every pass, so a replan's better evidence can replace weaker evidence
+    # from an earlier pass instead of being locked out by the budget.
+    evidence_pool: List[EvidenceItem]
+
+    # The budgeted, relevance-ranked selection from the pool. This is what the
+    # judge and the answer prompt see.
     evidence: List[EvidenceItem]
 
     # Reflection.
@@ -95,6 +102,7 @@ def initial_state(question: str) -> AgenticRAGState:
         "plan": [],
         "executed_steps": [],
         "pending_evidence": [],
+        "evidence_pool": [],
         "evidence": [],
         "verdict": "",
         "verdict_reason": "",

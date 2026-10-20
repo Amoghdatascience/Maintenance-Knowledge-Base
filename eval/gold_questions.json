@@ -1,0 +1,55 @@
+{
+  "description": "Gold evaluation set. expected_numbers come from data/final_joined_output.csv (230,573 rows). expected_clusters/expected_parents say which evidence counts as relevant. Regenerate counts with: python eval/check_gold.py",
+  "questions": [
+    {"id": "count_c22", "type": "count", "question": "How many records are in cluster c_22?", "expected_clusters": ["c_22"], "expected_numbers": ["1609"]},
+    {"id": "count_c30", "type": "count", "question": "How many records are in cluster c_30?", "expected_clusters": ["c_30"], "expected_numbers": ["7884"]},
+    {"id": "count_c39", "type": "count", "question": "What is the number of records in c_39?", "expected_clusters": ["c_39"], "expected_numbers": ["1070"]},
+    {"id": "count_c44", "type": "count", "question": "Count the records for cluster c_44.", "expected_clusters": ["c_44"], "expected_numbers": ["7948"]},
+    {"id": "count_c12", "type": "count", "question": "How many work orders are in cluster c_12?", "expected_clusters": ["c_12"], "expected_numbers": ["5941"]},
+    {"id": "count_c2", "type": "count", "question": "How many records does cluster c_2 have?", "expected_clusters": ["c_2"], "expected_numbers": ["26"]},
+    {"id": "count_c49", "type": "count", "question": "Total number of records in cluster c_49?", "expected_clusters": ["c_49"], "expected_numbers": ["4714"]},
+    {"id": "count_c7", "type": "count", "question": "How many records are in cluster c_7?", "expected_clusters": ["c_7"], "expected_numbers": ["99"]},
+
+    {"id": "explain_c30", "type": "explain", "question": "What is cluster c_30?", "expected_clusters": ["c_30"]},
+    {"id": "explain_c12", "type": "explain", "question": "Explain cluster c_12.", "expected_clusters": ["c_12"]},
+    {"id": "explain_c28", "type": "explain", "question": "What does cluster c_28 cover?", "expected_clusters": ["c_28"]},
+    {"id": "explain_c37", "type": "explain", "question": "Describe cluster c_37.", "expected_clusters": ["c_37"]},
+    {"id": "explain_c16", "type": "explain", "question": "What kind of problems are in cluster c_16?", "expected_clusters": ["c_16"]},
+    {"id": "explain_c45", "type": "explain", "question": "What are common corrective actions for cluster c_45?", "expected_clusters": ["c_45"]},
+    {"id": "explain_c40", "type": "explain", "question": "Explain cluster c_40.", "expected_clusters": ["c_40"]},
+    {"id": "explain_c24", "type": "explain", "question": "What symptoms show up in cluster c_24?", "expected_clusters": ["c_24"]},
+
+    {"id": "compare_c30_c39", "type": "compare", "question": "Compare c_30 and c_39.", "expected_clusters": ["c_30", "c_39"]},
+    {"id": "compare_c16_c45", "type": "compare", "question": "What is the difference between c_16 and c_45?", "expected_clusters": ["c_16", "c_45"]},
+    {"id": "compare_c2_c11", "type": "compare", "question": "Compare c_2 and c_11.", "expected_clusters": ["c_2", "c_11"]},
+    {"id": "compare_c26_c46", "type": "compare", "question": "Compare c_26 versus c_46.", "expected_clusters": ["c_26", "c_46"]},
+    {"id": "compare_c42_c47", "type": "compare", "question": "What is the difference between c_42 and c_47?", "expected_clusters": ["c_42", "c_47"]},
+    {"id": "compare_c13_c14", "type": "compare", "question": "Compare c_13 and c_14.", "expected_clusters": ["c_13", "c_14"]},
+
+    {"id": "group_baffle", "type": "group", "question": "What are common problem patterns across baffle clusters?", "expected_parents": ["baffle"]},
+    {"id": "group_ignition", "type": "group", "question": "Summarize the ignition clusters.", "expected_parents": ["ignition"]},
+    {"id": "group_flight_control", "type": "group", "question": "What corrective actions are common in the flight control group?", "expected_parents": ["flight_control"]},
+    {"id": "group_oil", "type": "group", "question": "What problems are common in the oil system clusters?", "expected_parents": ["oil_system"]},
+    {"id": "group_propeller", "type": "group", "question": "Summarize the propeller clusters.", "expected_parents": ["propeller"]},
+    {"id": "group_cylinder", "type": "group", "question": "What patterns show up across the cylinder exhaust clusters?", "expected_parents": ["cylinder_Exhaust"]},
+
+    {"id": "lookup_mag_drop", "type": "lookup", "question": "Which cluster covers mag drop problems?", "expected_clusters": ["c_30"]},
+    {"id": "lookup_fouled_plugs", "type": "lookup", "question": "Where do fouled spark plugs get classified?", "expected_clusters": ["c_39"]},
+    {"id": "lookup_low_compression", "type": "lookup", "question": "Which cluster handles low compression on a cylinder?", "expected_clusters": ["c_13"]},
+    {"id": "lookup_stuck_valve", "type": "lookup", "question": "Which cluster covers a stuck exhaust valve?", "expected_clusters": ["c_15"]},
+    {"id": "lookup_pushrod", "type": "lookup", "question": "Which cluster is about pushrod tube leaks?", "expected_clusters": ["c_17"]},
+    {"id": "lookup_oil_cooler", "type": "lookup", "question": "Which cluster covers oil cooler problems?", "expected_clusters": ["c_32"]},
+    {"id": "lookup_battery", "type": "lookup", "question": "Which cluster is used for a weak battery and low voltage?", "expected_clusters": ["c_40"]},
+    {"id": "lookup_gpu_start", "type": "lookup", "question": "Which cluster covers starting the aircraft with a ground power unit?", "expected_clusters": ["c_41"]},
+    {"id": "lookup_carburetor", "type": "lookup", "question": "Which cluster covers carburetor issues?", "expected_clusters": ["c_19"]},
+    {"id": "lookup_rocker_cover", "type": "lookup", "question": "Which cluster covers rocker cover leaks?", "expected_clusters": ["c_37"]},
+    {"id": "lookup_overspeed", "type": "lookup", "question": "Which cluster covers propeller overspeed events?", "expected_clusters": ["c_26"]},
+
+    {"id": "norecords_c38", "type": "no_records", "question": "What is cluster c_38?", "expected_clusters": ["c_38"], "expected_numbers": []},
+    {"id": "norecords_c50", "type": "no_records", "question": "Explain cluster c_50.", "expected_clusters": ["c_50"], "expected_numbers": []},
+
+    {"id": "refuse_c99", "type": "refusal", "question": "What is cluster c_99?"},
+    {"id": "refuse_c77", "type": "refusal", "question": "How many records are in cluster c_77?"},
+    {"id": "refuse_mixed", "type": "refusal", "question": "Compare c_30 and c_99."}
+  ]
+}

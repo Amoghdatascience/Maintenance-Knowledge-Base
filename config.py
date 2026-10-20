@@ -25,7 +25,7 @@ class RAGConfig:
     """
 
     # Ollama local LLM
-    ollama_model: str = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
+    ollama_model: str = os.getenv("OLLAMA_MODEL", "qwen3:8b")
     ollama_base_url: str = os.getenv(
         "OLLAMA_BASE_URL",
         "http://localhost:11434",
@@ -89,9 +89,55 @@ class RAGConfig:
     # deduplicated anyway.
     retrieval_k: int = int(os.getenv("RETRIEVAL_K", "8"))
 
+    # ------------------------------------------------------------------
+    # Retrieval: vector, bm25, or hybrid (both fused with RRF)
+    # ------------------------------------------------------------------
+
+    # hybrid is the default. vector reproduces the old behaviour exactly;
+    # bm25 exists for ablation in eval/eval_retrieval.py.
+    retrieval_mode: str = os.getenv("RETRIEVAL_MODE", "hybrid").strip().lower()
+
+    # Each retriever returns k * this many candidates before fusion, so a
+    # document ranked 10th by one and 2nd by the other can still win.
+    retrieval_candidate_multiplier: int = int(
+        os.getenv("RETRIEVAL_CANDIDATE_MULTIPLIER", "3")
+    )
+
+    # RRF damping constant (Cormack et al., 2009 use 60).
+    rrf_k: int = int(os.getenv("RRF_K", "60"))
+
+    # Relative weight of BM25 vs vector in RRF. 1.0 means equal say.
+    bm25_weight: float = float(os.getenv("BM25_WEIGHT", "1.0"))
+
+    # ------------------------------------------------------------------
+    # Evidence selection under the budget
+    # ------------------------------------------------------------------
+
+    # ranked: re-rank the whole evidence pool by relevance every pass, reserve
+    #         a slot for each cluster/group the question names, then fill the
+    #         budget best-first.
+    # arrival: the old behaviour -- first evidence in wins. Kept for ablation.
+    evidence_selection: str = os.getenv("EVIDENCE_SELECTION", "ranked").strip().lower()
+
+    # ------------------------------------------------------------------
     # Chunking settings used by ingest.py
-    chunk_size: int = int(os.getenv("CHUNK_SIZE", "1000"))
-    chunk_overlap: int = int(os.getenv("CHUNK_OVERLAP", "200"))
+    # ------------------------------------------------------------------
+
+    # markdown: split on the documents' own ## sections and ### examples, and
+    #           prefix every chunk with its cluster title and section name.
+    # recursive: the old fixed-size character splitter.
+    chunk_strategy: str = os.getenv("CHUNK_STRATEGY", "markdown").strip().lower()
+
+    # Characters, not words. 600 keeps even the densest chunks (term lists,
+    # ATA codes, tail numbers at ~2.5-3 characters per token) under
+    # all-MiniLM-L6-v2's 256-token input limit, so nothing is silently cut
+    # off before embedding. See README "Chunking" for the reasoning, and
+    # eval/eval_chunking.py to measure it on your machine.
+    chunk_size: int = int(os.getenv("CHUNK_SIZE", "600"))
+
+    # Only used when a single section is longer than chunk_size and has to be
+    # cut. Section boundaries are natural breaks and need no overlap.
+    chunk_overlap: int = int(os.getenv("CHUNK_OVERLAP", "100"))
 
     # Structured CSV lookup paths
     csv_knowledge_base_path: str = os.getenv(
@@ -138,10 +184,3 @@ class RAGConfig:
     tavily_max_chars: int = int(os.getenv("TAVILY_MAX_CHARS", "4000"))
     research_max_keywords: int = int(os.getenv("RESEARCH_MAX_KEYWORDS", "12"))
     research_keyword_max_len: int = int(os.getenv("RESEARCH_KEYWORD_MAX_LEN", "40"))
-
-    @property
-    def data_directory(self) -> str:
-        """
-        Alias for code that expects config.data_directory.
-        """
-        return self.data_dir

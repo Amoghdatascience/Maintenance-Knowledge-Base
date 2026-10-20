@@ -44,10 +44,14 @@ class AgenticRAGApp:
             scope = ", ".join(step["cluster_ids"] + step["parent_groups"]) or "unscoped"
             print(f"  last plan: {step['tool']} ({scope}) - {step['sub_question']}")
 
+        pool = result.get("evidence_pool", [])
         tools_used = sorted({item["tool"] for item in evidence})
         sources = sorted({item["source"] for item in evidence})
 
-        print(f"Evidence items: {len(evidence)} via {tools_used or 'none'}")
+        print(
+            f"Evidence items: {len(evidence)} selected from {len(pool)} retrieved "
+            f"via {tools_used or 'none'}"
+        )
         print(f"Sources: {sources or 'none'}")
         print(f"Verdict: {result.get('verdict', '')}")
         print(f"Verdict reason: {result.get('verdict_reason', '')}")

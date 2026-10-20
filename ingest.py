@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import re
+import shutil
 from pathlib import Path
 from typing import Dict, List
 
@@ -18,6 +19,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 
+from chunking import is_markdown, split_markdown
 from config import RAGConfig
 from taxonomy import load_taxonomy
 
@@ -141,17 +143,56 @@ class DocumentIngestor:
 
         return self.annotate(documents)
 
-    def split_documents(self, documents: List[Document]) -> List[Document]:
-        """
-        Split documents into chunks.
-        """
-        splitter = RecursiveCharacterTextSplitter(
+    def _recursive_splitter(self) -> RecursiveCharacterTextSplitter:
+        return RecursiveCharacterTextSplitter(
             chunk_size=self.config.chunk_size,
             chunk_overlap=self.config.chunk_overlap,
             separators=["\n\n", "\n", ".", " ", ""],
         )
 
-        return splitter.split_documents(documents)
+    def split_documents(self, documents: List[Document]) -> List[Document]:
+        """
+        Split documents into chunks.
+
+        CHUNK_STRATEGY=markdown (default) splits on the documents' own
+        sections and examples (see chunking.py); files without "## " headers
+        still use the recursive splitter. CHUNK_STRATEGY=recursive restores
+        the old fixed-window behaviour for every file.
+        """
+        strategy = getattr(self.config, "chunk_strategy", "markdown")
+        splitter = self._recursive_splitter()
+
+        if strategy != "markdown":
+            chunks = splitter.split_documents(documents)
+
+            for chunk in chunks:
+                chunk.metadata["chunk_strategy"] = "recursive"
+
+            return chunks
+
+        chunks: List[Document] = []
+
+        for document in documents:
+            if not is_markdown(document.page_content):
+                for chunk in splitter.split_documents([document]):
+                    chunk.metadata["chunk_strategy"] = "recursive"
+                    chunks.append(chunk)
+                continue
+
+            fallback = Path(str(document.metadata.get("source", ""))).stem
+
+            for text, extra in split_markdown(
+                document.page_content,
+                chunk_size=self.config.chunk_size,
+                chunk_overlap=self.config.chunk_overlap,
+                fallback_title=fallback,
+            ):
+                metadata = dict(document.metadata)
+                metadata.update(extra)
+                metadata["chunk_strategy"] = "markdown"
+                chunks.append(Document(page_content=text, metadata=metadata))
+
+        return chunks
 
     def create_embeddings(self) -> HuggingFaceEmbeddings:
         """
@@ -214,14 +255,51 @@ def parse_args() -> argparse.Namespace:
 
     parser.add_argument("--data-dir", default="data")
     parser.add_argument("--db-dir", default="chroma_db")
-    parser.add_argument("--chunk-size", type=int, default=1000)
-    parser.add_argument("--chunk-overlap", type=int, default=200)
+    defaults = RAGConfig()
+
+    parser.add_argument("--chunk-size", type=int, default=defaults.chunk_size)
+    parser.add_argument("--chunk-overlap", type=int, default=defaults.chunk_overlap)
+    parser.add_argument(
+        "--chunk-strategy",
+        choices=["markdown", "recursive"],
+        default=defaults.chunk_strategy,
+    )
     parser.add_argument(
         "--embedding-model",
-        default=RAGConfig().embedding_model,
+        default=defaults.embedding_model,
+    )
+    parser.add_argument(
+        "--reset",
+        action="store_true",
+        help="Delete the db dir first. Chroma appends, so without this a "
+        "re-run indexes every document twice.",
     )
 
     return parser.parse_args()
+
+
+def build_config(
+    data_dir: str,
+    db_dir: str,
+    chunk_size: int,
+    chunk_overlap: int,
+    chunk_strategy: str,
+    embedding_model: str,
+) -> RAGConfig:
+    """
+    A config whose three Chroma-directory aliases all point at db_dir, so the
+    retriever reads the index this ingest wrote.
+    """
+    return RAGConfig(
+        data_dir=data_dir,
+        db_dir=db_dir,
+        chroma_persist_directory=db_dir,
+        persist_directory=db_dir,
+        chunk_size=chunk_size,
+        chunk_overlap=chunk_overlap,
+        chunk_strategy=chunk_strategy,
+        embedding_model=embedding_model,
+    )
 
 
 def main() -> None:
@@ -230,12 +308,17 @@ def main() -> None:
     """
     args = parse_args()
 
-    config = RAGConfig(
-        data_dir=args.data_dir,
-        db_dir=args.db_dir,
-        chunk_size=args.chunk_size,
-        chunk_overlap=args.chunk_overlap,
-        embedding_model=args.embedding_model,
+    if args.reset and Path(args.db_dir).exists():
+        shutil.rmtree(args.db_dir)
+        print(f"Deleted existing index at {args.db_dir}")
+
+    config = build_config(
+        args.data_dir,
+        args.db_dir,
+        args.chunk_size,
+        args.chunk_overlap,
+        args.chunk_strategy,
+        args.embedding_model,
     )
 
     ingestor = DocumentIngestor(config)

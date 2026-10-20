@@ -13,13 +13,15 @@ accumulator can deduplicate and the answer can name its sources.
 
 from __future__ import annotations
 
-from typing import List, Sequence
+from typing import TYPE_CHECKING, List, Sequence
 
 from config import RAGConfig
 from csv_lookup import CSVKnowledgeBase
 from graph_state import EvidenceItem, PlanStep
-from retriever import VectorRetriever
 from taxonomy import Taxonomy
+
+if TYPE_CHECKING:  # type hint only; keeps LangChain out of light imports
+    from retriever import VectorRetriever
 
 
 # CSVKnowledgeBase.lookup returns this when its dispatcher finds no match.
@@ -34,7 +36,6 @@ RECORD_SIGNALS = ("record", "records", "show", "example", "examples", "raw")
 
 def _evidence(
     tool: str,
-    sub_question: str,
     content: str,
     source: str,
     cluster: str = "",
@@ -42,7 +43,6 @@ def _evidence(
 ) -> EvidenceItem:
     return {
         "tool": tool,
-        "sub_question": sub_question,
         "content": content.strip()[:MAX_ITEM_CHARS],
         "source": source,
         "cluster": cluster,
@@ -122,7 +122,6 @@ class ToolExecutor:
                     items.append(
                         _evidence(
                             "csv_lookup",
-                            sub_question,
                             content,
                             source,
                             cluster=cluster_id,
@@ -135,7 +134,7 @@ class ToolExecutor:
         content = self.knowledge_base.lookup(sub_question)
 
         if content and not content.startswith(CSV_MISS_PREFIX):
-            items.append(_evidence("csv_lookup", sub_question, content, source))
+            items.append(_evidence("csv_lookup", content, source))
 
         return items
 
@@ -199,7 +198,6 @@ class ToolExecutor:
             items.append(
                 _evidence(
                     "vector_search",
-                    step["sub_question"],
                     document.page_content,
                     str(metadata.get("source", "unknown source")),
                     cluster=str(metadata.get("cluster", "")),
@@ -220,7 +218,6 @@ class ToolExecutor:
         Answers "which clusters belong to this group" before anything tries to
         search inside the group.
         """
-        sub_question = step["sub_question"]
         items: List[EvidenceItem] = []
 
         for cluster_id in step["cluster_ids"][:MAX_CLUSTERS_PER_STEP]:
@@ -230,7 +227,6 @@ class ToolExecutor:
                 items.append(
                     _evidence(
                         "metadata_search",
-                        sub_question,
                         content,
                         self.config.cluster_taxonomy_path,
                         cluster=cluster_id,
@@ -249,7 +245,6 @@ class ToolExecutor:
             items.append(
                 _evidence(
                     "metadata_search",
-                    sub_question,
                     f"Parent group '{parent}' contains {len(members)} clusters:\n{listing}",
                     self.config.cluster_taxonomy_path,
                     parent=parent,
@@ -266,7 +261,6 @@ class ToolExecutor:
                 items.append(
                     _evidence(
                         "metadata_search",
-                        sub_question,
                         document.page_content,
                         str(metadata.get("source", "unknown source")),
                         parent=parent,
@@ -278,7 +272,6 @@ class ToolExecutor:
             items.append(
                 _evidence(
                     "metadata_search",
-                    sub_question,
                     self.knowledge_base.list_clusters_from_taxonomy(),
                     self.config.cluster_taxonomy_path,
                 )
